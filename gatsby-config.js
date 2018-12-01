@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'CommitHub',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,5 +17,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/blogs`,
+        name: 'pages'
+      }
+    },
+    'gatsby-transformer-remark'
   ],
 }
