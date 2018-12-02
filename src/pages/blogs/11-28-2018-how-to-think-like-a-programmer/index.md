@@ -1,6 +1,8 @@
 ---
     path: '/how-to-think-like-a-programmer'
     title: 'How to think like a programmer'
+    published: true
+    date: '11-28-2018'
 ---
 
 When I started programming 2 years ago I remember the frustrating process it was. I started with game development coding in GameMaker Studio 2 using GML instead of starting with something easier to understand and it was a long process. Mostly because game development by yourself is way more than writing code.
