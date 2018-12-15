@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
 import './styles/layout.scss'
+import Header from './header'
 import icon from '../images/Medium_without_word.png';
 
 const Layout = ({ children }) => (

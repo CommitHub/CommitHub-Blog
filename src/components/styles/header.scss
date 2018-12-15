@@ -2,6 +2,37 @@
 
 .nav-bar {
     color: white;
-    padding: 20px;
+    height: 50px;
+    width: 100%;
     background-color: $main-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    h1 {
+        margin: 0;
+    }
+
+    div {
+        width: 48%;
+        margin: 0 1%;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.38316rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .header-link-secondary {
+        display: flex;
+        justify-content: space-between;
+    }
 }
