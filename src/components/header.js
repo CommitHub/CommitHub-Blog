@@ -5,7 +5,7 @@ import './styles/header.scss';
 
 const Header = ({ siteTitle }) => (
   <div className='nav-bar'>
-    {siteTitle}
+    <h1>{siteTitle}</h1>
   </div>
 )
 

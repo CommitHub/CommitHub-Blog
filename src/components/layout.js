@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './styles/layout.scss'
+import icon from '../images/Medium_without_word.png';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,8 +23,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'The portfolio and blog site of the coffee addicted coder called Luis Alvarez' },
+            { name: 'keywords', content: 'webdev, full stack developer, backend, frontend, gatsbyjs, reactjs, graphql, sql, mongodb, javascript, css, html, redux, blog, coffee' },
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${icon}` }
           ]}
         >
           <html lang="en" />

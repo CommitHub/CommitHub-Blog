@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'CommitHub',
+    author: 'Luis Alvarez',
+    logoSmall: './src/images/small.png',
+    siteUrl: 'https://commithub.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
