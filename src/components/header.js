@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       to='/'
       className='menu-item'
     >
-      <img src={logo} />
+      <img src={logo} alt='logo' />
     </Link>
 
     <Link
