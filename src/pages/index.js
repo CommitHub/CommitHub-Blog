@@ -2,10 +2,12 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import Jumbotron from '../components/Home/Jumbotron';
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
+      <Jumbotron />
       <h1>Hello World</h1>
       <h2>By Luis Alvarez</h2>
       <p>
