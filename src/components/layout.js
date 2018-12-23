@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import './styles/layout.scss'
 import Header from './header'
+import Footer from './footer'
 import icon from '../images/Medium_without_word.png';
 
 const Layout = ({ children }) => (
@@ -43,6 +44,7 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
+        <Footer />
       </>
     )}
   />
