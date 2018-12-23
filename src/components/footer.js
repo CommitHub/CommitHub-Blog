@@ -11,9 +11,9 @@ import { IconContext } from "react-icons";
 import './styles/footer.scss';
 
 const Footer = () => (
-    <div className='footer'>
+    <footer className='footer'>
         <h2>Contact</h2>
-        <div className='btn-container'>
+        <section className='btn-container'>
             <IconContext.Provider value={{className: 'twitter-btn'}}>
                 <FaTwitter />
             </IconContext.Provider>
@@ -29,9 +29,9 @@ const Footer = () => (
             <IconContext.Provider value={{className: 'contact-btn'}}>
                 <FaEnvelope />
             </IconContext.Provider> 
-        </div>
+        </section>
         <h4>{`${String.fromCharCode(169)} Commithub 2017`}</h4>    
-    </div>
+    </footer>
 );
 
 export default Footer;

@@ -4,9 +4,9 @@ import logo from '../../images/Medium-trans.png';
 import './styles/jumbotron.scss';
 
 const Jumbotron = () => (
-    <div id='jumbotron'>  
+    <section id='jumbotron'>  
         <img src={logo} alt='logo' />
-    </div>
+    </section>
 )
 
 export default Jumbotron;
