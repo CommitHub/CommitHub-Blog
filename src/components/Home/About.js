@@ -9,6 +9,7 @@ import goblin from '../../images/Goblin_face.png';
 import ship from '../../images/antivirus-green.png';
 import miner from '../../images/Miner.png';
 import './styles/about.scss';
+import './styles/general.scss';
 
 const About = () => (
     <section id='about-container'>
@@ -16,7 +17,7 @@ const About = () => (
             <h2>About Me</h2>
             <p>A little history about this coffee addicted developer</p>
         </section>
-        <img className='profile' src={profile} alt='Luis Alvarez photo' />
+        <img className='profile' src={profile} alt='Luis Alvarez' />
         <p>
             I was born in Tampa, Florida and since I was in college I started to gain a lot of interest in computers and how were they programmed. 
             I started programming by learning how to make videogames. For a few videogames I made pixel art and it was an amazing rewarding experience. 

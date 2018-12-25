@@ -4,12 +4,14 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Jumbotron from '../components/Home/Jumbotron';
 import About from '../components/Home/About';
+import Choose from '../components/Home/Choose';
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Jumbotron />
       <About />
+      <Choose />
       <h1>Hello World</h1>
       <h2>By Luis Alvarez</h2>
       <p>
