@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Jumbotron from '../components/Home/Jumbotron';
 import About from '../components/Home/About';
 import Choose from '../components/Home/Choose';
+import Projects from '../components/Home/Projects';
 
 const IndexPage = ({ data }) => {
   return (
@@ -12,13 +13,7 @@ const IndexPage = ({ data }) => {
       <Jumbotron />
       <About />
       <Choose />
-      <h1>Hello World</h1>
-      <h2>By Luis Alvarez</h2>
-      <p>
-        I'm a student in Lambda School and would love to attend your hackathon because it will be my 
-        first and I have always heard great things about how hackathon not only help devs get better 
-        and network but just have fun in general. Hope you consider me, thanks!
-      </p>
+      <Projects />
       <ul>
         {data.allMarkdownRemark.edges.map(post => (
           <li key={post.node.id}>
