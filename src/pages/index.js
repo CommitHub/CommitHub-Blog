@@ -17,6 +17,7 @@ const IndexPage = ({ data }) => {
       <ul>
         {data.allMarkdownRemark.edges.map(post => (
           <li key={post.node.id}>
+            <img src={post.node.frontmatter.backgroundImg} />
             <Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link>
           </li>
         ))}
@@ -38,6 +39,7 @@ export const pageQuery = graphql`
             frontmatter {
               title
               path
+              backgroundImg
               published
             }
           }

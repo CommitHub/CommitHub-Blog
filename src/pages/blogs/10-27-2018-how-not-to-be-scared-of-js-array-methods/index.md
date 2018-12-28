@@ -1,8 +1,10 @@
 ---
     path: '/how-not-to-be-scared-of-js-array-methods'
     title: How not to be scared of JS array methods (ForEach, Map, Filter and Reduce)
-    published: true
     date: '10-27-2018'
+    tags: JavaScript, arrays, webdev
+    backgroundImg: 'https://thepracticaldev.s3.amazonaws.com/i/rkr4dubai3tg46ddr4fo.jpeg'
+    published: true
 ---
 
 ##Introduction
