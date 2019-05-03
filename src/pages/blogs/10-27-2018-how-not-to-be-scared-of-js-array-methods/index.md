@@ -1,7 +1,10 @@
 ---
     path: '/how-not-to-be-scared-of-js-array-methods'
     title: How not to be scared of JS array methods (ForEach, Map, Filter and Reduce)
+    author: Luis Alvarez
+    authorImage: '../images/authors/luis-alvarez.jpg'
     date: '10-27-2018'
+    description: A tutorial with examples and practice exercise on how to use the array methods forEach, map, filter and reduce.
     tags: JavaScript, arrays, webdev
     backgroundImg: 'https://thepracticaldev.s3.amazonaws.com/i/rkr4dubai3tg46ddr4fo.jpeg'
     published: true
@@ -9,7 +12,7 @@
 
 ##Introduction
 
-Since I found out of this methods I always got extremely confused on how to use them and at some points got scared and said "I rather just use the standard for loop. That I understand". Later on, I joined <a href="https://lambdaschool.com/">Lambda School</a> and they taught me how to use these methods and how useful they are. Maybe you are scared of this methods but don't worry we will run down through each method with examples and practice exercises you can try out. 
+Since I found out of this methods I always got extremely confused on how to use them and at some points got scared and said "I rather just use the standard for loop. That I understand". Later on, I joined <a href="https://lambdaschool.com/">Lambda School</a> and they taught me how to use these methods and how useful they are. Maybe you are scared of this methods but don't worry we will run down through each method with examples and practice exercises you can try out.
 
 To reduce complexity the methods will be shown in the ES5 way. I'll leave a link on the external resources if you're interested in learning more about arrow functions and the new things in JS. For the exercises you can use <a href="https://jsbin.com/?html,js,output">JS Bin</a>. It's a really cool tool. My recommendation is trying the exercises because they will help you out memorizing how they work. If you have any questions feel free to comment and I'll answer as fast as I can.
 
@@ -34,7 +37,7 @@ The forEach method takes an array and it will execute for each item on the array
     <li>thisArg: Optional </li>
 </ul>
 
-In the example below, we are using the current value parameter. Most of the time you will need this parameter even doe it's optional. A thing we have to take in consideration that the other methods do differently, this method will not create a new array so any modification to an array it will mutate the new array. We will explore this concept a bit deeper with the other methods just take a mental note. 
+In the example below, we are using the current value parameter. Most of the time you will need this parameter even doe it's optional. A thing we have to take in consideration that the other methods do differently, this method will not create a new array so any modification to an array it will mutate the new array. We will explore this concept a bit deeper with the other methods just take a mental note.
 
 ```
 var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -57,7 +60,7 @@ numberArray.forEach(function(element) {
 
 ####Exercise
 ```
-/*Create a forEach loop that pushes the menu items to the whatIAte array. Remember that the current value can be named anything (it's called element on the example). */ 
+/*Create a forEach loop that pushes the menu items to the whatIAte array. Remember that the current value can be named anything (it's called element on the example). */
 
 var menu = ['pizza', 'hamburger', 'hotdogs', 'rice', 'fried chicken'];
 var whatIAte = [];
@@ -67,7 +70,7 @@ return whatIAte;
 
 ###Map
 
-Remember I wrote a bit back that the forEach element will not return a new array? Well, map will take a callback function and it will return a new array with the new items. 
+Remember I wrote a bit back that the forEach element will not return a new array? Well, map will take a callback function and it will return a new array with the new items.
 
 ####Parameters
 
@@ -179,16 +182,16 @@ var posts = [
   {
     title: 'JavaScript ES6',
     hearts: 100,
-  }  
+  }
 ]
 ```
 
 ###Reduce
 
-This method is a bit difficult to understand at first but nothing worth doing is easy. Reduce uses an accumulator that will be the total of the calculation you are doing in the reduce method. It also uses current value that the previous methods use. Now let's see an example and run it down. 
+This method is a bit difficult to understand at first but nothing worth doing is easy. Reduce uses an accumulator that will be the total of the calculation you are doing in the reduce method. It also uses current value that the previous methods use. Now let's see an example and run it down.
 
 ```
-var numbers = [5, 10, 15, 20, 25, 30]; 
+var numbers = [5, 10, 15, 20, 25, 30];
 
 var sum = numbers.reduce(function(total, amount){
   return total + amount
@@ -215,7 +218,7 @@ Reduce it's a good method to reduce your array to a single value making it a gre
 ```
 /* Reduce this numbers array to a single value using multiplication */
 
-var numbers = [1000, 150, 890, 500]; 
+var numbers = [1000, 150, 890, 500];
 
 ```
 

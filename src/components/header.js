@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
     </Link>
 
     <Link
-      to='/'
+      to='/blog'
       className='menu-item'
     >
       Blog
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
       to='/'
       className='menu-item'
     >
-      Projects
+      Portfolio
     </Link>
 
     <Link

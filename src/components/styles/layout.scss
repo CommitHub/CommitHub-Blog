@@ -626,9 +626,16 @@ pre tt:after {
 /* Custom Styles */
 
 @import url('https://fonts.googleapis.com/css?family=Arvo');
+@import 'variables';
 
 body {
   font-family: 'Arvo', serif;
+  color: $main-font-color;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
 }
 
 .blog-page {

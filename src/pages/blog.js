@@ -1,25 +1,29 @@
 
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import '../components/styles/card.scss';
+import Layout from '../components/layout';
+import BlogCard from '../components/BlogCard';
 
 const BlogPage = ({ data }) => {
   return (
     <Layout>
-      <ul>
-        {data.allMarkdownRemark.edges.map(post => (
-          <li key={post.node.id}>
-            <Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link>
-          </li>
-        ))}
-      </ul>
+        <h1>Blogs</h1>
+        <div class="card-container">
+            {data.allMarkdownRemark.edges.map(post => (
+            <BlogCard
+                key={post.node.id}
+                blog={post.node.frontmatter}>
+            </BlogCard>
+            ))}
+        </div>
     </Layout>
   )
 }
 
 export const pageQuery = graphql`
-    query indexQuery {
+    query blogQuery {
       allMarkdownRemark(
         limit: 10
         sort: { fields: [frontmatter___date], order: DESC }
@@ -31,7 +35,12 @@ export const pageQuery = graphql`
             frontmatter {
               title
               path
-              published
+              author
+              authorImage
+              backgroundImg
+              tags
+              date
+              description
             }
           }
         }
