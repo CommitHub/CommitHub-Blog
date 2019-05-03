@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import './styles/layout.scss'
 import Header from './header'
 import Footer from './footer'
-import icon from '../images/Medium_without_word.png';
+import icon from '../images/logo/Medium_without_word.png';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -35,12 +35,6 @@ const Layout = ({ children }) => (
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
         >
           {children}
         </div>

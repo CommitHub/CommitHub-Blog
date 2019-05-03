@@ -1,10 +1,10 @@
 import React from 'react'
 
-import logo from '../../images/Medium-trans.png';
+import logo from '../../images/logo/Medium-trans.png';
 import './styles/jumbotron.scss';
 
 const Jumbotron = () => (
-    <section id='jumbotron'>  
+    <section id='jumbotron'>
         <img src={logo} alt='logo' />
     </section>
 )

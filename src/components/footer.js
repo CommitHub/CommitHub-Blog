@@ -1,10 +1,10 @@
 import React from 'react'
-import { 
-    FaTwitter, 
+import {
+    FaTwitter,
     FaLinkedin,
     FaDev,
     FaGithub,
-    FaEnvelope 
+    FaEnvelope
 } from 'react-icons/fa'
 import { IconContext } from "react-icons";
 
@@ -12,7 +12,7 @@ import './styles/footer.scss';
 
 const Footer = () => (
     <footer className='footer'>
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <section className='btn-container'>
             <IconContext.Provider value={{className: 'twitter-btn'}}>
                 <FaTwitter />
@@ -28,9 +28,9 @@ const Footer = () => (
             </IconContext.Provider>
             <IconContext.Provider value={{className: 'contact-btn'}}>
                 <FaEnvelope />
-            </IconContext.Provider> 
+            </IconContext.Provider>
         </section>
-        <h4>{`${String.fromCharCode(169)} Commithub 2017`}</h4>    
+        <h4>{`${String.fromCharCode(169)} Commithub 2019`}</h4>
     </footer>
 );
 

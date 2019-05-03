@@ -3,7 +3,7 @@
 
 .footer {
     width: 100%;
-    background-color: $footer-background-color;
+    background-color: $main-background-color;
     height: 300px;
     margin: 0;
     padding: 0;
@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-top: 6px solid $footer-border-color;
-    color: white;
+    border-top: 6px solid $main-color;
+    color: $main-font-color;
 }
 
 .btn-container {

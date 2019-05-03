@@ -1,13 +1,16 @@
 #jumbotron {
-    width: 100%;
+    max-width: 100% !important;
     height: 100vh;
-    background-color: black;
+    background-image: url('../../../images/backgrounds/beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img {
-        width: 60%;
-        height: 50%;
+        width: 50%;
+        height: 70%;
     }
 }
