@@ -10,7 +10,11 @@ export default ({data}) => {
 		<Layout>
 			<div class="blog-page">
 				<h1>{post.frontmatter.title}</h1>
-				<img class="backgroundImg" src={post.frontmatter.backgroundImg} alt="cover image"></img>
+				<img
+					class="backgroundImg"
+					src={post.frontmatter.backgroundImg}
+					alt="blog cover background"
+				></img>
 				<div dangerouslySetInnerHTML={{__html: post.html}} />
 			</div>
 		</Layout>
