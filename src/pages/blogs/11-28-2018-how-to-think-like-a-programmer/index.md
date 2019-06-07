@@ -12,8 +12,6 @@
 
 When I started programming 2 years ago I remember the frustrating process it was. I started with game development coding in GameMaker Studio 2 using GML instead of starting with something easier to understand and it was a long process. Mostly because game development by yourself is way more than writing code.
 
-(It's small I know but if I resize it looks horrible. If you want to see more go to my website https://commithub.com on the about me section there are a few more)
-
 <img src='https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/image1.png'>
 
 To be honest for any beginner the first few months will be hell. Don't let that discourage you. Programming can be very fulfilling and fun it just takes a bit to wrap your head around.
