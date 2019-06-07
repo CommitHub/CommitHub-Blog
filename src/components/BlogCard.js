@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import './styles/card.scss';
 
@@ -22,7 +23,7 @@ const BlogCard = (props) => (
 							<section class="author-info">
 								<p>{props.blog.author}</p>
 								<span>&#x25CF;</span>
-								<p>{props.blog.date}</p>
+								<p>{moment(props.blog.date).format("MMM Do YYYY")}</p>
 							</section>
 						</section>
           </section>

@@ -3,7 +3,7 @@
     title: How not to be scared of JS array methods (ForEach, Map, Filter and Reduce)
     author: Luis Alvarez
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
-    date: '10-27-2018'
+    date: '2018-10-27'
     description: A tutorial with examples and practice exercise on how to use the array methods forEach, map, filter and reduce.
     tags: JavaScript, arrays, webdev
     backgroundImg: 'https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-not-to-be-scared-of-js-array-methods/cover-image.jpeg'
