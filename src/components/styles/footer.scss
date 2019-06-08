@@ -4,7 +4,6 @@
 .footer {
 	width: 100%;
 	background-color: $main-background-color;
-	height: 300px;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -13,14 +12,23 @@
 	align-items: center;
 	border-top: 6px solid $main-color;
 	color: $main-font-color;
+
+	h2 {
+		margin-top: 20px;
+	}
 }
+
 
 .btn-container {
 	display: flex;
 	width: 50%;
-	margin: 0 auto;
+	margin: 50px 0;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
+	@media (max-width: $mobile-lg) {
+		width: 80%;
+	}
 }
 
 .btn {
