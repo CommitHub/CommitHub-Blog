@@ -14,20 +14,45 @@ const Footer = () => (
 	<footer className='footer'>
 		<h2>Contact Me</h2>
 		<section className='btn-container'>
-			<IconContext.Provider value={{className: 'twitter-btn'}}>
-					<FaTwitter />
+			<IconContext.Provider value={{className: 'btn twitter-btn'}}>
+					<a
+						href="https://twitter.com/MoonMan6033"
+						target="_blank"
+					>
+						<FaTwitter />
+					</a>
 			</IconContext.Provider>
-			<IconContext.Provider value={{className: 'linkedIn-btn'}}>
+			<IconContext.Provider value={{className: 'btn linkedIn-btn'}}>
+				<a
+					href="https://www.linkedin.com/in/luis-alvarez-pacheco/"
+					target="_blank"
+				>
 					<FaLinkedin />
+				</a>
 			</IconContext.Provider>
-			<IconContext.Provider value={{className: 'dev-btn'}}>
-					<FaDev />
+			<IconContext.Provider value={{className: 'btn dev-btn'}}>
+				<a
+						href="https://dev.to/thegamefreak720"
+						target="_blank"
+					>
+						<FaDev />
+				</a>
 			</IconContext.Provider>
-			<IconContext.Provider value={{className: 'github-btn'}}>
+			<IconContext.Provider value={{className: 'btn github-btn'}}>
+				<a
+					href="https://github.com/TheGameFreak720"
+					target="_blank"
+				>
 					<FaGithub />
+				</a>
 			</IconContext.Provider>
-			<IconContext.Provider value={{className: 'contact-btn'}}>
+			<IconContext.Provider value={{className: 'btn contact-btn'}}>
+				<a
+					href=""
+					target="_blank"
+				>
 					<FaEnvelope />
+				</a>
 			</IconContext.Provider>
 		</section>
 		<h4>

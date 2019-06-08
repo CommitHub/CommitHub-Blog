@@ -23,6 +23,13 @@
 	justify-content: space-between;
 }
 
+.btn {
+
+	&:hover {
+		border: 5px solid $main-background-color;
+	}
+}
+
 .twitter-btn {
   @include social-button($twitter-btn-color);
 }

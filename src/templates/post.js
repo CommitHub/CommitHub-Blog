@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 
 export default ({data}) => {
 	const {markdownRemark: post} = data;
+
 	return (
 		<Layout>
 			<div class="blog-page">
