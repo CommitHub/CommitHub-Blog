@@ -32,6 +32,11 @@
   height: 30px;
   left: 36px;
   top: 36px;
+
+  @media (max-width: $mobile-lg) {
+    left: 10px;
+    top: 15px;
+	}
 }
 
 /* Color/shape of burger icon bars */
