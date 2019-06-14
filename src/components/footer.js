@@ -18,6 +18,7 @@ const Footer = () => (
 					<a
 						href="https://twitter.com/MoonMan6033"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<FaTwitter />
 					</a>
@@ -26,6 +27,7 @@ const Footer = () => (
 				<a
 					href="https://www.linkedin.com/in/luis-alvarez-pacheco/"
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<FaLinkedin />
 				</a>
@@ -34,6 +36,7 @@ const Footer = () => (
 				<a
 						href="https://dev.to/thegamefreak720"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<FaDev />
 				</a>
@@ -42,6 +45,7 @@ const Footer = () => (
 				<a
 					href="https://github.com/TheGameFreak720"
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<FaGithub />
 				</a>
@@ -50,6 +54,7 @@ const Footer = () => (
 				<a
 					href=""
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<FaEnvelope />
 				</a>
