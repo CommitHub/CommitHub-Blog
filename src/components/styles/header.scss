@@ -28,13 +28,13 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
+  width: 2.25rem;
   height: 30px;
-  left: 36px;
+  left: 2.25rem;
   top: 36px;
 
   @media (max-width: $mobile-lg) {
-    left: 10px;
+    left: 0.625rem;
     top: 15px;
 	}
 }
@@ -47,7 +47,7 @@
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
-  width: 24px;
+  width: 1.5rem;
 }
 
 /* Color/shape of close button cross */

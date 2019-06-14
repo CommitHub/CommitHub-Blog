@@ -2,7 +2,7 @@
 
 .card-container {
 	margin: auto;
-	max-width: 960px;
+	max-width: 60rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -24,7 +24,7 @@
 	}
 
 	.card-description-container {
-		padding: 0 30px;
+		padding: 0 1.875rem;
 		display: flex;
 		flex-direction: column;
 	}
@@ -50,14 +50,14 @@
 		align-self: center;
 		background-color: $main-color;
 		color: white;
-		padding: 15px 32px;
+		padding: 15px 2rem;
 		margin-bottom: 40px;
 		border: 2px solid $main-color; //Neccesary for card not to expand on hoover
 		text-align: center;
-		border-radius: 8px;
+		border-radius: 0.5rem;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 1rem;
 
 		&:hover {
 			background-color: white;
