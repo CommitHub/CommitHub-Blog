@@ -4,7 +4,6 @@ import {
 	FaLinkedin,
 	FaDev,
 	FaGithub,
-	FaEnvelope
 } from 'react-icons/fa'
 import { IconContext } from "react-icons";
 
