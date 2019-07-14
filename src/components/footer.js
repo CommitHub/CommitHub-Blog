@@ -50,15 +50,6 @@ const Footer = () => (
 					<FaGithub />
 				</a>
 			</IconContext.Provider>
-			<IconContext.Provider value={{className: 'btn contact-btn'}}>
-				<a
-					href=""
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FaEnvelope />
-				</a>
-			</IconContext.Provider>
 		</section>
 		<h4>
 			{`${String.fromCharCode(169)} Commithub 2019`}
