@@ -1,12 +1,16 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Jumbotron from '../components/Home/Jumbotron';
+import logo from '../images/logo/Medium-trans.png';
+import './styles/home.scss';
+import './styles/general.scss'
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Jumbotron />
+      <section id='jumbotron'>
+		    <img src={logo} alt='logo' />
+	    </section>
     </Layout>
   )
 }
