@@ -1,12 +1,11 @@
 import React from 'react';
 
-import responsive from '../../images/responsive.png';
-import development from '../../images/development.png';
-import search from '../../images/search.png';
-import consulting from '../../images/consulting.png';
-import database from '../../images/database.png';
-import user from '../../images/user.png';
-import './styles/general.scss';
+import responsive from '../../images/icons/responsive.png';
+import development from '../../images/icons/development.png';
+import search from '../../images/icons/search.png';
+import consulting from '../../images/icons/consulting.png';
+import database from '../../images/icons/database.png';
+import user from '../../images/icons/user.png';
 import './styles/choose.scss';
 
 const Choose = () => (

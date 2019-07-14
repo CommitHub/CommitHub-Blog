@@ -8,8 +8,8 @@ import goblin from '../images/drawings/Goblin_face.png';
 import ship from '../images/drawings/antivirus-green.png';
 import miner from '../images/drawings/Miner.png';
 import Layout from '../components/layout';
+import Choose from '../components/Choose/Choose'
 import './styles/about.scss';
-import '../components/styles/general.scss';
 
 const About = () => (
 	<Layout>
