@@ -5,22 +5,36 @@
 	align-items: center;
 
 
-	.profile {
-		height: 300px;
-	}
-
 	.content-container {
 		width: 60%;
-	}
-
-	.pixel-container {
+		margin: 50px 0;
 		display: flex;
-		justify-content: space-between;
 		flex-wrap: wrap;
+		justify-content: space-between;
 
-		img {
-			width: 15%;
+		.content-mult-items {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 32.50%;
+
+			img {
+				width: 30%;
+			}
+		}
+
+		.content-item-profile {
+			width: 20%;
+
+			img {
+				height: 300px;
+				border-radius: 10%;
+			}
+		}
+
+		.content-item-text {
+			width: 70%;
+			align-self: center;
 		}
 	}
-
 }
