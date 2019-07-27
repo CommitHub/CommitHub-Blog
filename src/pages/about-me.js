@@ -9,7 +9,7 @@ import ship from '../images/drawings/antivirus-green.png';
 import miner from '../images/drawings/Miner.png';
 import responsive from '../images/icons/responsive.png';
 import development from '../images/icons/development.png';
-import search from '../images/icons/search.png';
+import linux from '../images/icons/linux.png';
 import books from '../images/icons/books.png';
 import database from '../images/icons/database.png';
 import user from '../images/icons/user.png';
@@ -68,6 +68,11 @@ const About = () => (
 					<p>An expertise in both relational and non-relational databases</p>
 				</section>
 				<section className="content-mult-items">
+					<img src={linux} alt='linux' />
+					<h3>Linux/Unix Understanding</h3>
+					<p>Daily user of Linux/Unix systems having a basic understanding on how it operates</p>
+				</section>
+				<section className="content-mult-items">
 					<img src={books} alt='technical consulting' />
 					<h3>Self Learner</h3>
 					<p>Capable of learning new technologies on the job or outside to meet work or personal goals</p>
@@ -76,11 +81,6 @@ const About = () => (
 					<img src={user} alt='friendly developer' />
 					<h3>Contributor to the Team</h3>
 					<p>Packed with diciplines in agile processes and a friendly always willing to help attitude to reach our deadlines as quick and smooth as possible</p>
-				</section>
-				<section className="content-mult-items">
-					<img src={search} alt='seo' />
-					<h3>SEO Analysis</h3>
-					<p>Proven SEO Search results, Google Adwords management, Social Network Management and Online Reputation Management.</p>
 				</section>
 			</section>
 		</section>
