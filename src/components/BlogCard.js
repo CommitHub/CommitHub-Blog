@@ -6,7 +6,7 @@ import './styles/card.scss';
 const BlogCard = (props) => (
     <section className='card'>
 				<img
-					class="project-background"
+					className="project-background"
 					src={props.blog.backgroundImg}
 					alt='project background'
 				/>
@@ -14,13 +14,13 @@ const BlogCard = (props) => (
           <h2>{props.blog.title}</h2>
           <section>
 						<p>{props.blog.description}</p>
-						<section class="author-container">
+						<section className="author-container">
 							<img
-								class="author"
+								className="author"
 								src={props.blog.authorImage}
 								alt='author'
 							/>
-							<section class="author-info">
+							<section className="author-info">
 								<p>{props.blog.author}</p>
 								<span>&#x25CF;</span>
 								<p>{moment(props.blog.date).format("MMM Do YYYY")}</p>

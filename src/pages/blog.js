@@ -10,7 +10,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
         <h1>Blogs</h1>
-        <div class="card-container">
+        <div className="card-container">
             {data.allMarkdownRemark.edges.map(post => (
             <BlogCard
                 key={post.node.id}

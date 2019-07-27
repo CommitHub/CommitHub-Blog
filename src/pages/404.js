@@ -5,7 +5,7 @@ import notFoundLogo from '../images/404/404.gif';
 
 const NotFoundPage = () => (
   <Layout>
-    <section class="not-found-container">
+    <section className="not-found-container">
       <img
         src={notFoundLogo}
         alt="404"
