@@ -657,7 +657,18 @@ h1 {
   }
 
   p {
-    margin: 20px 0;
+    padding: 20px 0;
+
+    @media (max-width: $tablet-sm) {
+      margin: 0 auto;
+      width: 95%;
+    }
+  }
+
+  h2 {
+    @media (max-width: $tablet-sm) {
+      text-align: center
+    }
   }
 }
 
@@ -672,14 +683,13 @@ h1 {
     height: 45px;
     align-self: right;
 
-    @media (max-width: $mobile-lg) {
-      width: 15%;
-      height: 35px;
-    }
-
     @media (max-width: $tablet-sm) {
       width: 10%;
       height: 45px;
+    }
+
+    @media (max-width: $tablet-sm) {
+      width: 15%;
     }
   }
 
@@ -689,13 +699,17 @@ h1 {
     width: 35%;
     align-self: left;
 
-    @media (max-width: $mobile-lg) {
-      width: 80%;
+    @media (max-width: $tablet-lg) {
+      width: 50%;
+      height: 35px;
     }
 
     @media (max-width: $tablet-sm) {
-      width: 70%;
-      height: 35px;
+      width: 80%;
     }
+  }
+
+  @media (max-width: $tablet-sm) {
+    justify-content: space-around;
   }
 }
