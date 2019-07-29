@@ -3,7 +3,7 @@
     title: Pseudocode saves lives
     author: Luis Alvarez
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
-    date: '2019-05-23'
+    date: '2019-05-03'
     description: A brief explanation of what is pseudocode and how it can help us save time
     tags: pseudocode, computer science
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/pseudocode-saves-lives/cover-image.png'
