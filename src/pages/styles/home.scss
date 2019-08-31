@@ -15,8 +15,20 @@
 		width: 50%;
 		height: 70%;
 
+		@media (max-width: $desktop-lg) {
+			width: 60%;
+			height: 65%;
+		}
+
+		@media (max-width: $desktop-sm) {
+			width: 80%;
+			height: 60%;
+		}
+
+
 		@media (max-width: $tablet-sm) {
 			width: 95%;
+			height: 50%;
 		}
 	}
 }
