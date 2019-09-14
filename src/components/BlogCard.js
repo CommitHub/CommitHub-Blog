@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-import './styles/card.scss';
+import './styles/blog-card.scss';
 
 const BlogCard = (props) => (
     <section className='card'>

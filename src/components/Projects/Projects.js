@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import ProjectCard from '../ProjectCard';
-import '../styles/card.scss';
+import '../styles/blog-card.scss';
 
 class Projects extends Component {
 	constructor(props) {
