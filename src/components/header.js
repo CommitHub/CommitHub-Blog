@@ -22,10 +22,10 @@ const Header = ({ siteTitle }) => (
     </Link>
 
     <Link
-      to='/'
+      to='/projects'
       className='menu-item'
     >
-      Portfolio
+      Projects
     </Link>
 
     <Link
