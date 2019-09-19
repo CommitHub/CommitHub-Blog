@@ -5,8 +5,8 @@ import ProjectCard from '../components/ProjectCard';
 import './styles/projects.scss'
 
 class Projects extends Component {
-	constructor(props) {
-		super(props);
+	constructor() {
+		super();
 		this.state = {
 			projects: [
 				{

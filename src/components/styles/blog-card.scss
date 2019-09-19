@@ -9,14 +9,15 @@
 }
 
 .card {
+	padding: 1.5%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	width: 100%;
-	margin: 50px 0;
+	margin: 3.5rem 0;
 
 	.project-background {
 		width: 100%;
-		height: 400px;
+		height: 25rem;
 	}
 
 	&:hover {
