@@ -1,0 +1,19 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+
+.twitter-btn {
+  @include social-button($twitter-btn-color);
+}
+
+.linkedin-btn {
+  @include social-button($linkedIn-btn-color);
+}
+
+.dev-btn, .github-btn, .laptop-code-btn {
+  @include social-button(black);
+}
+
+.contact-btn {
+  @include social-button($contact-btn-color);
+}
