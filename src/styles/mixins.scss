@@ -1,0 +1,21 @@
+@import 'variables';
+
+@mixin social-button($color) {
+	width: 5rem;
+	height: 3.75rem;
+	padding: 0.3125rem;
+	background-color: $color;
+
+	.font-awesome {
+		font-size: 2.5em;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	&:hover {
+		border: 0.3125rem solid $main-background-color;
+	}
+}
