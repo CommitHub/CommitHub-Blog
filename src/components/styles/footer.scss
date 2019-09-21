@@ -1,7 +1,6 @@
-@import 'mixins';
-@import 'variables';
+@import '../../styles/variables.scss';
 
-.footer {
+.footer-container {
 	width: 100%;
 	background-color: $main-background-color;
 	margin: 0;
@@ -16,40 +15,16 @@
 	h2 {
 		margin-top: 20px;
 	}
-}
 
+	.btn-container {
+		display: flex;
+		width: 50%;
+		margin: 50px 0;
+		flex-wrap: wrap;
+		justify-content: space-between;
 
-.btn-container {
-	display: flex;
-	width: 50%;
-	margin: 50px 0;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
-	@media (max-width: $desktop-sm) {
-		width: 80%;
+		@media (max-width: $desktop-sm) {
+			width: 80%;
+		}
 	}
-}
-
-.btn {
-
-	&:hover {
-		border: 0.3125rem solid $main-background-color;
-	}
-}
-
-.twitter-btn {
-  @include social-button($twitter-btn-color);
-}
-
-.linkedIn-btn {
-  @include social-button($linkedIn-btn-color);
-}
-
-.dev-btn, .github-btn {
-  @include social-button(black);
-}
-
-.contact-btn {
-  @include social-button($contact-btn-color);
 }

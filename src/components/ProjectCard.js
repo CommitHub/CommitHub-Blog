@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import {
-	FaGithub,
-	FaLaptopCode
-} from 'react-icons/fa'
-import { IconContext } from "react-icons";
+
+import AwesomeButton from './AwesomeButton';
+
 
 import './styles/project-card.scss'
+
 
 class ProjectCard extends Component {
 	constructor() {
@@ -22,11 +21,11 @@ class ProjectCard extends Component {
 		}));
 	}
 
-	render () {
+	render() {
 		return (
 			<section
 				className='project-card'
-				onClick={this.toogleCard}
+				onClick={ this.toogleCard }
 			>
 				<img
 					className='project-showcase'
@@ -34,56 +33,46 @@ class ProjectCard extends Component {
 					alt='project showcase'
 				/>
 				<section className='project-card-description-container column-container'>
-					<h3>{this.props.title}</h3>
-					<p>{this.props.description}</p>
+					<h3>{ this.props.title }</h3>
+					<p>{ this.props.description }</p>
 					{
 						this.state.showCard ? (
 							<section>
-								<p>Category: {this.props.category}</p>
-								<p>Last Updated: {moment(this.props.lastUpdated).format('MMMM DD YYYY')}</p>
+								<p>Category: { this.props.category }</p>
+								<p>Last Updated: { moment(this.props.lastUpdated).format('MMMM DD YYYY') }</p>
 								<section>
 									<p>Technologies used:</p>
 									<section className='technologies-img-container'>
-										{this.props.technologies.map((tech, i) => (
+										{ this.props.technologies.map((tech, i) => (
 											<img
-												key={i}
-												src={tech.url}
+												key={ i }
+												src={ tech.url }
 												className='technologie-img'
-												alt={tech.name}
+												alt={ tech.name }
 											/>
-										))}
+										)) }
 									</section>
 								</section>
 							</section>
 						) : null
 					}
 
-					<section className="btn-container">
+					<section className='btn-container'>
 						<section>
 							<p>Repository</p>
-							<IconContext.Provider value={{className: 'btn'}}>
-								<a
-									href={this.props.githubUrl}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<FaGithub />
-								</a>
-							</IconContext.Provider>
+							<AwesomeButton
+								url={ this.props.githubUrl }
+								icon='github'
+							/>
 						</section>
 						{
 							this.props.projectUrl ? (
 								<section>
 									<p>Project</p>
-									<IconContext.Provider value={{className: 'btn'}}>
-										<a
-											href={this.props.projectUrl}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											<FaLaptopCode />
-										</a>
-									</IconContext.Provider>
+									<AwesomeButton
+										url={ this.props.projectUrl }
+										icon='laptop-code'
+									/>
 								</section>
 							) : null
 						}

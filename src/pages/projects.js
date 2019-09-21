@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Layout from '../components/layout'
+
+import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard';
 
-import './styles/projects.scss'
+import '../styles/general.scss'
 
 class Projects extends Component {
 	constructor() {
@@ -96,22 +97,22 @@ class Projects extends Component {
 	render() {
 		return (
 			<Layout>
-				<section className='projects'>
+				<section className='projects-container'>
 					<h1>Projects</h1>
-					<section className='project-card-container'>
-						{this.state.projects.map(project => (
+					<section className='card-container'>
+						{ this.state.projects.map(project => (
 							<ProjectCard
-								key={project.id}
-								backgroundImg={project.backgroundImg}
-								title={project.title}
-								category={project.category}
-								description={project.description}
-								lastUpdated={project.lastUpdated}
-								technologies={project.technologies}
-								githubUrl={project.githubUrl}
-								projectUrl={project.projectUrl}
+								key={ project.id }
+								backgroundImg={ project.backgroundImg }
+								title={ project.title }
+								category={ project.category }
+								description={ project.description }
+								lastUpdated={ project.lastUpdated }
+								technologies={ project.technologies }
+								githubUrl={ project.githubUrl }
+								projectUrl={ project.projectUrl }
 							/>
-						))}
+						)) }
 					</section>
 				</section>
 			</Layout>
