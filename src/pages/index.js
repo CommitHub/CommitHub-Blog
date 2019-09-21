@@ -10,7 +10,7 @@ import './styles/home.scss';
 const IndexPage = () => {
   return (
     <Layout>
-      <section class='jumbotron-container'>
+      <section className='jumbotron-container'>
 		    <img src={ logo } alt='commithub logo' />
 	    </section>
     </Layout>
