@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import './styles/layout.scss'
-import Header from './header'
-import Footer from './footer'
-import icon from '../images/logo/Medium_without_word.png';
+import Header from './Header'
+import Footer from './Footer'
+import icon from '../images/logo/medium-without-title.png';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={ data => (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -31,16 +31,16 @@ const Layout = ({ children }) => (
             { rel: 'shortcut icon', type: 'image/png', href: `${icon}` }
           ]}
         >
-          <html lang="en" />
+          <html lang='en;' />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={ data.site.siteMetadata.title } />
         <div
         >
-          {children}
+          { children}
         </div>
         <Footer />
       </>
-    )}
+    ) }
   />
 )
 

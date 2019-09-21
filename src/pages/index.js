@@ -1,15 +1,17 @@
 import React from 'react'
 
-import Layout from '../components/layout'
-import logo from '../images/logo/Medium-trans.png';
+import Layout from '../components/Layout'
+import logo from '../images/logo/medium-transparent.png';
+
+import '../styles/general.scss'
 import './styles/home.scss';
-import './styles/general.scss'
+
 
 const IndexPage = () => {
   return (
     <Layout>
-      <section id='jumbotron'>
-		    <img src={logo} alt='logo' />
+      <section className='jumbotron-container'>
+		    <img src={ logo } alt='commithub logo' />
 	    </section>
     </Layout>
   )

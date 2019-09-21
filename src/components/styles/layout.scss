@@ -626,7 +626,7 @@ pre tt:after {
 /* Custom Styles */
 
 @import url('https://fonts.googleapis.com/css?family=Arvo');
-@import 'variables';
+@import '../../styles/variables.scss';
 
 body {
   font-family: 'Arvo', serif;
@@ -638,78 +638,6 @@ h1 {
   padding: 3.125rem 0;
 }
 
-.blog-page {
-  max-width: 60rem;
-  margin: auto;
-  padding: 100px 0;
-
-  .backgroundImg {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .section-jumbo {
-    display: block;
-    margin: 0 auto;
-    height: 350px;
-    width: 37.5rem;
-  }
-
-  p {
-    padding: 20px 0;
-
-    @media (max-width: $tablet-sm) {
-      margin: 0 auto;
-      width: 95%;
-    }
-  }
-
-  h2 {
-    @media (max-width: $tablet-sm) {
-      text-align: center
-    }
-  }
-}
-
-.min-author-container {
-  display: flex;
-  justify-content: center;
-
-  .author {
-    border-radius: 50%;
-    width: 5%;
-    margin-top: 8px;
-    height: 45px;
-    align-self: right;
-
-    @media (max-width: $tablet-sm) {
-      width: 10%;
-      height: 45px;
-    }
-
-    @media (max-width: $tablet-sm) {
-      width: 15%;
-    }
-  }
-
-  .author-info {
-    display: flex;
-    justify-content: space-around;
-    width: 35%;
-    align-self: left;
-
-    @media (max-width: $tablet-lg) {
-      width: 50%;
-      height: 35px;
-    }
-
-    @media (max-width: $tablet-sm) {
-      width: 80%;
-    }
-  }
-
-  @media (max-width: $tablet-sm) {
-    justify-content: space-around;
-  }
+a {
+  color: $main-font-color
 }

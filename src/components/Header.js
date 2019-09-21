@@ -3,7 +3,8 @@ import { Link } from 'gatsby';
 import { slide as Menu } from 'react-burger-menu';
 
 import './styles/header.scss';
-import logo from '../images/logo/Medium-trans.png';
+
+import logo from '../images/logo/medium-transparent.png';
 
 const Header = ({ siteTitle }) => (
   <Menu>
@@ -19,13 +20,6 @@ const Header = ({ siteTitle }) => (
       className='menu-item'
     >
       Blog
-    </Link>
-
-    <Link
-      to='/'
-      className='menu-item'
-    >
-      Portfolio
     </Link>
 
     <Link
