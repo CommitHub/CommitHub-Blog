@@ -3,23 +3,23 @@
 .post-container {
   max-width: 60rem;
   margin: auto;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 
   .background-img {
-    height: 400px;
+    height: 25rem;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
 
   .section-jumbo {
     display: block;
     margin: 0 auto;
-    height: 350px;
+    height: 21.875rem;
     width: 37.5rem;
   }
 
   p {
-    padding: 20px 0;
+    padding: 1.25rem 0;
 
     @media (max-width: $tablet-sm) {
       margin: 0 auto;
@@ -38,19 +38,14 @@
     justify-content: center;
 
     .author-img {
-      border-radius: 50%;
+      border-radius: 20%;
       width: 5%;
-      margin-top: 8px;
-      height: 45px;
+      margin-top: 0.5rem;
+      height: 2.8125rem;
       align-self: right;
 
-      @media (max-width: $tablet-sm) {
+      @media (max-width: $tablet-lg) {
         width: 10%;
-        height: 45px;
-      }
-
-      @media (max-width: $tablet-sm) {
-        width: 15%;
       }
     }
 
@@ -62,7 +57,7 @@
 
       @media (max-width: $tablet-lg) {
         width: 50%;
-        height: 35px;
+        height: 2.1875rem;
       }
 
       @media (max-width: $tablet-sm) {
