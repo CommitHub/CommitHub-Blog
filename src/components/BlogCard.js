@@ -15,11 +15,12 @@ const BlogCard = (props) => (
           <section>
 						<p>{ props.blog.description }</p>
 						<section className='author-container'>
-							<img
+							<div 
 								className='author-image'
-								src={ props.blog.authorImage }
-								alt='author'
-							/>
+								style={{ backgroundImage: `url(${props.blog.authorImage})` }}
+							>
+								<span className='sr-only'>Image of { props.blog.author }</span>
+							</div>
 							<section className='author-info'>
 								<p>{ props.blog.author }</p>
 								<span>&#x25CF;</span>

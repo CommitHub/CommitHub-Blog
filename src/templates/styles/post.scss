@@ -6,7 +6,10 @@
   padding: 100px 0;
 
   .background-img {
-    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 37%;
     width: 100%;
     margin-bottom: 50px;
   }
@@ -38,19 +41,22 @@
     justify-content: center;
 
     .author-img {
+			background-position: center;
+			background-size: cover;
       border-radius: 50%;
       width: 5%;
+			padding-bottom: 5%;
       margin-top: 8px;
-      height: 45px;
-      align-self: right;
+      align-self: flex-start;
 
       @media (max-width: $tablet-sm) {
         width: 10%;
-        height: 45px;
+        padding-bottom: 10%;
       }
 
       @media (max-width: $tablet-sm) {
         width: 15%;
+        padding-bottom: 15%;
       }
     }
 
