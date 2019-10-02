@@ -27,8 +27,8 @@ export default ({data}) => {
 					</section>
 				</section>
 				<section
-				className='background-img'
-				style={{ backgroundImage: `url(${post.frontmatter.backgroundImg})` }}
+					className='background-img'
+					style={{ backgroundImage: `url(${post.frontmatter.backgroundImg})` }}
 				>
 					<span className='sr-only'>blog cover background</span>
 				</section>

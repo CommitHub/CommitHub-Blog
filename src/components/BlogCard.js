@@ -1,36 +1,47 @@
-import React from 'react';
+import React, { Component } from 'react';
 import moment from 'moment';
 
 import './styles/blog-card.scss';
 
-const BlogCard = (props) => (
-    <section className='blog-card-container'>
-				<img
+class BlogCard extends Component {
+	redirect = () => {
+		window.location.href = this.props.blog.path;
+	}
+
+	render() {
+		return (
+			<section
+				className='blog-card-container'
+				onClick={ this.redirect }
+			>
+				<section
 					className='blog-background'
-					src={ props.blog.backgroundImg }
-					alt='blog background'
-				/>
-        <section className='blog-card-description-container'>
-          <h2>{ props.blog.title }</h2>
-          <section>
-						<p>{ props.blog.description }</p>
+					style={{ backgroundImage: `url(${this.props.blog.backgroundImg})` }}
+				>
+					<span className='sr-only'>blog background</span>
+				</section>
+				<section className='blog-card-description-container'>
+					<h2>{ this.props.blog.title }</h2>
+					<section>
+						<p>{ this.props.blog.description }</p>
 						<section className='author-container'>
 							<div 
 								className='author-image'
-								style={{ backgroundImage: `url(${props.blog.authorImage})` }}
+								style={{ backgroundImage: `url(${ this.props.blog.authorImage })` }}
 							>
-								<span className='sr-only'>Image of { props.blog.author }</span>
+								<span className='sr-only'>Image of { this.props.blog.author }</span>
 							</div>
 							<section className='author-info'>
-								<p>{ props.blog.author }</p>
+								<p>{ this.props.blog.author }</p>
 								<span>&#x25CF;</span>
-								<p>{ moment(props.blog.date).format('MMM Do YYYY') }</p>
+								<p>{ moment(this.props.blog.date).format('MMM Do YYYY') }</p>
 							</section>
 						</section>
-          </section>
-          <a href={ props.blog.path }>Read</a>
-        </section>
-    </section>
-)
+					</section>
+				</section>
+			</section>
+		)
+	}
+}
 
 export default BlogCard;
