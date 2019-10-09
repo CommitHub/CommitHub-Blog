@@ -3,9 +3,7 @@ import moment from 'moment';
 
 import AwesomeButton from './AwesomeButton';
 
-
 import './styles/project-card.scss'
-
 
 class ProjectCard extends Component {
 	constructor() {
@@ -29,7 +27,7 @@ class ProjectCard extends Component {
 			>
 				<img
 					className='project-showcase'
-					src='http://cdn3.whatculture.com/images/2019/09/156b26bbe61193e0-600x338.jpg'
+					src={this.props.backgroundImg || 'http://cdn3.whatculture.com/images/2019/09/156b26bbe61193e0-600x338.jpg'}
 					alt='project showcase'
 				/>
 				<section className='project-card-description-container column-container'>
@@ -43,12 +41,11 @@ class ProjectCard extends Component {
 								<section>
 									<p>Technologies used:</p>
 									<section className='technologies-img-container'>
-										{ this.props.technologies.map((tech, i) => (
+										{ this.props.technologies.map((url, i) => (
 											<img
 												key={ i }
-												src={ tech.url }
-												className='technologie-img'
-												alt={ tech.name }
+												src={ url }
+												alt='technology used'
 											/>
 										)) }
 									</section>
@@ -58,19 +55,23 @@ class ProjectCard extends Component {
 					}
 
 					<section className='btn-container'>
-						<section>
-							<p>Repository</p>
-							<AwesomeButton
-								url={ this.props.githubUrl }
-								icon='github'
-							/>
-						</section>
 						{
-							this.props.projectUrl ? (
+							this.props.githubURL ? (
+								<section>
+									<p>Repository</p>
+									<AwesomeButton
+										url={ this.props.githubUrl }
+										icon='github'
+									/>
+								</section>
+							) : null
+						}
+						{
+							this.props.projectURL ? (
 								<section>
 									<p>Project</p>
 									<AwesomeButton
-										url={ this.props.projectUrl }
+										url={ this.props.projectURL }
 										icon='laptop-code'
 									/>
 								</section>
