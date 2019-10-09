@@ -75,7 +75,7 @@ class Projects extends Component {
 
 export default () => (
 	<StaticQuery
-		query={graphql`
+		query={ graphql`
 			query {
 				allMongodbCommitHubProjects(sort: {fields: [lastUpdated], order: DESC}) {
 					edges {
@@ -93,9 +93,9 @@ export default () => (
 					}
 				}
 			}
-		`}
+		` }
 		render={(data) => (
       <Projects projects={data.allMongodbCommitHubProjects.edges} />
     )}
 	/>
-)
+);
