@@ -5,10 +5,11 @@ import './styles/buttons-selector.scss';
 class ButtonsSelector extends Component {
   render() {
     return (
-      <section>
-        { this.props.selectors.map(selector => (
+      <section className='buttons-selector-container'>
+        { this.props.selectors.map((selector, i) => (
           <div
-            class={ this.props.activeSelector === selector ? 'active' : '' }
+            key={ i }
+            className={ this.props.activeSelector === selector ? 'selector active' : 'selector' }
             onClick={ () => this.props.filterItems(selector) }
           >
             { selector }

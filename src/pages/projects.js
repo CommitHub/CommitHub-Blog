@@ -34,7 +34,7 @@ class Projects extends Component {
 	}
 
 	filterOutProjects = (category) => {
-		const filteredProjects = this.state.allProjects.filter(project => project.node.category === category)
+		const filteredProjects = category === 'All' ? this.state.allProjects : this.state.allProjects.filter(project => project.node.category === category)
 
 		this.setState({
 			projects: filteredProjects,
