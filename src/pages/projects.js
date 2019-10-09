@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { graphql, StaticQuery } from "gatsby";
-import Layout from '../components/Layout'
+
+import Layout from '../components/Layout';
+import ButtonSelector from '../components/ButtonsSelector';
 import ProjectCard from '../components/ProjectCard';
 
 import '../styles/general.scss'
@@ -9,14 +11,35 @@ class Projects extends Component {
 	constructor() {
 		super();
 		this.state = {
-			projects: []
+			projects: [],
+			allProjects: [],
+			categories: [],
+			activeCategory: null
 		}
 	}
 
 	componentDidMount() {
+		const categories = this.props.projects
+			.map(project => project.node.category)
+			.filter((category, i, self) => self.indexOf(category) === i)
+
+		categories.unshift('All');
+
 		this.setState({
-			projects: this.props.projects
-		})
+			projects: this.props.projects,
+			allProjects: this.props.projects,
+			categories: categories,
+			activeCategory: categories[0]
+		});
+	}
+
+	filterOutProjects = (category) => {
+		const filteredProjects = category === 'All' ? this.state.allProjects : this.state.allProjects.filter(project => project.node.category === category)
+
+		this.setState({
+			projects: filteredProjects,
+			activeCategory: category
+		});
 	}
 
 	render() {
@@ -24,6 +47,11 @@ class Projects extends Component {
 			<Layout>
 				<section className='projects-container'>
 					<h1>Projects</h1>
+					<ButtonSelector
+						selectors={this.state.categories}
+						activeSelector={this.state.activeCategory}
+						filterItems={this.filterOutProjects}
+					/>
 					<section className='card-container'>
 						{ this.state.projects.map(project => (
 							<ProjectCard

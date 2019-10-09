@@ -3,7 +3,7 @@ import moment from 'moment';
 
 import AwesomeButton from './AwesomeButton';
 
-import './styles/project-card.scss'
+import './styles/project-card.scss';
 
 class ProjectCard extends Component {
 	constructor() {
@@ -27,7 +27,7 @@ class ProjectCard extends Component {
 			>
 				<img
 					className='project-showcase'
-					src={this.props.backgroundImg || 'http://cdn3.whatculture.com/images/2019/09/156b26bbe61193e0-600x338.jpg'}
+					src={ this.props.backgroundImg || 'http://cdn3.whatculture.com/images/2019/09/156b26bbe61193e0-600x338.jpg' }
 					alt='project showcase'
 				/>
 				<section className='project-card-description-container column-container'>
