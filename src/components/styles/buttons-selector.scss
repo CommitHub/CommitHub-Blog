@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.buttons-selector-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .selector {
+    cursor: pointer;
+    margin: 1rem
+  }
+
+  .active {
+    border-bottom: 0.125rem solid $main-font-color;
+  }
+}

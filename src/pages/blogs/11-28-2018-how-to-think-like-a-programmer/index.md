@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2018-11-28'
     description: A small article about how to think like a programmer and help you achieve your goals
-    tags: beginners, first language,
+    category: Self Help
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/cover-image.jpg'
     published: true
 ---
