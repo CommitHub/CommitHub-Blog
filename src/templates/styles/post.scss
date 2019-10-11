@@ -30,17 +30,6 @@
 
   p {
     padding: 1.25rem 0;
-
-    @media (max-width: $tablet-sm) {
-      margin: 0 auto;
-      width: 95%;
-    }
-  }
-
-  h2 {
-    @media (max-width: $tablet-sm) {
-      text-align: center
-    }
   }
 
   .min-author-container {
