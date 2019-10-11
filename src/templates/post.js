@@ -32,7 +32,7 @@ export default ({data}) => {
 				>
 					<span className='sr-only'>blog cover background</span>
 				</section>
-				<div dangerouslySetInnerHTML={ {__html: post.html} } />
+				<div className='post-content' dangerouslySetInnerHTML={ {__html: post.html} } />
 			</div>
 		</Layout>
 	)
