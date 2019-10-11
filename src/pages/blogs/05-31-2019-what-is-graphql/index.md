@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2019-05-31'
     description: A quick introduction to GraphQL to get you started with this technology.
-    tags: graphql, javascript, facebook
+    category: GraphQL
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/what-is-graphql%3F/cover-image.jpg'
     published: true
 ---

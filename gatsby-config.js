@@ -42,5 +42,13 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-source-mongodb`,
+      options: {
+        connectionString: `mongodb+srv://luis-alvarez:S1wD8t*s*a%23!@commithub-hqtll.mongodb.net/test?retryWrites=true&w=majority`,
+        dbName: `CommitHub`,
+        collection: [`Projects`]
+      },
+    },
   ],
 }
