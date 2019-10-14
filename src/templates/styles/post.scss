@@ -5,6 +5,11 @@
   margin: auto;
   padding: 6.25rem 0;
 
+  > h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .background-img {
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +17,6 @@
     margin-bottom: 1.45rem;
     padding-bottom: 37%;
     width: 100%;
-    margin-bottom: 3.125rem;
   }
 
   .post-content {
@@ -33,8 +37,17 @@
   }
 
   .min-author-container {
+    align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+
+    .author-img,
+    .author-info {
+      margin: 0.5rem;
+    }
 
     .author-img {
 			background-position: center;
@@ -42,7 +55,6 @@
       border-radius: 20%;
       width: 5%;
 			padding-bottom: 5%;
-      margin-top: 0.5rem;
       align-self: flex-start;
 
       @media (max-width: $tablet-lg) {
@@ -54,26 +66,23 @@
         width: 15%;
         padding-bottom: 15%;
       }
+
+      @media (max-width: $mobile-sm) {
+        width: 25%;
+        padding-bottom: 25%;
+      }
     }
 
     .author-info {
       display: flex;
-      justify-content: space-around;
-      width: 35%;
-      align-self: left;
-
-      @media (max-width: $tablet-lg) {
-        width: 50%;
-        height: 2.1875rem;
+     .bullet {
+        margin: 0 1rem;
       }
-
-      @media (max-width: $tablet-sm) {
-        width: 80%;
+      @media (max-width: $mobile-sm) {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
       }
-    }
-
-    @media (max-width: $tablet-sm) {
-      justify-content: space-around;
     }
   }
 }

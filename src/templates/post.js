@@ -21,9 +21,9 @@ export default ({data}) => {
 						<span className='sr-only'>Image of { post.frontmatter.author }</span>
 					</div>
 					<section className='author-info'>
-						<p>{ post.frontmatter.author }</p>
-						<p>&#x25CF;</p>
-						<p>{ moment(post.frontmatter.date).format('MMM Do YYYY') }</p>
+						<span>{ post.frontmatter.author }</span>
+						<span class="bullet">&#x25CF;</span>
+						<span>{ moment(post.frontmatter.date).format('MMM Do YYYY') }</span>
 					</section>
 				</section>
 				<section
