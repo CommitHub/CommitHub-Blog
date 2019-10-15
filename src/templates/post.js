@@ -22,7 +22,7 @@ export default ({data}) => {
 					</div>
 					<section className='author-info'>
 						<span>{ post.frontmatter.author }</span>
-						<span class="bullet">&#x25CF;</span>
+						<span className="bullet">&#x25CF;</span>
 						<span>{ moment(post.frontmatter.date).format('MMM Do YYYY') }</span>
 					</section>
 				</section>
