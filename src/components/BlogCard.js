@@ -32,9 +32,9 @@ class BlogCard extends Component {
 								<span className='sr-only'>Image of { this.props.blog.author }</span>
 							</div>
 							<section className='author-info'>
-								<p>{ this.props.blog.author }</p>
-								<span>&#x25CF;</span>
-								<p>{ moment(this.props.blog.date).format('MMM Do YYYY') }</p>
+								<span>{ this.props.blog.author }</span>
+								<span className="bullet">&#x25CF;</span>
+								<span>{ moment(this.props.blog.date).format('MMM Do YYYY') }</span>
 							</section>
 						</section>
 					</section>

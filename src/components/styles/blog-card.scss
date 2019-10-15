@@ -28,8 +28,20 @@
 	}
 
 	.author-container {
-		display: flex;
 		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -0.5rem;
+		@media (max-width: $mobile-md) {
+		  flex-direction: column;
+		  text-align: center;
+		  width: 100%;
+		}
+
+		.author-image,
+		.author-info {
+		  margin: 0.5rem;
+		}
 
 		.author-image {
 			background-position: center;
@@ -41,17 +53,15 @@
 		}
 
 		.author-info {
-			display: flex;
-			width: 35%;
-			justify-content: space-around;
-
-			@media (max-width: $laptop-sm) {
-				width: 50%;
-			}
-
-			@media (max-width: $tablet-sm) {
-				width: 90%;
-			}
+		  display: flex;
+		 .bullet {
+			margin: 0 1rem;
+		  }
+		  @media (max-width: $mobile-sm) {
+			flex-direction: column;
+			text-align: center;
+			width: 100%;
+		  }
 		}
 	}
 
