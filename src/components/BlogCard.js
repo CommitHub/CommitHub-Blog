@@ -14,29 +14,31 @@ class BlogCard extends Component {
 				className='blog-card-container'
 				onClick={ this.redirect }
 			>
-					<img
-						className='blog-background'
-						src={ this.props.blog.backgroundImg }
-						alt='blog background'
-					/>
-					<section className='blog-card-description-container'>
-						<h2>{ this.props.blog.title }</h2>
-						<section>
-							<p>{ this.props.blog.description }</p>
-							<section className='author-container'>
-								<img
-									className='author-image'
-									src={ this.props.blog.authorImage }
-									alt='author'
-								/>
-								<section className='author-info'>
-									<p>{ this.props.blog.author }</p>
-									<span>&#x25CF;</span>
-									<p>{ moment(this.props.blog.date).format('MMM Do YYYY') }</p>
-								</section>
+				<section
+					className='blog-background'
+					style={{ backgroundImage: `url(${this.props.blog.backgroundImg})` }}
+				>
+					<span className='sr-only'>blog background</span>
+				</section>
+				<section className='blog-card-description-container'>
+					<h2>{ this.props.blog.title }</h2>
+					<section>
+						<p>{ this.props.blog.description }</p>
+						<section className='author-container'>
+							<div 
+								className='author-image'
+								style={{ backgroundImage: `url(${ this.props.blog.authorImage })` }}
+							>
+								<span className='sr-only'>Image of { this.props.blog.author }</span>
+							</div>
+							<section className='author-info'>
+								<span>{ this.props.blog.author }</span>
+								<span className="bullet">&#x25CF;</span>
+								<span>{ moment(this.props.blog.date).format('MMM Do YYYY') }</span>
 							</section>
 						</section>
 					</section>
+				</section>
 			</section>
 		)
 	}
