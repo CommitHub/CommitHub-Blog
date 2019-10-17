@@ -14,23 +14,25 @@ export default ({data}) => {
 			<div className='post-container'>
 				<h1>{ post.frontmatter.title }</h1>
 				<section className='min-author-container'>
-					<img
+					<div 
 						className='author-img'
-						src={ post.frontmatter.authorImage }
-						alt='author'
-					/>
+						style={{ backgroundImage: `url(${post.frontmatter.authorImage})` }}
+					>
+						<span className='sr-only'>Image of { post.frontmatter.author }</span>
+					</div>
 					<section className='author-info'>
-						<p>{ post.frontmatter.author }</p>
-						<p>&#x25CF;</p>
-						<p>{ moment(post.frontmatter.date).format('MMM Do YYYY') }</p>
+						<span>{ post.frontmatter.author }</span>
+						<span className="bullet">&#x25CF;</span>
+						<span>{ moment(post.frontmatter.date).format('MMM Do YYYY') }</span>
 					</section>
-					</section>
-				<img
+				</section>
+				<section
 					className='background-img'
-					src={ post.frontmatter.backgroundImg }
-					alt='blog cover background'
-				></img>
-				<div dangerouslySetInnerHTML={ {__html: post.html} } />
+					style={{ backgroundImage: `url(${post.frontmatter.backgroundImg})` }}
+				>
+					<span className='sr-only'>blog cover background</span>
+				</section>
+				<div className='post-content' dangerouslySetInnerHTML={ {__html: post.html} } />
 			</div>
 		</Layout>
 	)
