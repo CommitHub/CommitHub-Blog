@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: 'CommitHub',
@@ -45,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-source-mongodb`,
       options: {
-        connectionString: `mongodb+srv://commithub:sk3HSpXwWWaySPDs@commithub-hqtll.mongodb.net/test?retryWrites=true&w=majority`,
+        connectionString: `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PW}@commithub-hqtll.mongodb.net/test?retryWrites=true&w=majority`,
         dbName: `CommitHub`,
         collection: [`Projects`]
       },
