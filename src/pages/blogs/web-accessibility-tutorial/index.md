@@ -115,9 +115,37 @@ Large Text/Graphics/UI: 4:5:1
 
 ## Tools to Identify Accessibility Errors
 
+### WAVE by Web Accessibility in Mind
+
+WAVE provides a detection summary of the current page the tab has loaded like errors, alerts, elements, etc. It provides as well helpful information of each detection like what does it mean, what it does and how to fix it if there is a problem.
+
+### Lighthouse by Google
+
+Lighthouse is an open-source, automated tool for improving the quality of web pages. It can test up to five different categories:
+
+* Performance
+* Accessibility
+* Best Practices
+* SEO
+* Progressive Web App
+
+It provides a grade for each category, reason for each grade, and how to improve the category's grade if a 100 was not received.
+
+### Contrast Checker by WebAIM
+
+WebAIM has a straightforward website that checks for color contrast ratios. You plug in the hex codes for the foreground and the background colors, and it will provide a clear indicator on what passes or fails based on those parameters. You can also adjust the lightness or darkness for each of the colors to see what color must be in order to pass the contrast ratios.
+
+### Tanaguru Contrast Finder
+
+It checks color contrast ratios and provides a list of valid colors relating to the original that was provided with minimum ratio provided.
+
 ## What doesn't get test
 
 ## Resources
 
 * [w3: Accessibility Intro](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 * [Number of lawsuits over accessibility](https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/)
+* [WAVE](https://wave.webaim.org/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* [Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
+* [Tanaguru](https://contrast-finder.tanaguru.com/)
