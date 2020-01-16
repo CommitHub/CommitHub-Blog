@@ -71,7 +71,47 @@ Images provide information and general aesthetic to a website. When an image lac
 ```
 ### Links
 
+Links are one of the most basic elements in HTML. Often links do not have a href value due to being used dynamically with Javascript and can produce a bad user experience for those who cannot use a mouse. Links must have a non-empty href for it to be accessible to keyboard users. This error could also when working with images or icons like Font Awesome. Each error could be resolved in different ways but let's look as to how to resolve it on Font awesome.
+
+`aria-label` attribute
+
+```
+<a href="https://twitter.com/" aria-label="Twitter">
+  <i class="fab fa-twitter"></i>
+</a>
+```
+
+Using a non-empty `aria-label` attribute in the `<a>` tag itself we resolve the accessibility error just like in the inputs
+
+Hidden block of text in link
+
+```
+<a href="https://twitter.com/">
+  <i class="fab fa-twitter">
+    <span class="sr-only">Twitter</span>
+  </i>
+</a>
+```
+
+Font Awesome provides a screen-reader only class
+
 ### Colors
+
+Colors provide a lot for a website ranging from design and utility but what if the user is color-blind? Telling how the contrast between the text and background is high enough to see the information of the website is key for an accessible app. Web Content Accessibility Guidelines (WCAG) has two levels of contrast ratios to help assist web designers and developers.
+
+#### WCAG AA
+
+Normal Text: 4.5:1
+Large Text/Graphics/UI: 3:1
+
+* Base standard to follow and the minimum to pass accessibility
+* UI components include things such as form input border
+* Large Text is defined as 14 point (typically 18.66px) and bold or larger, or 18 points (typically 24px) or larger.
+
+#### WCAG AA
+
+Normal Text: 7:1
+Large Text/Graphics/UI: 4:5:1
 
 ## Tools to Identify Accessibility Errors
 
