@@ -3,7 +3,7 @@
     title: Web Accessibility Tutorial
     author: Luis Alvarez
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
-    date: '2020-01-10'
+    date: '2020-01-21'
     description: A tutorial explaining the basics of accessibility to make your users smile
     category: Web Development
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/accessibility-background.jpg'
