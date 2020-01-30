@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2019-05-17'
     description: Are you tired of getting stuck and asking for help? Are you sick of being a half-ass developer? Read on
-    category: Developer Tools
+    categories: [Developer Tools, Self Help]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/learn-the-art-of-google-fu/cover-image.png'
     published: true
 ---

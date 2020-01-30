@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2020-01-26'
     description: An unlogical operation that somehow works
-    category: Weird Discoveries
+    categories: [Weird Discoveries, JavaScript]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/weird-discoveries-1/derpy-potato.jpeg'
     published: true
 ---

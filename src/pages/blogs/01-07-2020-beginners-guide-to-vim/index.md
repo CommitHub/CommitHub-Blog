@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2020-01-07'
     description: An introduction to one of the most powerful text editors available in your terminal
-    category: Developer Tools
+    categories: [Developer Tools]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/beginners-guide-to-vim/vim-terminal.png'
     published: true
 ---
