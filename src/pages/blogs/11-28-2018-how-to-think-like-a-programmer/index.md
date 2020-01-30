@@ -44,7 +44,7 @@ By breaking the problem it will help clear out any questions you may have. A ski
 
 ## Do I need to be Isaac Newton to get started?
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image5.gif'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image5.gif' alt="gandalf">
 
 Another misconception about programmers is that we are math wizards and if you hated math class you are not going to make it. Honestly, math has little to do with programming in the sense you are not working with equations for the most part unless you are programming a math program. I actually was horrible at math before I started to program and struggled a lot to get the most simple concepts. Now programming and math share one similar trait. They teach us how to break a problem step by step to get an output.
 
@@ -52,7 +52,7 @@ After I learn a few things in programming it actually made math easier not becau
 
 ## Remember your goals
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image6.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image6.jpg' alt="goals">
 
 For everything having a clear achievable goal motivates us to do better and keep doing that activity. Like programming, a goal looks more achievable by breaking it up in pieces. Haven't you had that summer goal when you said I will lose 30 pounds and you give up the first week cause you lost only 2 pounds and feel discouraged cause the objective is far away. Now wouldn't it feel better if you break it up into small goals like every week I will lose 2 pounds and everytime you achieve it you feel happy because you achieved something?
 
@@ -60,7 +60,7 @@ Sometimes we don't achieve this small goal and that is okay also as long as we p
 
 ## Everybody makes mistakes
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image7.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image7.jpg' alt="hommer">
 
 This quote is my favorite about mistakes
 
@@ -75,7 +75,7 @@ Programming can be frustrating at times but it's also a very rewarding endeavor.
 
 ## Resources
 <ul>
-    <li><a href="https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d">5 steps to solving a programming problem</a></li>
-    <li><a href='https://zapier.com/blog/think-like-a-programmer/'>Think like a programmer</a></li>
-    <li><a href='https://www.codecademy.com/'>CodeAcademy</a></li>
+    <li><a href="https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d" rel="noopener" target="_blank">5 steps to solving a programming problem</a></li>
+    <li><a href='https://zapier.com/blog/think-like-a-programmer/' rel="noopener" target="_blank">Think like a programmer</a></li>
+    <li><a href='https://www.codecademy.com/' rel="noopener" target="_blank">CodeAcademy</a></li>
 </ul>
