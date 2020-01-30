@@ -14,7 +14,7 @@ For the longest time, I would attempt CodeWars exercises by sort of understandin
 
 ## Enter Pseudocode
 
-Pseudocode is a simple set of instructions written in plain English (or whatever language you prefer) to logically approach a problem. Think of it more as a plan on what to do and not the solution. By writing each step down it will give you clues on how to approach the problem given the specifications and instead of going back and forth changing the code, you can code once and not worry about it again. A good way to track time spent on a problem is using the [pomodoro technique] (https://francescocirillo.com/pages/pomodoro-technique) and comparing how much time you spent approaching a problem with pseudocode and when not using it.
+Pseudocode is a simple set of instructions written in plain English (or whatever language you prefer) to logically approach a problem. Think of it more as a plan on what to do and not the solution. By writing each step down it will give you clues on how to approach the problem given the specifications and instead of going back and forth changing the code, you can code once and not worry about it again. A good way to track time spent on a problem is using the <a href="https://francescocirillo.com/pages/pomodoro-technique" rel="noopener" target="_blank">pomodoro technique</a> and comparing how much time you spent approaching a problem with pseudocode and when not using it.
 
 
 ## Advantages
@@ -28,11 +28,11 @@ There are some disadvantages to pseudocode and one being that while is easy to r
 
 ## Guide to writing effective pseudocode
 
-Don't worry because even if pseudocode is a rebel with no rules you can create some style rules yourself and maybe make your little monster friendlier to your neighbor making them aware of how it behaves. I found this [article] (https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698) very useful on writing good pseudocode and you can make it closer to your programming language if you wish. For me, comparisons should be with either `== or ===` instead of `=`. It makes it less confusing and you can make new rules as you see fit maybe even make it team-wide.
+Don't worry because even if pseudocode is a rebel with no rules you can create some style rules yourself and maybe make your little monster friendlier to your neighbor making them aware of how it behaves. I found this <a href="https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698" rel="noopener" target="_blank">article</a> very useful on writing good pseudocode and you can make it closer to your programming language if you wish. For me, comparisons should be with either `== or ===` instead of `=`. It makes it less confusing and you can make new rules as you see fit maybe even make it team-wide.
 
 ## Alternatives
 
-If you don't like pseudocode that's fine. A lot of people don't like it too but there are alternatives because the point is to save time and have mental peace. One of the best alternatives out there is [flowcharts](https://en.wikipedia.org/wiki/Flowchart) because it will be a more descriptive way of writing the plan to solve the problem and requires fewer rules to have the everyone on the same page. [Draw.io](https://www.draw.io/) is a good resource to use if you want to start using flowcharts.
+If you don't like pseudocode that's fine. A lot of people don't like it too but there are alternatives because the point is to save time and have mental peace. One of the best alternatives out there is <a href="https://en.wikipedia.org/wiki/Flowchart" rel="noopener" target="_blank">flowcharts</a> because it will be a more descriptive way of writing the plan to solve the problem and requires fewer rules to have the everyone on the same page. <a href="https://www.draw.io/" rel="noopener" target="_blank">Draw.io</a> is a good resource to use if you want to start using flowcharts.
 
 ## Conclusion
 

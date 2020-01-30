@@ -48,7 +48,7 @@ Then you will get back specifically what you asked for.
 }
 ```
 
-It's that simple to get started! Don't think all that GraphQL does is query data. It can also modify data allowing us to edit, add or delete using [Mutations](https://graphql.org/learn/queries/).
+It's that simple to get started! Don't think all that GraphQL does is query data. It can also modify data allowing us to edit, add or delete using <a href="https://graphql.org/learn/queries/" rel="noopener" target="_blank">Mutations</a>.
 
 ## Why should I use it?
 
@@ -86,11 +86,11 @@ Happy Coding! :smiley:
 
 ## Resources
 
-* [What is this GraphQL thing I keep hearing about?](https://www.freecodecamp.org/news/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf/)
-* [GraphQL.org](https://graphql.org/)
-* [What is GraphQL and how to use it](https://adityasridhar.com/posts/what-is-graphql-and-how-to-use-it)
-* [REST vs GraphQL](https://www.moesif.com/blog/technical/graphql/REST-vs-GraphQL-APIs-the-good-the-bad-the-ugly/#)
-* [How to GraphQL Tutorial](https://www.howtographql.com/)
-* [Apollo Blog](https://blog.apollographql.com/)
-* [GraphQL Weekly Newsletter](https://www.graphqlweekly.com/)
-* [A GraphQL list of resources](https://github.com/chentsulin/awesome-graphql)
+* <a href="https://www.freecodecamp.org/news/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf/" rel="noopener" target="_blank">What is this GraphQL thing I keep hearing about?</a>
+* <a href="https://graphql.org/" rel="noopener" target="_blank">GraphQL.org</a>
+* <a href="https://adityasridhar.com/posts/what-is-graphql-and-how-to-use-it" rel="noopener" target="_blank">What is GraphQL and how to use it</a>
+* <a href="https://www.moesif.com/blog/technical/graphql/REST-vs-GraphQL-APIs-the-good-the-bad-the-ugly/#" rel="noopener" target="_blank">REST vs GraphQL</a>
+* <a href="https://www.howtographql.com/" rel="noopener" target="_blank">How to GraphQL Tutorial</a>
+* <a href="https://blog.apollographql.com/" rel="noopener" target="_blank">Apollo Blog</a>
+* <a href="https://www.graphqlweekly.com/" rel="noopener" target="_blank">GraphQL Weekly Newsletter</a>
+* <a href="https://github.com/chentsulin/awesome-graphql" rel="noopener" target="_blank">A GraphQL list of resources</a>
