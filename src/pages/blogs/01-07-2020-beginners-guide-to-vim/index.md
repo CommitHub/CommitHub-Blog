@@ -16,9 +16,9 @@ Vim is a very powerful open-source tool that has been in development since 1988 
 
 The first thing people say about Vim is that it's very hard and they are right. It has a steep learning curve making it one of the most complicated text editors out there. That complexity does give it a lot of power on the sheer number of commands that can lead to an easier life after much suffering.
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/beginners-guide-to-vim/graph.png" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/beginners-guide-to-vim/graph.png" alt="editors difficulty" />
 
-Photo retrieved from [here](http://www.terminally-incoherent.com/blog/2012/03/21/why-vim/)
+Photo retrieved from <a href="http://www.terminally-incoherent.com/blog/2012/03/21/why-vim/" rel="noopener" target="_blank">here</a>
 
 As you can see it looks very bad but after passing that it's smooth sailing. Something that makes Vim a bit more complex is that unlike most editors Vim is modal. Each mode changes the behavior, shortcuts and the functionality of the keys. A good example is that when you open Vim for the first time the keys do separate things but don't really type any words but when you type `i` you go into insert mode and you can start typing sentences until you hit escape and come back to normal mode.
 
@@ -31,9 +31,9 @@ The following are the different modes that Vim offer
 - **Command-line mode**: For entering editor commands
 - **Ex mode**: Similar to the command-line mode but optimized for batch processing.
 
-This was found [here](https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes)
+This was found <a href="https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes" rel="noopener" target="_blank">here</a>
 
-The complexity makes Vim a pretty fun tool to use when you get the hang of it. What also makes it fun is that it makes editing easier by reducing keystrokes and time editing something simple. You start thinking about how to achieve your goal faster with fewer keystrokes pushing creativity. I often ask myself what could I do faster and consult the [Vim Cheatsheet](https://vim.rtorr.com) for quick reference.
+The complexity makes Vim a pretty fun tool to use when you get the hang of it. What also makes it fun is that it makes editing easier by reducing keystrokes and time editing something simple. You start thinking about how to achieve your goal faster with fewer keystrokes pushing creativity. I often ask myself what could I do faster and consult the <a href="https://vim.rtorr.com" rel="noopener" target="_blank">Vim Cheatsheet</a> for quick reference.
 
 How editing can become easier as an example is that you can skip through sentences or words faster. Let's say you want to move to the third word and copy that word you will type `3wyw`. In 4 keystrokes you can get it done and quickly. Meanwhile, in a normal editor, you either can move your mouse to the word, highlight it and then `control+c` taking a bit of time. Let's explore why Vim was made in such a way.
 
@@ -41,7 +41,7 @@ How editing can become easier as an example is that you can skip through sentenc
 
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/beginners-guide-to-vim/adm-3a.png" />
 
-Designers of the [ADM-3A terminal](https://en.wikipedia.org/wiki/ADM-3A) put the arrow keys on `h,j,k,l` forcing modality. [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) was utilizing it over a 300 baud connection making each keystroke take seconds to register on the terminal. This pushed Bill Joy to produce one of the most powerful text editors that are useful to this day. Just imagine trying to SSH to a slow server and trying to edit a file. Pure nightmare.
+Designers of the <a href="https://en.wikipedia.org/wiki/ADM-3A" rel="noopener" target="_blank">ADM-3A terminal</a> put the arrow keys on `h,j,k,l` forcing modality. <a href="https://en.wikipedia.org/wiki/Bill_Joy" rel="noopener" target="_blank">Bill Joy</a> was utilizing it over a 300 baud connection making each keystroke take seconds to register on the terminal. This pushed Bill Joy to produce one of the most powerful text editors that are useful to this day. Just imagine trying to SSH to a slow server and trying to edit a file. Pure nightmare.
 
 ## A few more reasons to consider Vim
 
@@ -53,16 +53,16 @@ Some guidelines to help you associate it as a language:
 - learn some modifiers: **i** (inside), **a** (around), **t** (till..finds a character), **f** (find..like till except including the char), **/** (search..find a string/regex)
 - learn some text objects: **w** (word), **s** (sentence) **p** (paragraph) **b** (block/parentheses), **t** (tag, works for HTML/XML) there are others
 
-Found [here](https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d)
+Found <a href="https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d" rel="noopener" target="_blank">here</a>
 
-Vim is available on all major platforms (Linux, Windows, and Mac) making it easy for you to start using it. One thing that I love the most is how customizable it is. Vim has thousands of plugins and can be configurable very easily. The best thing is that you can share your custom setup with anybody since it's saved in a file called .vimrc. Here is my [file](https://gist.github.com/TheGameFreak720/ec95e3e523d25f596aad8431abcd765e) that you can take a look as to what you can accomplish but I would take the time to explore and get a setup that is your own. That is kinda the whole point.
+Vim is available on all major platforms (Linux, Windows, and Mac) making it easy for you to start using it. One thing that I love the most is how customizable it is. Vim has thousands of plugins and can be configurable very easily. The best thing is that you can share your custom setup with anybody since it's saved in a file called .vimrc. Here is my <a href="https://gist.github.com/TheGameFreak720/ec95e3e523d25f596aad8431abcd765e" rel="noopener" target="_blank">file</a> that you can take a look as to what you can accomplish but I would take the time to explore and get a setup that is your own. That is kinda the whole point.
 
 ## Learn Vim
 
 When you have installed Vim there is this very cool tutorial called vimtutor. You can type it anytime in the terminal and it would take you through the basics of Vim. Don't feel discouraged and don't hesitate to take it many times, maybe daily. It takes a bit to get familiar with the basics. The following are additional resources to help you learn Vim:
 
-- [Vim Adventures](https://vim-adventures.com)
-- [Open Vim](https://www.openvim.com)
+- <a href="https://vim-adventures.com" rel="noopener" target="_blank">Vim Adventures</a>
+- [<a href="https://www.openvim.com" rel="noopener" target="_blank">Open Vim</a>
 
 ## Conclusion
 
@@ -72,9 +72,9 @@ Happy Coding!
 
 ## Additional Resources
 
-- [Learn to speak vim — verbs, nouns, and modifiers!](https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d)
-- [Vim Awesome](https://vimawesome.com/)
-- [10 reasons to learn the Vim editor](https://www.linuxtrainingacademy.com/10-reasons-to-learn-the-vim-editor/)
-- [You don't grok vi](https://gist.github.com/nifl/1178878)
-- [Why Vim](http://www.terminally-incoherent.com/blog/2012/03/21/why-vim/)
+- <a href="https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d" rel="noopener" target="_blank">Learn to speak vim — verbs, nouns, and modifiers!</a>
+- <a href="https://vimawesome.com/" rel="noopener" target="_blank">Vim Awesome</a>
+- <a href="https://www.linuxtrainingacademy.com/10-reasons-to-learn-the-vim-editor/" rel="noopener" target="_blank">10 reasons to learn the Vim editor</a>
+- <a href="https://gist.github.com/nifl/1178878" rel="noopener" target="_blank">You don't grok vi</a>
+- <a href="http://www.terminally-incoherent.com/blog/2012/03/21/why-vim/" rel="noopener" target="_blank">Why Vim</a>
 
