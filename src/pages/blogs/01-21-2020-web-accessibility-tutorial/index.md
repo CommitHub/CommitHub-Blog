@@ -14,7 +14,7 @@
 
 Web Development is a relatively new field and it has made major advancements over the years. Something that seems to be rather overlooked is web accessibility but what is it? Web accessibility is designing your website or web application in such a way that people with disabilities can use it.
 
-Many websites are near impossible to use due to not taking this into account. There is also the problem that this is currently not being covered in college, boot camps or beginner tutorials leading to bad practices on developers. This can also lead to loss of business or possible lawsuit because of the Americans Disabilities Act (ADA). This is a good resource for the [number of lawsuits over accessibility](https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/)
+Many websites are near impossible to use due to not taking this into account. There is also the problem that this is currently not being covered in college, boot camps or beginner tutorials leading to bad practices on developers. This can also lead to loss of business or possible lawsuit because of the Americans Disabilities Act (ADA). This is a good resource for the <a href="https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/" rel="noopener" target="_blank">number of lawsuits over accessibility</a>
 
 By not making your app accessible you are creating barriers for users to use your application where everybody should be able to. Also just think the last time you were on a slow or dysfunctional website that made you scream with frustration. This is what people feel when your app is not accessible. Be a good developer and don't create barriers but build bridges to connect everybody.
 
@@ -118,13 +118,13 @@ Large Text/Graphics/UI: 4:5:1
 
 ### WAVE by Web Accessibility in Mind
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/wave.jpg" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/wave.jpg" alt="Wave by Web Accessibility in Mind" />
 
 WAVE provides a detection summary of the current page the tab has loaded like errors, alerts, elements, etc. It provides as well helpful information of each detection like what does it mean, what it does and how to fix it if there is a problem.
 
 ### Lighthouse by Google
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/google-lighthouse.jpg" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/google-lighthouse.jpg" alt="Google Lighthouse" />
 
 
 Lighthouse is an open-source, automated tool for improving the quality of web pages. It can test up to five different categories:
@@ -139,14 +139,14 @@ It provides a grade for each category, reason for each grade, and how to improve
 
 ### Contrast Checker by WebAIM
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/webaim.png" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/webaim.png" alt="Contrast Checker by WebAIM" />
 
 
 WebAIM has a straightforward website that checks for color contrast ratios. You plug in the hex codes for the foreground and the background colors, and it will provide a clear indicator on what passes or fails based on those parameters. You can also adjust the lightness or darkness for each of the colors to see what color must be in order to pass the contrast ratios.
 
 ### Tanaguru Contrast Finder
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/tanaguru.jpg" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/web-accessibility-tutorial/tanaguru.jpg" alt="Tanaguru Contrast Finder" />
 
 
 It checks color contrast ratios and provides a list of valid colors relating to the original that was provided with the minimum ratio provided.
@@ -232,10 +232,10 @@ Many disabled individuals rely on keyboard navigation. If you are building somet
 
 ## Resources
 
-* [w3: Accessibility Intro](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-* [Number of lawsuits over accessibility](https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/)
-* [WAVE](https://wave.webaim.org/)
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-* [Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
-* [Tanaguru](https://contrast-finder.tanaguru.com/)
-* [wordcounter.io](https://wordcounter.io/)
+* <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" rel="noopener" target="_blank">w3: Accessibility Intro</a>
+* <a href="https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/" rel="noopener" target="_blank">number of lawsuits over accessibility</a>
+* <a href="https://wave.webaim.org/" rel="noopener" target="_blank">WAVE</a>
+* <a href="https://developers.google.com/web/tools/lighthouse" rel="noopener" target="_blank">Lighthouse</a>
+* <a href="https://webaim.org/resources/contrastchecker/" rel="noopener" target="_blank">Contrast Checker by WebAIM</a>
+* <a href="https://contrast-finder.tanaguru.com/" rel="noopener" target="_blank">Tanaguru</a>
+* <a href="https://wordcounter.io/" rel="noopener" target="_blank">wordcounter.io</a>
