@@ -12,13 +12,13 @@
 
 When I started programming 2 years ago I remember the frustrating process it was. I started with game development coding in GameMaker Studio 2 using GML instead of starting with something easier to understand and it was a long process. Mostly because game development by yourself is way more than writing code.
 
-<img class="section-jumbo" src='https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/image1.png'>
+<img class="section-jumbo" src='https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/image1.png' alt="eldritch horror" >
 
 To be honest for any beginner the first few months will be hell. Don't let that discourage you. Programming can be very fulfilling and fun it just takes a bit to wrap your head around.
 
 ## What language should I pick?
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image2.png'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image2.png' alt="computer">
 
 This question is one that if you spent too much time on Reddit or any forum that has a tag for programming or is a strictly programming forum gets asked the most. Now I'm not saying the question is wrong because when starting out we often feel lost and with so many languages, frameworks, shiny things and things to come we get scared and that is ok, languages are scary.
 
@@ -28,7 +28,7 @@ As you continue learning different languages you will realize that they share si
 
 ## It's ok to feel stupid
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image3.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image3.jpg' alt="sitting in the dark">
 
 Like I wrote a bit back I started with Game Development and I still remember when I was introduced to for loops. I felt like the biggest loser and spent like an hour or two just trying to understand it. Even today when I keep learning different libraries and languages I feel stupid and that is ok. Programming is hard and it will make you feel uncomfortable. When you feel this way remember that this is an opportunity for us to grow and strengthen our character.
 
@@ -36,7 +36,7 @@ If it wasn't for those hours after college I stayed on my room hacking away I wo
 
 ## Research, research, and research some more
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image4.gif'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image4.gif' alt="cat typing">
 
 Often programmers are pictured that they type a 100 words per second like a madman. This is portrayed by TV shows like Mr.Robot (I love that show so much actually) that the hacker is typing very intensively and has the solution right away. In the real world, we actually spend more time figuring out how to solve the problem. A good rule of thumb before writing any code is to grab a piece of paper and outline what you want the program to do step by step. Even experts sometimes forget to break the problem step by step and then get stuck saying "I don't know why my program works".
 
