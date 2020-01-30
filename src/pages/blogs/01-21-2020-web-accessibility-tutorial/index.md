@@ -216,7 +216,7 @@ In a body of text, line-length can have an impact on reading comprehension for a
 
 To help improve this, the recommended line length is between 50-60 words per line. Others say no more than 80 per line.
 
-To test line length, you can use this website called [wordcounter.io](https://wordcounter.io/).
+To test line length, you can use this website called <a href="https://wordcounter.io/" rel="noopener" target="_blank">wordcounter.io</a>.
 
 ### Color contrasts on images
 
@@ -228,7 +228,7 @@ Steps to follow:
 
 ### Keyboard Navigation
 
-Many disabled individuals rely on keyboard navigation. If you are building something on your website that is meant to be interacted with a mouse, make sure you can accomplish the same via a keyboard. You can accomplish this using the [focusable elements](https://html.spec.whatwg.org/multipage/interaction.html#the-tabindex-attribute) to help accomplish this.
+Many disabled individuals rely on keyboard navigation. If you are building something on your website that is meant to be interacted with a mouse, make sure you can accomplish the same via a keyboard. You can accomplish this using the <a href="https://html.spec.whatwg.org/multipage/interaction.html#the-tabindex-attribute" rel="noopener" target="_blank">focusable elements</a> to help accomplish this.
 
 ## Resources
 
