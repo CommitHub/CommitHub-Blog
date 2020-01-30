@@ -12,9 +12,9 @@
 
 ## Introduction
 
-Since I found out of this methods I always got extremely confused on how to use them and at some points got scared and said "I rather just use the standard for loop. That I understand". Later on, I joined <a href="https://lambdaschool.com/">Lambda School</a> and they taught me how to use these methods and how useful they are. Maybe you are scared of this methods but don't worry we will run down through each method with examples and practice exercises you can try out.
+Since I found out of this methods I always got extremely confused on how to use them and at some points got scared and said "I rather just use the standard for loop. That I understand". Later on, I joined <a href="https://lambdaschool.com/" rel="noopener" target="_blank">Lambda School</a> and they taught me how to use these methods and how useful they are. Maybe you are scared of this methods but don't worry we will run down through each method with examples and practice exercises you can try out.
 
-To reduce complexity the methods will be shown in the ES5 way. I'll leave a link on the external resources if you're interested in learning more about arrow functions and the new things in JS. For the exercises you can use <a href="https://jsbin.com/?html,js,output">JS Bin</a>. It's a really cool tool. My recommendation is trying the exercises because they will help you out memorizing how they work. If you have any questions feel free to comment and I'll answer as fast as I can.
+To reduce complexity the methods will be shown in the ES5 way. I'll leave a link on the external resources if you're interested in learning more about arrow functions and the new things in JS. For the exercises you can use <a href="https://jsbin.com/?html,js,output" rel="noopener" target="_blank">JS Bin</a>. It's a really cool tool. My recommendation is trying the exercises because they will help you out memorizing how they work. If you have any questions feel free to comment and I'll answer as fast as I can.
 
 ## The Basics
 
@@ -242,10 +242,10 @@ These methods will help you in your career and even if you're a hobbyist it will
 
 ## Resources
 <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Arrays MDN</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach Method MDN</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map Method MDN</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">reduce Method MDN</a></li>
-    <li><a href="https://medium.freecodecamp.org/reduce-f47a7da511a9">A more detailed explanation of reduce by FreeCodeCamp</a></li>
-    <li><a href="https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv">ES6 Tutorial Playlist by Traversy Media</a>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" rel="noopener" target="_blank">Arrays MDN</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" rel="noopener" target="_blank">forEach Method MDN</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" rel="noopener" target="_blank">map Method MDN</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" rel="noopener" target="_blank">reduce Method MDN</a></li>
+    <li><a href="https://medium.freecodecamp.org/reduce-f47a7da511a9" rel="noopener" target="_blank">A more detailed explanation of reduce by FreeCodeCamp</a></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv" rel="noopener" target="_blank">ES6 Tutorial Playlist by Traversy Media</a>
 </ul>
