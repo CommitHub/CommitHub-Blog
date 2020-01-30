@@ -10,7 +10,7 @@
     published: true
 ---
 
-Vim is a very powerful open-source tool that has been in development since 1988 with its first public release in 1991. It was derived from [Vi](https://en.wikipedia.org/wiki/Vi) and it was an improvement to that software. The good news about this text editor that it's installed by default on most Linux distributions. If you are into dev ops or just a developer you might have come across Vim and get frustrated not knowing how to quit. I won't lie learning Vim has a learning curve due to the many commands it has but this is what it makes it so powerful. It's worth the time put it to get to know this tool, at least the basics.
+Vim is a very powerful open-source tool that has been in development since 1988 with its first public release in 1991. It was derived from <a href="https://en.wikipedia.org/wiki/Vi" rel="noopener" target="_blank">Vi</a> and it was an improvement to that software. The good news about this text editor that it's installed by default on most Linux distributions. If you are into dev ops or just a developer you might have come across Vim and get frustrated not knowing how to quit. I won't lie learning Vim has a learning curve due to the many commands it has but this is what it makes it so powerful. It's worth the time put it to get to know this tool, at least the basics.
 
 ## Why Vim?
 
@@ -62,7 +62,7 @@ Vim is available on all major platforms (Linux, Windows, and Mac) making it easy
 When you have installed Vim there is this very cool tutorial called vimtutor. You can type it anytime in the terminal and it would take you through the basics of Vim. Don't feel discouraged and don't hesitate to take it many times, maybe daily. It takes a bit to get familiar with the basics. The following are additional resources to help you learn Vim:
 
 - <a href="https://vim-adventures.com" rel="noopener" target="_blank">Vim Adventures</a>
-- [<a href="https://www.openvim.com" rel="noopener" target="_blank">Open Vim</a>
+- <a href="https://www.openvim.com" rel="noopener" target="_blank">Open Vim</a>
 
 ## Conclusion
 
