@@ -28,7 +28,7 @@ There are some disadvantages to pseudocode and one being that while is easy to r
 
 ## Guide to writing effective pseudocode
 
-Don't worry because even if pseudocode is a rebel with no rules you can create some style rules yourself and maybe make your little monster friendlier to your neighbor making them aware of how it behaves. I found this [article] (https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698) very useful on writing good pseudocode and you can make it closer to your programming language if you wish. For me, comparisons should be with either `== or ===` instead of `=`. It makes it less confusing and you can make new rules as you see fit maybe even make it team-wide.
+Don't worry because even if pseudocode is a rebel with no rules you can create some style rules yourself and maybe make your little monster friendlier to your neighbor making them aware of how it behaves. I found this <a href="https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698" rel="noopener" target="_blank">article</a> very useful on writing good pseudocode and you can make it closer to your programming language if you wish. For me, comparisons should be with either `== or ===` instead of `=`. It makes it less confusing and you can make new rules as you see fit maybe even make it team-wide.
 
 ## Alternatives
 
