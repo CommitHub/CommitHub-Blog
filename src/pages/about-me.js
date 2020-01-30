@@ -54,7 +54,7 @@ const About = () => (
 			</section>
 
 			<section className='section-title'>
-				<h2>Why Choose Me?</h2>
+				<h2>Skills</h2>
 			</section>
 			<section className='content-container content-container-two-row-stack-responsive'>
 				<section className='content-mult-items'>
