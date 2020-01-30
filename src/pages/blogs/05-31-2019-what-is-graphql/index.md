@@ -48,7 +48,7 @@ Then you will get back specifically what you asked for.
 }
 ```
 
-It's that simple to get started! Don't think all that GraphQL does is query data. It can also modify data allowing us to edit, add or delete using [Mutations](https://graphql.org/learn/queries/).
+It's that simple to get started! Don't think all that GraphQL does is query data. It can also modify data allowing us to edit, add or delete using <a href="https://graphql.org/learn/queries/" rel="noopener" target="_blank">Mutations</a>.
 
 ## Why should I use it?
 
