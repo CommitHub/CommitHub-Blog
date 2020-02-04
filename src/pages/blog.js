@@ -19,9 +19,10 @@ class BlogPage extends Component {
   }
 
   componentDidMount() {
-    const categories = this.props.posts
-      .map(post  => post.node.frontmatter.category)
-      .filter((category, i, self) => self.indexOf(category) === i)
+    let categories = this.props.posts
+      .map(post => post.node.frontmatter.categories)
+      .flat()
+      .filter((category, i, self) => self.indexOf(category) === i);
 
     categories.unshift('All');
 
@@ -34,7 +35,7 @@ class BlogPage extends Component {
   }
 
   filterOutPosts = (category) => {
-		const filteredPosts = category === 'All' ? this.state.allPosts : this.state.allPosts.filter(post => post.node.frontmatter.category === category)
+		const filteredPosts = category === 'All' ? this.state.allPosts : this.state.allPosts.filter(post => post.node.frontmatter.categories.find(c => c === category))
 
 		this.setState({
 			posts: filteredPosts,
@@ -84,7 +85,7 @@ export default() => (
                 author
                 authorImage
                 backgroundImg
-                category
+                categories
                 date
                 description
               }

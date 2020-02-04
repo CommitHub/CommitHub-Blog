@@ -5,7 +5,7 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2020-01-26'
     description: An unlogical operation that somehow works
-    category: Weird Discoveries
+    categories: [Weird Discoveries, JavaScript]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/weird-discoveries-1/derpy-potato.jpeg'
     published: true
 ---
@@ -93,5 +93,5 @@ The MDN docs mention that this characteristic from the delete operator and it's 
 
 ## Additional Resources
 
-* [MDN working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
-* [MDN delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects" rel="noopener" target="_blank">MDN working with objects</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete" rel="noopener" target="_blank">MDN delete</a>

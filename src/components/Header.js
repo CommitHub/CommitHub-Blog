@@ -16,6 +16,13 @@ const Header = ({ siteTitle }) => (
     </Link>
 
     <Link
+      to='/about-me'
+      className='menu-item'
+    >
+      About Me
+    </Link>
+
+    <Link
       to='/blog'
       className='menu-item'
     >
@@ -28,14 +35,7 @@ const Header = ({ siteTitle }) => (
     >
       Projects
     </Link>
-
-    <Link
-      to='/about-me'
-      className='menu-item'
-    >
-      About Me
-    </Link>
-  </Menu>
+ </Menu>
 )
 
 export default Header

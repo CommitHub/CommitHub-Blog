@@ -5,20 +5,20 @@
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2018-11-28'
     description: A small article about how to think like a programmer and help you achieve your goals
-    category: Self Help
+    categories: [Self Help]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/cover-image.jpg'
     published: true
 ---
 
 When I started programming 2 years ago I remember the frustrating process it was. I started with game development coding in GameMaker Studio 2 using GML instead of starting with something easier to understand and it was a long process. Mostly because game development by yourself is way more than writing code.
 
-<img class="section-jumbo" src='https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/image1.png'>
+<img class="section-jumbo" src='https://commithub.s3.us-east-2.amazonaws.com/blog-posts/how-to-think-like-a-programmer/image1.png' alt="eldritch horror" >
 
 To be honest for any beginner the first few months will be hell. Don't let that discourage you. Programming can be very fulfilling and fun it just takes a bit to wrap your head around.
 
 ## What language should I pick?
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image2.png'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image2.png' alt="computer">
 
 This question is one that if you spent too much time on Reddit or any forum that has a tag for programming or is a strictly programming forum gets asked the most. Now I'm not saying the question is wrong because when starting out we often feel lost and with so many languages, frameworks, shiny things and things to come we get scared and that is ok, languages are scary.
 
@@ -28,7 +28,7 @@ As you continue learning different languages you will realize that they share si
 
 ## It's ok to feel stupid
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image3.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image3.jpg' alt="sitting in the dark">
 
 Like I wrote a bit back I started with Game Development and I still remember when I was introduced to for loops. I felt like the biggest loser and spent like an hour or two just trying to understand it. Even today when I keep learning different libraries and languages I feel stupid and that is ok. Programming is hard and it will make you feel uncomfortable. When you feel this way remember that this is an opportunity for us to grow and strengthen our character.
 
@@ -36,7 +36,7 @@ If it wasn't for those hours after college I stayed on my room hacking away I wo
 
 ## Research, research, and research some more
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image4.gif'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image4.gif' alt="cat typing">
 
 Often programmers are pictured that they type a 100 words per second like a madman. This is portrayed by TV shows like Mr.Robot (I love that show so much actually) that the hacker is typing very intensively and has the solution right away. In the real world, we actually spend more time figuring out how to solve the problem. A good rule of thumb before writing any code is to grab a piece of paper and outline what you want the program to do step by step. Even experts sometimes forget to break the problem step by step and then get stuck saying "I don't know why my program works".
 
@@ -44,7 +44,7 @@ By breaking the problem it will help clear out any questions you may have. A ski
 
 ## Do I need to be Isaac Newton to get started?
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image5.gif'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image5.gif' alt="gandalf">
 
 Another misconception about programmers is that we are math wizards and if you hated math class you are not going to make it. Honestly, math has little to do with programming in the sense you are not working with equations for the most part unless you are programming a math program. I actually was horrible at math before I started to program and struggled a lot to get the most simple concepts. Now programming and math share one similar trait. They teach us how to break a problem step by step to get an output.
 
@@ -52,7 +52,7 @@ After I learn a few things in programming it actually made math easier not becau
 
 ## Remember your goals
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image6.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image6.jpg' alt="goals">
 
 For everything having a clear achievable goal motivates us to do better and keep doing that activity. Like programming, a goal looks more achievable by breaking it up in pieces. Haven't you had that summer goal when you said I will lose 30 pounds and you give up the first week cause you lost only 2 pounds and feel discouraged cause the objective is far away. Now wouldn't it feel better if you break it up into small goals like every week I will lose 2 pounds and everytime you achieve it you feel happy because you achieved something?
 
@@ -60,7 +60,7 @@ Sometimes we don't achieve this small goal and that is okay also as long as we p
 
 ## Everybody makes mistakes
 
-<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image7.jpg'>
+<img class="section-jumbo" src='https://s3.us-east-2.amazonaws.com/commithub/blog-posts/how-to-think-like-a-programmer/image7.jpg' alt="hommer">
 
 This quote is my favorite about mistakes
 
@@ -75,7 +75,7 @@ Programming can be frustrating at times but it's also a very rewarding endeavor.
 
 ## Resources
 <ul>
-    <li><a href="https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d">5 steps to solving a programming problem</a></li>
-    <li><a href='https://zapier.com/blog/think-like-a-programmer/'>Think like a programmer</a></li>
-    <li><a href='https://www.codecademy.com/'>CodeAcademy</a></li>
+    <li><a href="https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d" rel="noopener" target="_blank">5 steps to solving a programming problem</a></li>
+    <li><a href='https://zapier.com/blog/think-like-a-programmer/' rel="noopener" target="_blank">Think like a programmer</a></li>
+    <li><a href='https://www.codecademy.com/' rel="noopener" target="_blank">CodeAcademy</a></li>
 </ul>
