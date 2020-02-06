@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import moment from 'moment';
 
 import AwesomeButton from './AwesomeButton';
 
@@ -25,9 +26,9 @@ const Footer = () => (
 				icon='github'
 			/>
 		</section>
-		<h4>
-			{ `${String.fromCharCode(169)} Commithub 2019` }
-		</h4>
+		<p>
+			{ `${String.fromCharCode(169)} Commithub ${moment().year()}` }
+		</p>
 	</footer>
 );
 
