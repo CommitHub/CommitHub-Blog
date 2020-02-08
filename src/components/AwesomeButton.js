@@ -62,7 +62,7 @@ class AwesomeButton extends Component {
               this.state.icon ? <FontAwesomeIcon icon={ this.state.icon } /> : null
             )
           }
-          <span class='sr-only'>{ this.state.iconName } external link</span>
+          <span className='sr-only'>{ this.state.iconName } external link</span>
 				</a>
       </section>
     );
