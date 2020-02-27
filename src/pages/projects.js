@@ -60,7 +60,6 @@ class Projects extends Component {
 								title={ project.node.title }
 								category={ project.node.category }
 								description={ project.node.description }
-								lastUpdated={ project.node.lastUpdated }
 								technologies={ project.node.technologies }
 								githubURL={ project.node.githubURL }
 								projectURL={ project.node.projectURL }
@@ -83,7 +82,6 @@ export default () => (
 							id
 							title
 							category
-							lastUpdated
 							description
 							technologies
 							githubURL
