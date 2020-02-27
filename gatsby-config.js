@@ -1,10 +1,10 @@
-require('dotenv').config();
+require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
     title: 'CommitHub',
     author: 'Luis Alvarez',
-    siteUrl: 'https://commithub.com'
+    siteUrl: 'https://commithub.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -24,7 +24,7 @@ module.exports = {
             sizes: `144x144`,
             type: `image/png`,
           },
-        ]
+        ],
       },
     },
     'gatsby-plugin-offline',
@@ -33,23 +33,21 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages/blogs`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-emoji`,
-        ]
-      }
+        plugins: [`gatsby-remark-emoji`],
+      },
     },
     {
       resolve: `gatsby-source-mongodb`,
       options: {
         connectionString: `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PW}@commithub-hqtll.mongodb.net/test?retryWrites=true&w=majority`,
         dbName: `CommitHub`,
-        collection: [`Projects`]
+        collection: [`Projects`],
       },
     },
   ],
