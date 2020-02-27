@@ -82,7 +82,6 @@ export default () => (
     query={graphql`
       query {
         allMongodbCommitHubProjects(
-          sort: { fields: [lastUpdated], order: DESC }
         ) {
           edges {
             node {
