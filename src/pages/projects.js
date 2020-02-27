@@ -81,8 +81,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        allMongodbCommitHubProjects(
-        ) {
+        allMongodbCommitHubProjects {
           edges {
             node {
               id
