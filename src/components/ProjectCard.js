@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 
 import AwesomeButton from './AwesomeButton';
 
@@ -37,7 +36,6 @@ class ProjectCard extends Component {
 						this.state.showCard ? (
 							<section>
 								<p>Category: { this.props.category }</p>
-								<p>Last Updated: { moment(this.props.lastUpdated).format('MMMM DD YYYY') }</p>
 								<section>
 									<p>Technologies used:</p>
 									<section className='technologies-img-container'>
