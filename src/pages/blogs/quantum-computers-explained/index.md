@@ -17,6 +17,17 @@ Now in 2020 we have smartphones that have 12GB of RAM and a processor that runs 
 It's truly phenomenal all the progress we have made but technology has a limit.
 Let's explore first what is the classical computer to get an understanding on why quantum computers were conceived.
 
+## Classical Computer
+
+A classical <a href="https://en.wikipedia.org/wiki/Computer" rel="noopener" target="_blank">Computers</a> or just computer
+(It's called classical to identify that it's a standard computer and not a quantum computer) it's a device that follows instructions to achieve a task.
+With computer programming we can tell create logical operations pretty much telling the computer what to do and in what order.
+Programs are a result of that programming that when run it follows the operations specified in the program.
+The early applications of a computer were for simple calculations and in essence even computers today are just a bunch of simple calculations.
+
+### CPU
+
 ## Resources
 
 *  <a href="https://en.wikipedia.org/wiki/Digital_Revolution" rel="noopener" target="_blank">Digital Revolution</a>
+*  <a href="https://en.wikipedia.org/wiki/Computer" rel="noopener" target="_blank">Computers</a>
