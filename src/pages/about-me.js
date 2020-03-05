@@ -35,14 +35,16 @@ const About = () => (
         </section>
         <section className="content-item-text">
           <p>
-            I was born in Tampa, Florida and since I was in college I started to
-            gain a lot of interest in computers and how they were programmed. I
-            started programming by learning how to make videogames. For a few
-            videogames I made pixel art and it was an amazing rewarding
-            experience. Later along college I started to build websites and got
-            really into JavaScript. That led me to do a a few websites for some
-            clients and a voice assistant for LuvCheck as an internship. I
-            believe that every person has the potential to do great things.
+            I'm a Full Stack Engineer and tech enthusiast. My passion for tech
+            started when I was a little kid playing videogames. That passion for
+            how videogames are made lead me to learn to program and make a few
+            videogames. Later along I decided to learn web development and
+            started an amazing journey building web apps for some clients and
+            landing my dream job. My goal is to make people's lives easier by
+            making tools to assist them in their day to day operations. This
+            drive reflects on my work as I build applications and contribute to
+            open source projects fostering a better community. One of my core
+            beliefs is that every person has the potential to do great things.
           </p>
         </section>
       </section>

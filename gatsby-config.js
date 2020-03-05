@@ -50,5 +50,11 @@ module.exports = {
         collection: [`Projects`],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: ${process.env.PUBLISHER_ID}
+      },
+    },
   ],
 }
