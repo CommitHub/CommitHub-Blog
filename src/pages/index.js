@@ -39,7 +39,6 @@ class IndexPage extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <Layout>
         <section
