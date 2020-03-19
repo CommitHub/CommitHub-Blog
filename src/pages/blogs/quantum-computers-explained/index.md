@@ -78,7 +78,7 @@ The trend is already starting to slow down because we face a physical limitation
 
 ## Quantum Computer
 
-<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/google-quantum.jpg" alt="Google's quantum computer" />
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/qubit.jpg" alt="Qubit" />
 
 A <a href="https://en.wikipedia.org/wiki/Quantum_computing" rel="noopener" target="_blank">Quantum Computer</a> is the application of quantum-mechanical phenomena such as superposition and entanglement to perform computation.
 They use a <a href="https://en.wikipedia.org/wiki/Qubit" rel="noopener" target="_blank">Qubit</a> to hold quantum information.
@@ -99,6 +99,8 @@ A quantum computer can be divided into two categories:
 This approach can be further divided into quantum simulation, quantum annealing, and adiabatic quantum computation.
 
 #### Quantum Simulations
+
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/simulation.jpg" alt="Are we in a simulation?" />
 
 Classical computers have a hard time simulating quantum mechanics and by using quantum simulators we can study the phenomena more accurately,
 Running a simulation is not as efficient as running an actual quantum computer but it's a start to study the technology and it's applications.
@@ -138,6 +140,8 @@ Apart from solving computational problems like quantum simulations, quantum anne
 
 #### Cryptography
 
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/crypto.jpg" alt="Cryptography" />
+
 Quantum computers can easily break many of our cryptographic systems by using <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm" rel="noopener" target="_blank">Shor's Algorithm</a>.
 Integer factorization it's used for the security of public-key cryptographic systems and it's believed that classical computers find it unfeasible to crack the problem due to computational limitations.
 Meanwhile, quantum computers using that algorithm can find the factors and solve the problem.
@@ -149,16 +153,22 @@ provides a speedup over classical counterparts.
 
 #### Quantum Search
 
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/db.png" alt="Database" />
+
 Using <a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm" rel="noopener" target="_blank">Groover's Algorithm</a> we can perform quadratically fewer queries on a database than a classical computer.
 This is a huge optimization advantage that we get using this algorithm.
 
 #### Quantum Supremacy
+
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/google-quantum.jpg" alt="Google's quantum computer" />
 
 This term was introduced by John Preskill to refer to a hypothetical speedup advantage that a quantum computer would have over a classical computer in a given field.
 In October 2019, a Sycamore processor created in conjunction with Google AI Quantum was reported to have achieved quantum supremacy.
 It has calculations over 3,000 as fast as those of Summit, generally considered the world's fastest computer.
 
 ### Personal Thoughts
+
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/ai.jpg" alt="AI" />
 
 I get excited over the idea that quantum computers are being developed and we need them more and more to achieve scientific milestones.
 I don't think AI will evolve much unless quantum computers are involved because classical can only do so much.
