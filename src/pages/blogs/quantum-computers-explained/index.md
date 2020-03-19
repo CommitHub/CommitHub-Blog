@@ -166,7 +166,7 @@ This term was introduced by John Preskill to refer to a hypothetical speedup adv
 In October 2019, a Sycamore processor created in conjunction with Google AI Quantum was reported to have achieved quantum supremacy.
 It has calculations over 3,000 as fast as those of Summit, generally considered the world's fastest computer.
 
-### Personal Thoughts
+## Personal Thoughts
 
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/ai.jpg" alt="AI" />
 
