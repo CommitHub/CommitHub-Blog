@@ -54,7 +54,7 @@ Early computers were far bulkier than what we have now, but we've kept the same 
 
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/transistors.png" alt="Transistors" />
 
-A <a href="https://en.wikipedia.org/wiki/Transistor" rel="noopener" target="_blank">Transistor</a>
+<a href="https://en.wikipedia.org/wiki/Transistor" rel="noopener" target="_blank">Transistor</a>
 are semiconductor devices used to amplify or switch electronic signals and electrical power.
 They’re composed of semiconductor material with at least three terminals to connect to an external circuit.
 Transistors act like a switch turning the current on and off—this is where binary comes in.
@@ -94,7 +94,7 @@ In contrast, when you measure a qubit, the superposition state is destroyed. Bef
 
 A qubit can hold more information, namely, up to two bits using superdense coding.
 They also exhibit an effect called quantum entanglement, allowing qubits to express higher correlation than classical systems.
-his effect makes quantum computers very efficient for doing very intensive calculations that classical computers will take too long to perform.
+This effect makes quantum computers very efficient for doing very intensive calculations that classical computers will take too long to perform.
 
 Quantum computing methodologies can be divided into two categories: analog and digital.
 
@@ -119,7 +119,7 @@ This is also true for quantum physics.
 In optimization problems, we search for the best of many possible combinations. By using physics, we can frame these sorts of problems as energy minimization problems.
 The most remarkable thing about this process is that unlike <a href="https://en.wikipedia.org/wiki/Simulated_annealing" rel="noopener" target="_blank">Simulated Annealing</a>
 , which can get stuck in local minima, the global minimum is always reachable thanks to quantum tunnelling.
-n a sampling problem for many low-energy states, characterizing the shape of the energy landscape is useful for creating a probabilistic model of reality in machine learning problems.
+In a sampling problem for many low-energy states, characterizing the shape of the energy landscape is useful for creating a probabilistic model of reality in machine learning problems.
 One company that uses quantum annealing is <a href="https://docs.dwavesys.com/docs/latest/c_gs_2.html" rel="noopener" target="_blank">DWAVE</a>.
 
 #### Adiabatic Quantum Computation
@@ -129,7 +129,7 @@ This is closely related to quantum annealing, but it uses the <a href="https://e
 
 “A physical system remains in its instantaneous eigenstate if a given perturbation is acting on it slowly enough and if there is a gap between the eigenvalue and the rest of the Hamiltonian's spectrum.”
 
-More simply terms, when you subject a quantum mechanical system to gradually changing external conditions, its functional form adapts.
+More simply, when you subject a quantum mechanical system to gradually changing external conditions, its functional form adapts.
 When you subject the system to rapidly varying conditions, there isn’t enough time for the functional form to adapt, so the spatial probability density doesn’t change.
 
 ### Digital
@@ -148,7 +148,7 @@ Apart from solving computational problems like quantum simulations, quantum anne
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/quantum-computers-explained/crypto.jpg" alt="Cryptography" />
 
 Quantum computers can easily break many of our cryptographic systems by using <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm" rel="noopener" target="_blank">Shor's Algorithm</a>.
-Integer factorization is used for the security of public-key cryptographic systems, and it's believed that it’s unfeasible for classical computers to crack the problem due to computational limitations.
+Integer factorization is used for the security of public-key cryptographic systems, and it's believed that it’s unfeasible for classical computers to crack the problem owing to computational limitations.
 Meanwhile, quantum computers using the aforementioned algorithm can find the factors and solve the problem.
 
 #### Solving Linear Equations
@@ -183,7 +183,7 @@ I'm very optimistic about the future role of these computers.
 
 ## Conclusion
 
-I hope you enjoyed this long read and are excited as me as to the applications of these computers.
+I hope you enjoyed this long read and are as excited as me as to the applications of these computers.
 It will probably take years until we have more quantum computers around, but at least we have Qiskit to give it a try for ourselves in the meantime.
 
 Happy Coding! 🚀
