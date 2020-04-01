@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import Layout from '../components/Layout'
 
+import './styles/contact-us.scss'
+
 class ContactUs extends Component {
   constructor() {
     super()
@@ -26,11 +28,13 @@ class ContactUs extends Component {
       <Layout>
         <section id="contact-us-container">
           <h1>Contact Us</h1>
+          <p class="sub-text">Have some Questions? We are here to help</p>
           <form onSubmit={this.handleSubmit}>
             <label>
               Name:
               <input
                 type="text"
+                required
                 value={this.state.name}
                 onChange={(event) => this.handleChange('name', event)}
               />
@@ -39,6 +43,7 @@ class ContactUs extends Component {
               Email:
               <input
                 type="email"
+                required
                 value={this.state.email}
                 onChange={(event) => this.handleChange('email', event)}
               />
@@ -47,6 +52,7 @@ class ContactUs extends Component {
               Subject:
               <input
                 type="text"
+                required
                 value={this.state.subject}
                 onChange={(event) => this.handleChange('subject', event)}
               />
@@ -54,6 +60,7 @@ class ContactUs extends Component {
             <label>
               Body:
               <textarea
+                required
                 value={this.state.body}
                 onChange={(event) => this.handleChange('body', event)}
               />

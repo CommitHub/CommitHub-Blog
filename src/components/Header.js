@@ -20,6 +20,10 @@ const Header = ({ siteTitle }) => (
       Blog
     </Link>
 
+    <Link to="/contact-us" className="menu-item">
+      Contact Us
+    </Link>
+
     <Link to="/projects" className="menu-item">
       Projects
     </Link>
