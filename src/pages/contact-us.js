@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 
 import Layout from '../components/Layout'
 
@@ -21,6 +22,14 @@ class ContactUs extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    axios.get('https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail', {
+      name: this.state.name,
+      email: this.state.email,
+      subject: this.state.subject,
+      body: this.state.body
+    })
+    .then(res => console.log(res))
+    .catch(err => console.log(err))
   }
 
   render() {
