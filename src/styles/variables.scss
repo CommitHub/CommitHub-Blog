@@ -3,7 +3,15 @@
 
 $main-color: #21c6ce;
 $main-font-color: #3F3F3F;
+$main-font-color-lighter: lighten($main-font-color, 20%);
 $main-background-color: #f1faee;
+
+// Input
+$input-border-color: #ededed;
+$input-border-color-focus: #bababa;
+$submit-background-color: #3F3F3F;
+$submit-background-color-lighter: lighten($submit-background-color, 5%);
+$submit-background-color-darker: darken($submit-background-color, 10%);
 
 //Button colors
 $twitter-btn-color: #1dcaff;
