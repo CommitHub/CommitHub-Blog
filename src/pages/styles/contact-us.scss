@@ -9,9 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $main-color;
-    border: 0.3rem solid $main-color-lighter;
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
     padding: 1rem;
     border-radius: 1rem;
@@ -43,12 +41,12 @@
       border-radius: 0.5rem;
       width: 80%;
       color: white;
-      background-color: $submit-background-color;
-      border: 3px solid $submit-background-color-lighter;
+      background-color: $main-color;
+      border: 3px solid $main-color-lighter;
     }
 
     input[type=submit]:focus, input[type=submit]:hover {
-      background-color: $submit-background-color-darker;
+      background-color: $main-color-darker;
     }
   }
 }
