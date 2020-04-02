@@ -16,9 +16,9 @@ class ContactUs extends Component {
       loading: false,
       alert: {
         type: '',
-        message: "",
-        on: false
-      }
+        message: '',
+        on: false,
+      },
     }
   }
 
@@ -46,7 +46,10 @@ class ContactUs extends Component {
       })
       .catch(err => {
         this.setState({ loading: false })
-        this.alert('danger', "Oh oh! Your message couldn't be sent. Please try again later")
+        this.alert(
+          'danger',
+          "Oh oh! Your message couldn't be sent. Please try again later"
+        )
       })
   }
 
@@ -55,8 +58,8 @@ class ContactUs extends Component {
       alert: {
         type,
         message,
-        on: true
-      }
+        on: true,
+      },
     })
 
     setTimeout(this.clearAlert, 5000)
@@ -76,8 +79,8 @@ class ContactUs extends Component {
       alert: {
         type: '',
         message: '',
-        on: false
-      }
+        on: false,
+      },
     })
   }
 
@@ -86,14 +89,16 @@ class ContactUs extends Component {
     let alert
 
     if (alertOn) {
-      alert = <div className={this.state.alert.type}>{this.state.alert.message}</div>
+      alert = (
+        <div className={this.state.alert.type}>{this.state.alert.message}</div>
+      )
     }
 
     const loading = this.state.loading
     let loader
 
     if (loading) {
-      loader =<div className="loader"></div>
+      loader = <div className="loader"></div>
     }
 
     return (
