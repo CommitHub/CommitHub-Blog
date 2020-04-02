@@ -2,7 +2,6 @@
 
 .footer-container {
 	width: 100%;
-	background-color: $main-background-color-dark;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -11,14 +10,14 @@
 	align-items: center;
 	border-top: 0.375rem solid $main-color;
 
-	h2 {
-		margin-top: 1.25rem;
-	}
+  img {
+    width: 15rem;
+  }
 
 	.btn-container {
 		display: flex;
 		width: 50%;
-		margin: 0.5rem 0;
+		margin: 0.2rem 0;
 		flex-wrap: wrap;
 		justify-content: space-between;
 
@@ -30,4 +29,26 @@
 			width: 80%;
 		}
 	}
+
+  .menu {
+    width: 50%;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+		flex-wrap: wrap;
+
+    .menu-item {
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: $main-font-color-light;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+
+		@media (max-width: $desktop-sm) {
+			width: 80%;
+		}
+  }
 }

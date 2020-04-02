@@ -13,9 +13,6 @@ $main-background-color-dark: #1b262c;
 // Input
 $input-border-color: #ededed;
 $input-border-color-focus: #bababa;
-$submit-background-color: #3F3F3F;
-$submit-background-color-lighter: lighten($submit-background-color, 5%);
-$submit-background-color-darker: darken($submit-background-color, 10%);
 
 // Card
 $main-background-color-dark-lighter: lighten($main-background-color-dark, 5%);

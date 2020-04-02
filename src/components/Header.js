@@ -8,23 +8,23 @@ import logo from '../images/logo/medium-without-title-transparent.png'
 
 const Header = ({ siteTitle }) => (
   <Menu>
-    <Link to="/" className="menu-item">
+    <Link to="/">
       <img src={logo} alt="logo" />
     </Link>
 
-    <Link to="/about-me" className="menu-item">
+    <Link to="/about-me">
       About Me
     </Link>
 
-    <Link to="/blog" className="menu-item">
+    <Link to="/blog">
       Blog
     </Link>
 
-    <Link to="/contact-us" className="menu-item">
+    <Link to="/contact-us">
       Contact Us
     </Link>
 
-    <Link to="/projects" className="menu-item">
+    <Link to="/projects">
       Projects
     </Link>
   </Menu>
