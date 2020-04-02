@@ -13,6 +13,12 @@ class ContactUs extends Component {
       email: '',
       subject: '',
       body: '',
+      loading: false,
+      alert: {
+        type: '',
+        message: "",
+        on: false
+      }
     }
   }
 
@@ -22,6 +28,7 @@ class ContactUs extends Component {
 
   handleSubmit = event => {
     event.preventDefault()
+    this.setState({ loading: true })
     axios
       .post(
         'https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail',
@@ -32,11 +39,63 @@ class ContactUs extends Component {
           body: this.state.body,
         }
       )
-      .then(res => console.log(res))
-      .catch(err => console.log(err))
+      .then(res => {
+        this.setState({ loading: false })
+        this.alert('success', 'Your message was sent succesfully')
+        this.clearState()
+      })
+      .catch(err => {
+        this.setState({ loading: false })
+        this.alert('danger', "Oh oh! Your message couldn't be sent. Please try again later")
+      })
+  }
+
+  alert = (type, message) => {
+    this.setState({
+      alert: {
+        type,
+        message,
+        on: true
+      }
+    })
+
+    setTimeout(this.clearAlert, 5000)
+  }
+
+  clearState = () => {
+    this.setState({
+      name: '',
+      email: '',
+      subject: '',
+      body: '',
+    })
+  }
+
+  clearAlert = () => {
+    this.setState({
+      alert: {
+        type: '',
+        message: '',
+        on: false
+      }
+    })
   }
 
   render() {
+    const alertOn = this.state.alert.on
+    let alert
+
+    if (alertOn) {
+      alert = <div className={this.state.alert.type}>{this.state.alert.message}</div>
+    }
+
+    const loading = this.state.loading
+    let loader
+
+    if (loading) {
+      loader =<div className="loader"></div>
+    }
+
     return (
       <Layout>
         <section id="contact-us-container">
@@ -79,6 +138,8 @@ class ContactUs extends Component {
               />
             </label>
             <input type="submit" value="Submit" />
+            {alert}
+            {loader}
           </form>
         </section>
       </Layout>

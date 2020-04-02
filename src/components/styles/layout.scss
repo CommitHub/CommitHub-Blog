@@ -640,6 +640,9 @@ h1 {
 }
 
 a {
-  color: $main-color
+  color: $main-color;
 }
 
+.sub-text {
+  color: $main-font-color-lighter;
+}
