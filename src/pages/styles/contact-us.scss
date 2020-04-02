@@ -16,7 +16,6 @@
 
     label {
       display: flex;
-      color: white;
       flex-direction: column;
       margin: 1rem 0;
       width: 80%;
@@ -47,6 +46,38 @@
 
     input[type=submit]:focus, input[type=submit]:hover {
       background-color: $main-color-darker;
+    }
+
+    .loader {
+      margin: 1rem 0;
+      border: 1rem solid $main-background-color-dark-lighter;
+      border-top: 1rem solid $main-color;
+      border-radius: 50%;
+      width: 7.5rem;
+      height: 7.5rem;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .success, .danger {
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin: 1rem auto;
+      width: 80%;
+      text-align: center;
+    }
+
+    .success {
+      background-color: $success;
+    }
+
+    .danger {
+      border-radius: 1rem;
+      background-color: $danger;
     }
   }
 }

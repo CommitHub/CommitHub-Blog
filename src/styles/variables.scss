@@ -5,8 +5,8 @@ $main-color: #21c6ce;
 $main-color-lighter: lighten($main-color, 5%);
 $main-color-darker: darken($main-color, 10%);
 $main-font-color: #3F3F3F;
+$main-font-color-lighter: lighten($main-font-color, 40%);
 $main-font-color-light: #f1faee;
-$main-font-color-lighter: lighten($main-font-color, 20%);
 $main-background-color: #f1faee;
 $main-background-color-dark: #1b262c;
 
@@ -24,6 +24,9 @@ $twitter-btn-color: #1dcaff;
 $linkedIn-btn-color: #4875B4;
 $contact-btn-color: #ff793f;
 $github-btn-color: black;
+$success: #29c7ac;
+$warning: #FFBF00;
+$danger: #c72c41;
 
 // media query breakpoints
 $mobile-sm: 360px;
