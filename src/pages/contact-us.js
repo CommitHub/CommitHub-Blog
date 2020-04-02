@@ -22,7 +22,7 @@ class ContactUs extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    axios.get('https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail', {
+    axios.post('https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail', {
       name: this.state.name,
       email: this.state.email,
       subject: this.state.subject,
@@ -37,7 +37,7 @@ class ContactUs extends Component {
       <Layout>
         <section id="contact-us-container">
           <h1>Contact Us</h1>
-          <p class="sub-text">Have some Questions? We are here to help</p>
+          <p className="sub-text">Have some Questions? We are here to help</p>
           <form onSubmit={this.handleSubmit}>
             <label>
               Name:
