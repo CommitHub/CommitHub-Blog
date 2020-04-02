@@ -630,7 +630,8 @@ pre tt:after {
 
 body {
   font-family: 'Arvo', serif;
-  color: $main-font-color;
+  color: $main-font-color-light;
+  background-color: $main-background-color-dark;
 }
 
 h1 {
@@ -642,6 +643,3 @@ a {
   color: $main-color
 }
 
-.sub-text {
-  color: $main-font-color-lighter;
-}

@@ -4,7 +4,7 @@ import { slide as Menu } from 'react-burger-menu'
 
 import './styles/header.scss'
 
-import logo from '../images/logo/medium-transparent.png'
+import logo from '../images/logo/medium-without-title-transparent.png'
 
 const Header = ({ siteTitle }) => (
   <Menu>

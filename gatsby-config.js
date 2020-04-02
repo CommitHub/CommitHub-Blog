@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: process.env.PUBLISHER_ID
+        publisherId: process.env.PUBLISHER_ID,
       },
     },
   ],
