@@ -2,14 +2,31 @@
 //https://coolors.co/00b9ae-f1faee-a8dadc-457b9d-1d3557
 
 $main-color: #21c6ce;
+$main-color-lighter: lighten($main-color, 5%);
+$main-color-darker: darken($main-color, 10%);
 $main-font-color: #3F3F3F;
+$main-font-color-lighter: lighten($main-font-color, 40%);
+$main-font-color-light: #f1faee;
 $main-background-color: #f1faee;
+$main-background-color-dark: #1b262c;
+
+// Input
+$input-border-color: #ededed;
+$input-border-color-focus: #bababa;
+
+// Card
+$main-background-color-dark-lighter: lighten($main-background-color-dark, 5%);
+$main-border-color-dark-lighter: lighten($main-background-color-dark, 10%);
+$main-border-color-dark-darker: darken($main-background-color-dark, 2%);
 
 //Button colors
 $twitter-btn-color: #1dcaff;
 $linkedIn-btn-color: #4875B4;
 $contact-btn-color: #ff793f;
 $github-btn-color: black;
+$success: #29c7ac;
+$warning: #FFBF00;
+$danger: #c72c41;
 
 // media query breakpoints
 $mobile-sm: 360px;

@@ -14,7 +14,7 @@
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
-  color: $main-font-color;
+  color: $main-font-color-light;
   transition: color 0.2s;
 }
 
@@ -57,7 +57,7 @@
 
 /* General sidebar styles */
 .bm-menu {
-  background: $main-background-color;
+  background: $main-background-color-dark;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }

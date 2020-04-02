@@ -10,8 +10,12 @@
   @include social-button($linkedIn-btn-color);
 }
 
-.dev-btn, .github-btn, .laptop-code-btn {
+.github-btn, .laptop-code-btn {
   @include social-button(black);
+}
+
+.envelope-btn {
+  @include social-button($warning);
 }
 
 .contact-btn {

@@ -630,14 +630,19 @@ pre tt:after {
 
 body {
   font-family: 'Arvo', serif;
-  color: $main-font-color;
+  color: $main-font-color-light;
+  background-color: $main-background-color-dark;
 }
 
 h1 {
   text-align: center;
-  padding: 3.125rem 0;
+  padding: 2rem 0;
 }
 
 a {
-  color: $main-color
+  color: $main-color;
+}
+
+.sub-text {
+  color: $main-font-color-lighter;
 }
