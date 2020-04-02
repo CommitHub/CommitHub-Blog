@@ -9,8 +9,8 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  background-color: $main-color;
-  border: 0.4rem solid $main-color-lighter;
+  background-color: $main-background-color-dark-lighter;
+  border: 0.4rem solid $main-border-color-dark-lighter;
   border-radius: 2%;
 
   .project-showcase {
@@ -22,7 +22,7 @@
   }
 
   &:hover {
-    border-color: $main-color-darker;
+    border-color: $main-border-color-dark-darker;
   }
 
   .project-card-description-container {

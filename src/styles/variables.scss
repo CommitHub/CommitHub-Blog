@@ -17,6 +17,11 @@ $submit-background-color: #3F3F3F;
 $submit-background-color-lighter: lighten($submit-background-color, 5%);
 $submit-background-color-darker: darken($submit-background-color, 10%);
 
+// Card
+$main-background-color-dark-lighter: lighten($main-background-color-dark, 5%);
+$main-border-color-dark-lighter: lighten($main-background-color-dark, 10%);
+$main-border-color-dark-darker: darken($main-background-color-dark, 2%);
+
 //Button colors
 $twitter-btn-color: #1dcaff;
 $linkedIn-btn-color: #4875B4;

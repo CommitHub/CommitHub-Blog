@@ -2,11 +2,11 @@
 
 .blog-card-container {
 	padding: 1.5%;
-  border: 0.4rem solid $main-color-lighter;
+  border: 0.4rem solid $main-border-color-dark-lighter;
 	width: 100%;
 	margin: 3.5rem 0;
 	cursor: pointer;
-  background-color: $main-color;
+  background-color: $main-background-color-dark-lighter;
   border-radius: 2%;
 
 	.blog-background {
@@ -19,7 +19,7 @@
 	}
 
 	&:hover {
-    border-color: $main-color-darker;
+    border-color: $main-border-color-dark-darker;
 	}
 
 	.blog-card-description-container {
