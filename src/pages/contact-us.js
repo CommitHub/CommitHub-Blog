@@ -12,24 +12,28 @@ class ContactUs extends Component {
       name: '',
       email: '',
       subject: '',
-      body: ''
+      body: '',
     }
   }
 
   handleChange = (type, event) => {
-    this.setState({[type]: event.target.value});
+    this.setState({ [type]: event.target.value })
   }
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    axios.post('https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail', {
-      name: this.state.name,
-      email: this.state.email,
-      subject: this.state.subject,
-      body: this.state.body
-    })
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
+  handleSubmit = event => {
+    event.preventDefault()
+    axios
+      .post(
+        'https://us-central1-commithub-39e14.cloudfunctions.net/contactUsEmail',
+        {
+          name: this.state.name,
+          email: this.state.email,
+          subject: this.state.subject,
+          body: this.state.body,
+        }
+      )
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
   }
 
   render() {
@@ -45,7 +49,7 @@ class ContactUs extends Component {
                 type="text"
                 required
                 value={this.state.name}
-                onChange={(event) => this.handleChange('name', event)}
+                onChange={event => this.handleChange('name', event)}
               />
             </label>
             <label>
@@ -54,7 +58,7 @@ class ContactUs extends Component {
                 type="email"
                 required
                 value={this.state.email}
-                onChange={(event) => this.handleChange('email', event)}
+                onChange={event => this.handleChange('email', event)}
               />
             </label>
             <label>
@@ -63,7 +67,7 @@ class ContactUs extends Component {
                 type="text"
                 required
                 value={this.state.subject}
-                onChange={(event) => this.handleChange('subject', event)}
+                onChange={event => this.handleChange('subject', event)}
               />
             </label>
             <label>
@@ -71,7 +75,7 @@ class ContactUs extends Component {
               <textarea
                 required
                 value={this.state.body}
-                onChange={(event) => this.handleChange('body', event)}
+                onChange={event => this.handleChange('body', event)}
               />
             </label>
             <input type="submit" value="Submit" />

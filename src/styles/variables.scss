@@ -2,9 +2,13 @@
 //https://coolors.co/00b9ae-f1faee-a8dadc-457b9d-1d3557
 
 $main-color: #21c6ce;
+$main-color-lighter: lighten($main-color, 5%);
+$main-color-darker: darken($main-color, 10%);
 $main-font-color: #3F3F3F;
+$main-font-color-light: #f1faee;
 $main-font-color-lighter: lighten($main-font-color, 20%);
 $main-background-color: #f1faee;
+$main-background-color-dark: #1b262c;
 
 // Input
 $input-border-color: #ededed;
