@@ -15,7 +15,7 @@
 }
 
 .envelope-btn {
-  @include social-button(orange);
+  @include social-button($warning);
 }
 
 .contact-btn {
