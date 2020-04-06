@@ -11,11 +11,11 @@
 ---
 
 Vue is one of the major frameworks used today in the front end world.
-It's adoption has been fast and many developers love working with it due to the easy learning curve.
-Vue has been having a steady growth since 2016.
+Its adoption has been fast and many developers love working with it due to the easy learning curve.
+Vue has been having steady growth since 2016.
 Major players like Nintendo and Gitlab use this framework.
 I started using it while working at Docnetwork and immediately fell in love with it.
-If you haven't used it before I would recommend to use it to see for yourself how good this framework is.
+If you haven't used it before I would recommend using it to see for yourself how good this framework is.
 
 ## Vue 3 features & Changes
 
@@ -26,7 +26,7 @@ They were rethinking major pieces of how Vue works to increase adoption and perf
 
 One of Vue's bottleneck is how the traditional virtual DOM's performance is determined by the total size of the template rather than the dynamic content in it.
 This is because when dynamic content updates on the template it recursively goes down the tree to find the dynamic element and then update it.
-This is highly inneficient cost of resources because even if some attributes are static it checks the props to make sure if any have changed.
+This is a highly inefficient cost of resources because even if some attributes are static it checks the props to make sure if any have changed.
 
 ```
 <template>
@@ -51,12 +51,12 @@ The performance boost gained is 133.69%.
 ### Composition API
 
 This is another significant change that alters the ecosystem for the better.
-The Composition API allows for functional-based way of writing your component.
-It allows you to encapsulate into what is called "composition functions" to later reuse that logic accross components.
-This in turn adds a lot of flexibility, performance and allowing the developer to write cleaner code.
-The Options API that is the old way of writting the logic for your component won't be deprecated and this new API will be 100% compatible with that old syntax.
-In my own opinion the Composition API will be very useful for components that have a lot of logic that you can separate or reusable logic.
-For small components that don't share logic the Options API does the job fine.
+The Composition API allows for a functional-based way of writing your component.
+It allows you to encapsulate into what is called "composition functions" to later reuse that logic across components.
+This, in turn, adds a lot of flexibility, performance and allowing the developer to write cleaner code.
+The Options API that is the old way of writing the logic for your component won't be deprecated and this new API will be 100% compatible with that old syntax.
+In my own opinion, the Composition API will be very useful for components that have a lot of logic that you can separate or reusable logic.
+For small components that don't share logic, the Options API does the job fine.
 
 ### New Compiler
 
@@ -90,7 +90,7 @@ As you can tell this is pretty useful for async functionality to add a loader wh
 </Suspense>
 ```
 
-This method is a very clean way of adding functionality to dynamic async content that removed unnecesary `v-if` logic that requires a lot of mental overhead to tell what is going on.
+This method is a very clean way of adding functionality to dynamic async content that removed unnecessary `v-if` logic that requires a lot of mental overhead to tell what is going on.
 
 ### Multiple Root Nodes
 
@@ -163,10 +163,10 @@ In V3 you will need to call the filter method directly like this:
 
 ### Vue 3 won't break your app
 
-Apart from the filters that is the only breaking change I noticed.
+Apart from the filters that are the only breaking change I noticed.
 All the other parts are gonna complement your codebase smoothly.
 The Vue team is working hard on getting transition docs ready for all of us to take advantage of all V3 has to offer.
-Vue is on the alpha stage at the time of writting this and it will take some time to release the stable version giving you time to transition those filters.
+Vue is on the alpha stage at the time of writing this and it will take some time to release the stable version giving you time to transition those filters.
 
 ## Conclusion
 
