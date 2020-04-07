@@ -5,13 +5,22 @@ import {
   faTwitter,
   faLinkedin,
   faGithub,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import { faLaptopCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './styles/awesome-button.scss'
 
-library.add(fab, faTwitter, faLinkedin, faEnvelope, faGithub, faLaptopCode)
+library.add(
+  fab,
+  faTwitter,
+  faLinkedin,
+  faEnvelope,
+  faGithub,
+  faLaptopCode,
+  faFacebook
+)
 
 class AwesomeButton extends Component {
   constructor() {
@@ -20,7 +29,14 @@ class AwesomeButton extends Component {
       url: null,
       iconName: null,
       icon: null,
-      library: [faTwitter, faLinkedin, faEnvelope, faGithub, faLaptopCode],
+      library: [
+        faTwitter,
+        faLinkedin,
+        faEnvelope,
+        faGithub,
+        faLaptopCode,
+        faFacebook
+      ],
     }
   }
 

@@ -11,13 +11,14 @@ const Footer = () => (
   <footer className="footer-container">
     <img src={logo} alt="logo" />
     <section className="btn-container">
-      <AwesomeButton url="https://twitter.com/MoonMan6033" icon="twitter" />
+      <AwesomeButton url="https://twitter.com/CommitHub" icon="twitter" />
       <AwesomeButton
-        url="https://www.linkedin.com/in/luis-alvarez-pacheco/"
+        url="https://www.linkedin.com/company/commithub/"
         icon="linkedin"
       />
+      <AwesomeButton url="https://www.facebook.com/CommitHub-112615023726134/?ref=bookmarks" icon="facebook" />
       <AwesomeButton url="/contact-us" icon="envelope" />
-      <AwesomeButton url="https://github.com/TheGameFreak720" icon="github" />
+      <AwesomeButton url="https://github.com/CommitHub" icon="github" />
     </section>
     <section className="menu">
       <Link to="/" className="menu-item">
