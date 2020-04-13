@@ -47,22 +47,5 @@
     input[type=submit]:focus, input[type=submit]:hover {
       background-color: $main-color-darker;
     }
-
-    .success, .danger {
-      border-radius: 0.5rem;
-      padding: 1rem;
-      margin: 1rem auto;
-      width: 80%;
-      text-align: center;
-    }
-
-    .success {
-      background-color: $success;
-    }
-
-    .danger {
-      border-radius: 1rem;
-      background-color: $danger;
-    }
   }
 }

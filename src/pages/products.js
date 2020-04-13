@@ -4,6 +4,7 @@ import axios from 'axios'
 import Layout from '../components/Layout'
 import ProductCard from '../components/ProductCard'
 import Loader from '../components/Loader'
+import Toaster from '../components/Toaster'
 
 import '../styles/general.scss'
 
@@ -12,7 +13,12 @@ class Products extends Component {
     super()
     this.state = {
       products: [],
-      loading: true
+      loading: true,
+      alert: {
+        type: '',
+        message: '',
+        on: false,
+      },
     }
   }
 
@@ -25,7 +31,34 @@ class Products extends Component {
           loading: false
         })
       })
-      .catch(err => console.error(err))
+      .catch(err => {
+        return this.alert(
+          'danger',
+          "Oh oh! The products couldn't be loaded. Please try again later"
+        )
+      })
+  }
+
+  alert = (type, message) => {
+    this.setState({
+      alert: {
+        type,
+        message,
+        on: true,
+      },
+    })
+
+    setTimeout(this.clearAlert, 5000)
+  }
+
+  clearAlert = () => {
+    this.setState({
+      alert: {
+        type: '',
+        message: '',
+        on: false,
+      },
+    })
   }
 
   render() {
@@ -44,6 +77,12 @@ class Products extends Component {
               />
             ))}
           </section>
+          { this.state.alert.on ? (
+            <Toaster
+              type={ this.state.alert.type }
+              message= { this.state.alert.message }
+            />
+          ) : null }
           { this.state.loading ? (
             <section className="loader-container">
               <Loader/>
