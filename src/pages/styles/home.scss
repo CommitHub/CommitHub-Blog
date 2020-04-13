@@ -1,33 +1,212 @@
 @import '../../styles/variables.scss';
 
-.jumbotron-container {
-	max-width: 100%;
-	height: 100vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+#home-container {
+  h1 {
+    padding: 3rem 0;
+  }
 
-	img {
-		max-width: 50vw;
-		max-height: 70vh;
+  .jumbotron-container {
+    max-width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-		@media (max-width: $desktop-lg) {
-			max-width: 60vw;
-			max-height: 65vh;
-		}
+    img {
+      max-width: 50vw;
+      max-height: 70vh;
 
-		@media (max-width: $desktop-sm) {
-			max-width: 80vw;
-			max-height: 60vh;
-		}
+      @media (max-width: $desktop-lg) {
+        max-width: 60vw;
+        max-height: 65vh;
+      }
+
+      @media (max-width: $desktop-sm) {
+        max-width: 80vw;
+        max-height: 60vh;
+      }
 
 
-		@media (max-width: $tablet-sm) {
-			max-width: 95vw;
-			max-height: 50vh;
-		}
-	}
+      @media (max-width: $tablet-sm) {
+        max-width: 95vw;
+        max-height: 50vh;
+      }
+    }
+  }
+
+  .about-us-container {
+    .about-us-description-container {
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      section {
+        width: 50%;
+
+        @media (max-width: $tablet-sm) {
+          width: 80%;
+        }
+      }
+
+      img {
+        width: 30%;
+
+        @media (max-width: $tablet-sm) {
+          width: 40%;
+        }
+      }
+    }
+  }
+
+  .focus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $main-color;
+
+    img {
+      width: 20%;
+
+      @media (max-width: $desktop-sm) {
+        width: 30%;
+      }
+
+      @media (max-width: $tablet-sm) {
+        width: 40%;
+      }
+    }
+
+    .focus-description-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 3rem 0;
+
+      p {
+        width: 20%;
+
+        @media (max-width: $tablet-sm) {
+          width: 40%;
+        }
+
+        @media (max-width: $mobile-sm) {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $main-color;
+
+    .blogs-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .blog-card-container {
+        width: 30%;
+
+        @media (max-width: $desktop-sm) {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+
+    .contact-us-btn {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      color: white;
+      text-decoration: none;
+      background-color: $main-color;
+      border: 3px solid $main-color-lighter;
+
+      &:focus, &:hover {
+        background-color: $main-color-darker;
+      }
+    }
+  }
+
+  .content-container {
+    width: 75%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .content-mult-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 32.50%;
+
+      img {
+        width: 30%;
+
+        @media (max-width: $tablet-sm) {
+          width: 50%;
+        }
+      }
+
+      @media (max-width: $tablet-sm) {
+        width: 40%;
+      }
+    }
+
+    .content-item-profile {
+      width: 35%;
+
+      img {
+        height: 300px;
+        border-radius: 10%;
+      }
+
+      @media (max-width: $tablet-sm) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .content-item-text {
+      width: 60%;
+      align-self: center;
+
+      @media (max-width: $tablet-sm) {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: $tablet-sm) {
+      width: 95%;
+      flex-direction: column;
+    }
+    }
+
+    .content-container-two-row-stack-responsive {
+      @media (max-width: $tablet-sm) {
+        flex-direction: row;
+      }
+    }
 }
