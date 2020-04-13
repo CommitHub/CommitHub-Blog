@@ -37,22 +37,24 @@ exports.contactUsEmail = functions.https.onRequest((req, res) => {
 })
 
 exports.getProducts = functions.https.onRequest((req, res) => {
-  return admin.firestore().collection('products')
-    .get()
-    .then(snapshot => {
-      if (snapshot.empty) {
-        return res.status(404).send('No matching documents')
-      }
+  cors(req, res, () => {
+    return admin.firestore().collection('products')
+      .get()
+      .then(snapshot => {
+        if (snapshot.empty) {
+          return res.status(404).send('No matching documents')
+        }
 
-      const docs = []
+        const docs = []
 
-      snapshot.forEach(doc => {
-        const fullDoc = { id: doc.id }
-        Object.assign(fullDoc, doc.data())
-        docs.push(fullDoc);
-      });
+        snapshot.forEach(doc => {
+          const fullDoc = { id: doc.id }
+          Object.assign(fullDoc, doc.data())
+          docs.push(fullDoc);
+        });
 
-      return res.status(200).send(docs)
-    })
-    .catch(err => res.status(500).send(err))
+        return res.status(200).send(docs)
+      })
+      .catch(err => res.status(500).send(err))
+  })
 })
