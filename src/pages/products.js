@@ -3,14 +3,16 @@ import axios from 'axios'
 
 import Layout from '../components/Layout'
 import ProductCard from '../components/ProductCard'
+import Loader from '../components/Loader'
 
- import '../styles/general.scss'
+import '../styles/general.scss'
 
 class Products extends Component {
   constructor() {
     super()
     this.state = {
-      products: []
+      products: [],
+      loading: true
     }
   }
 
@@ -19,7 +21,8 @@ class Products extends Component {
       .get('https://us-central1-commithub-39e14.cloudfunctions.net/getProducts')
       .then(res => {
         this.setState({
-          products: res.data
+          products: res.data,
+          loading: false
         })
       })
       .catch(err => console.error(err))
@@ -41,6 +44,11 @@ class Products extends Component {
               />
             ))}
           </section>
+          { this.state.loading ? (
+            <section className="loader-container">
+              <Loader/>
+            </section>
+          ) : null }
         </section>
       </Layout>
     )

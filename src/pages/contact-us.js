@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 import Layout from '../components/Layout'
+import Loader from '../components/Loader'
 
 import './styles/contact-us.scss'
 
@@ -94,13 +95,6 @@ class ContactUs extends Component {
       )
     }
 
-    const loading = this.state.loading
-    let loader
-
-    if (loading) {
-      loader = <div className="loader"></div>
-    }
-
     return (
       <Layout>
         <section id="contact-us-container">
@@ -144,7 +138,11 @@ class ContactUs extends Component {
             </label>
             <input type="submit" value="Submit" />
             {alert}
-            {loader}
+            { this.state.loading ? (
+              <section className="loader-container">
+                <Loader/>
+              </section>
+            ) : null }
           </form>
         </section>
       </Layout>
