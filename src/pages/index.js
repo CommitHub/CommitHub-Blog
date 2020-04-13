@@ -23,6 +23,16 @@ import database from '../images/icons/database.png'
 import user from '../images/icons/user.png'
 import brain from '../images/icons/brain.png'
 import ai from '../images/icons/artificial-intelligence.png'
+import discovery from '../images/icons/discovery.png'
+import solution from '../images/icons/solution.png'
+import ui from '../images/icons/ui.png'
+import computer from '../images/icons/computer.png'
+import data from '../images/icons/data.png'
+import rocket from '../images/icons/rocket.png'
+
+import '../styles/general.scss'
+import './styles/home.scss'
+
 
 import '../styles/general.scss'
 import './styles/home.scss'
@@ -145,7 +155,7 @@ class IndexPage extends Component {
             <h1>Our Process</h1>
             <section className="content-container content-container-two-row-stack-responsive">
               <section className="content-mult-items">
-                <img src={development} alt="development of web-apps" />
+                <img src={discovery} alt="discovery phase" />
                 <h2>Discovery</h2>
                 <p>
                   We will conduct data analysis, customer interviews and internal interviews with your companies employees
@@ -153,7 +163,7 @@ class IndexPage extends Component {
                 </p>
               </section>
               <section className="content-mult-items">
-                <img src={responsive} alt="responsive design" />
+                <img src={solution} alt="strategy phase" />
                 <h2>Strategy</h2>
                 <p>
                   With the analysis done on the Discovery phase we can create an overeaching strategy for your product.
@@ -161,7 +171,7 @@ class IndexPage extends Component {
                 </p>
               </section>
               <section className="content-mult-items">
-                <img src={database} alt="database management" />
+                <img src={ui} alt="wireframing phase" />
                 <h2>Wireframing</h2>
                 <p>
                   We’ll then do a basic wireframe of your new website that will show the navigation page layouts, copy, etc.
@@ -169,7 +179,7 @@ class IndexPage extends Component {
                 </p>
               </section>
               <section className="content-mult-items">
-                <img src={linux} alt="linux" />
+                <img src={computer} alt="design phase" />
                 <h2>Design</h2>
                 <p>
                   We’ll then turn the wireframe into a high fidelity design that shows exactly how each page of the website will look.
@@ -177,7 +187,7 @@ class IndexPage extends Component {
                 </p>
               </section>
               <section className="content-mult-items">
-                <img src={books} alt="technical consulting" />
+                <img src={data} alt="development phase" />
                 <h2>Development</h2>
                 <p>
                   We’ll then develop the website on an CMS of choice preferably using the framework Vue.
@@ -185,7 +195,7 @@ class IndexPage extends Component {
                 </p>
               </section>
               <section className="content-mult-items">
-                <img src={user} alt="friendly developer" />
+                <img src={rocket} alt="launch and training phase" />
                 <h2>Launch and Training</h2>
                 <p>
                   Once the website is built, we’ll jump on a video call and walk you through the new website.
@@ -195,7 +205,7 @@ class IndexPage extends Component {
               </section>
             </section>
             <Link to="/contact-us" className="contact-us-btn">
-               Contact Us for More Information
+               Contact Us For More Information
             </Link>
           </section>
         </section>
