@@ -1,0 +1,28 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.product-card-container {
+  padding: 1.5%;
+  margin: 3.5rem 0;
+  border: 0.4rem solid $main-border-color-dark-lighter;
+  border-radius: 2%;
+
+  .product-showcase {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1.45rem;
+    width: 100%;
+  }
+
+  .product-card-description-container {
+    padding: 0 1.875rem;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+}
