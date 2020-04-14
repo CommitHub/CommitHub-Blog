@@ -16,7 +16,10 @@ const Footer = () => (
         url="https://www.linkedin.com/company/commithub/"
         icon="linkedin"
       />
-      <AwesomeButton url="https://www.facebook.com/CommitHub-112615023726134/?ref=bookmarks" icon="facebook" />
+      <AwesomeButton
+        url="https://www.facebook.com/CommitHub-112615023726134/?ref=bookmarks"
+        icon="facebook"
+      />
       <AwesomeButton url="/contact-us" icon="envelope" />
       <AwesomeButton url="https://github.com/CommitHub" icon="github" />
     </section>
@@ -35,9 +38,6 @@ const Footer = () => (
       </Link>
       <Link to="/products" className="menu-item">
         Products
-      </Link>
-      <Link to="/projects" className="menu-item">
-        Projects
       </Link>
     </section>
     <p>{`${String.fromCharCode(169)} Commithub ${moment().year()}`}</p>

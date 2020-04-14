@@ -10,12 +10,12 @@ class ProductCard extends Component {
       <section className="product-card-container">
         <img
           className="product-showcase"
-          src={ this.props.img }
-          alt={ this.props.title }
+          src={this.props.img}
+          alt={this.props.title}
         />
         <section className="product-card-description-container">
-          <h3>{ this.props.title }</h3>
-          <p>{ this.props.description }</p>
+          <h3>{this.props.title}</h3>
+          <p>{this.props.description}</p>
           <section className="btn-container">
             <p>Visit Our Product Site</p>
             <AwesomeButton url={this.props.url} icon="laptop-code" />

@@ -129,17 +129,17 @@ class ContactUs extends Component {
               />
             </label>
             <input type="submit" value="Submit" />
-            { this.state.alert.on ? (
+            {this.state.alert.on ? (
               <Toaster
-                type={ this.state.alert.type }
-                message= { this.state.alert.message }
+                type={this.state.alert.type}
+                message={this.state.alert.message}
               />
-            ) : null }
-            { this.state.loading ? (
+            ) : null}
+            {this.state.loading ? (
               <section className="loader-container">
-                <Loader/>
+                <Loader />
               </section>
-            ) : null }
+            ) : null}
           </form>
         </section>
       </Layout>
