@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
             {
               name: 'description',
               content:
-                'The portfolio and blog site of the coffee addicted coder called Luis Alvarez',
+                'CommitHub main site',
             },
             {
               name: 'keywords',
