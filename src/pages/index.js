@@ -78,14 +78,14 @@ class IndexPage extends Component {
             <section className="about-us-description-container">
               <section>
                 <p>
-                  We want to make technology friendly to the community by
-                  offering our web design, development and IT services to
-                  improve a company's infrastructure.
+                  We are a tech startup that offers web design, development and
+                  IT services to improve a company's infrastructure. Through our
+                  site we offer free resources to help developers and
+                  non-developers to learn about different topics on tech.
                 </p>
-                <p>
-                  Through our site we offer free resources to assist developers
-                  and non-developers to build apps on their own.
-                </p>
+                <Link to="/about-us" className="home-btn">
+                  Learn More About Us
+                </Link>
               </section>
               <img src={ai} alt="artificial intelligence" />
             </section>
@@ -100,7 +100,7 @@ class IndexPage extends Component {
               </p>
               <p>
                 If you are looking for something simple yet elegant without
-                breaking the bank we our your guys
+                breaking the bank we are your guys
               </p>
               <p>
                 When was the last time you did a backup for your site? We offer
@@ -135,7 +135,7 @@ class IndexPage extends Component {
                 <img src={linux} alt="linux" />
                 <h2>Linux/Unix Understanding</h2>
                 <p>
-                  Daily user of Linux/Unix systems having a basic understanding
+                  Daily users of Linux/Unix systems having a basic understanding
                   on how it operates
                 </p>
               </section>
@@ -237,7 +237,7 @@ class IndexPage extends Component {
                 </p>
               </section>
             </section>
-            <Link to="/contact-us" className="contact-us-btn">
+            <Link to="/contact-us" className="home-btn">
               Contact Us For More Information
             </Link>
           </section>

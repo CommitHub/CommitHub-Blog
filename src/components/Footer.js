@@ -27,8 +27,8 @@ const Footer = () => (
       <Link to="/" className="menu-item">
         Home
       </Link>
-      <Link to="/about-me" className="menu-item">
-        About Me
+      <Link to="/about-us" className="menu-item">
+        About Us
       </Link>
       <Link to="/blog" className="menu-item">
         Blog
