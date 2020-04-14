@@ -28,7 +28,7 @@ class Products extends Component {
       .then(res => {
         this.setState({
           products: res.data,
-          loading: false
+          loading: false,
         })
       })
       .catch(err => {
@@ -69,25 +69,25 @@ class Products extends Component {
           <section className="card-container">
             {this.state.products.map(product => (
               <ProductCard
-                key={ product.id }
-                img={ product.img }
-                title={ product.title }
-                description={ product.description }
-                url={ product.url }
+                key={product.id}
+                img={product.img}
+                title={product.title}
+                description={product.description}
+                url={product.url}
               />
             ))}
           </section>
-          { this.state.alert.on ? (
+          {this.state.alert.on ? (
             <Toaster
-              type={ this.state.alert.type }
-              message= { this.state.alert.message }
+              type={this.state.alert.type}
+              message={this.state.alert.message}
             />
-          ) : null }
-          { this.state.loading ? (
+          ) : null}
+          {this.state.loading ? (
             <section className="loader-container">
-              <Loader/>
+              <Loader />
             </section>
-          ) : null }
+          ) : null}
         </section>
       </Layout>
     )
@@ -95,4 +95,3 @@ class Products extends Component {
 }
 
 export default Products
-

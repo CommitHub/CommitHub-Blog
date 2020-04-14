@@ -4,9 +4,7 @@ import './styles/loader.scss'
 
 class Loader extends Component {
   render() {
-    return (
-      <section className="loader"></section>
-    )
+    return <section className="loader"></section>
   }
 }
 

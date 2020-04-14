@@ -33,7 +33,6 @@ import rocket from '../images/icons/rocket.png'
 import '../styles/general.scss'
 import './styles/home.scss'
 
-
 import '../styles/general.scss'
 import './styles/home.scss'
 
@@ -78,8 +77,15 @@ class IndexPage extends Component {
             <h1>What is CommitHub</h1>
             <section className="about-us-description-container">
               <section>
-                <p>We want to make technology friendly to the community by offering our web design, development and IT services to improve a company's infrastructure.</p>
-                <p>Through our site we offer free resources to assist developers and non-developers to build apps on their own.</p>
+                <p>
+                  We want to make technology friendly to the community by
+                  offering our web design, development and IT services to
+                  improve a company's infrastructure.
+                </p>
+                <p>
+                  Through our site we offer free resources to assist developers
+                  and non-developers to build apps on their own.
+                </p>
               </section>
               <img src={ai} alt="artificial intelligence" />
             </section>
@@ -88,9 +94,18 @@ class IndexPage extends Component {
             <h1>Focus on what matters the most</h1>
             <img src={brain} alt="cpu brain" />
             <section className="focus-description-container">
-              <p>Need a web app but don't want to spend hours learning how to make a site? Let our tech wizards handle it</p>
-              <p>If you are looking for something simple yet elegant without breaking the bank we our your guys</p>
-              <p>When was the last time you did a backup for your site? We offer automatic backups and server mantainance</p>
+              <p>
+                Need a web app but don't want to spend hours learning how to
+                make a site? Let our tech wizards handle it
+              </p>
+              <p>
+                If you are looking for something simple yet elegant without
+                breaking the bank we our your guys
+              </p>
+              <p>
+                When was the last time you did a backup for your site? We offer
+                automatic backups and server mantainance
+              </p>
             </section>
           </section>
           <section className="skills-container">
@@ -100,8 +115,8 @@ class IndexPage extends Component {
                 <img src={development} alt="development of web-apps" />
                 <h2>Web Applications</h2>
                 <p>
-                  Experience on full stack technologies like AngularJS, React, Vue,
-                  NodeJS and Express
+                  Experience on full stack technologies like AngularJS, React,
+                  Vue, NodeJS and Express
                 </p>
               </section>
               <section className="content-mult-items">
@@ -112,30 +127,33 @@ class IndexPage extends Component {
               <section className="content-mult-items">
                 <img src={database} alt="database management" />
                 <h2>Database Management</h2>
-                <p>An expertise in both relational and non-relational databases</p>
+                <p>
+                  An expertise in both relational and non-relational databases
+                </p>
               </section>
               <section className="content-mult-items">
                 <img src={linux} alt="linux" />
                 <h2>Linux/Unix Understanding</h2>
                 <p>
-                  Daily user of Linux/Unix systems having a basic understanding on how
-                  it operates
+                  Daily user of Linux/Unix systems having a basic understanding
+                  on how it operates
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={books} alt="technical consulting" />
                 <h2>Self Learners</h2>
                 <p>
-                  Capable of learning new technologies in an agile environment to reach goals
+                  Capable of learning new technologies in an agile environment
+                  to reach goals
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={user} alt="friendly developer" />
                 <h2>Contributor to the Team</h2>
                 <p>
-                  Packed with diciplines in agile processes and a friendly always
-                  willing to help attitude to reach our deadlines as quick and smooth
-                  as possible
+                  Packed with diciplines in agile processes and a friendly
+                  always willing to help attitude to reach our deadlines as
+                  quick and smooth as possible
                 </p>
               </section>
             </section>
@@ -158,54 +176,69 @@ class IndexPage extends Component {
                 <img src={discovery} alt="discovery phase" />
                 <h2>Discovery</h2>
                 <p>
-                  We will conduct data analysis, customer interviews and internal interviews with your companies employees
-                  to determine what is the best approach for your product.
+                  We will conduct data analysis, customer interviews and
+                  internal interviews with your companies employees to determine
+                  what is the best approach for your product.
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={solution} alt="strategy phase" />
                 <h2>Strategy</h2>
                 <p>
-                  With the analysis done on the Discovery phase we can create an overeaching strategy for your product.
-                  This will include information like what the pages we’ll have, how navigation will work, visual style, conversion paths, etc.
+                  With the analysis done on the Discovery phase we can create an
+                  overeaching strategy for your product. This will include
+                  information like what the pages we’ll have, how navigation
+                  will work, visual style, conversion paths, etc.
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={ui} alt="wireframing phase" />
                 <h2>Wireframing</h2>
                 <p>
-                  We’ll then do a basic wireframe of your new website that will show the navigation page layouts, copy, etc.
-                  This will allow you to understand how the site will look and what messages will be conveyed, and will allow us to iterate quickly until everyone is aligned.
+                  We’ll then do a basic wireframe of your new website that will
+                  show the navigation page layouts, copy, etc. This will allow
+                  you to understand how the site will look and what messages
+                  will be conveyed, and will allow us to iterate quickly until
+                  everyone is aligned.
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={computer} alt="design phase" />
                 <h2>Design</h2>
                 <p>
-                  We’ll then turn the wireframe into a high fidelity design that shows exactly how each page of the website will look.
-                  We will present this back to you as an interactive prototype that will allow you to click through the website and experience it as if it was live.
+                  We’ll then turn the wireframe into a high fidelity design that
+                  shows exactly how each page of the website will look. We will
+                  present this back to you as an interactive prototype that will
+                  allow you to click through the website and experience it as if
+                  it was live.
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={data} alt="development phase" />
                 <h2>Development</h2>
                 <p>
-                  We’ll then develop the website on an CMS of choice preferably using the framework Vue.
-                  Using a CMS like Contentful combined with Vue or any other front end framework, makes it quicker for us to develop, and also makes it easy for you to update the website however you need.
+                  We’ll then develop the website on an CMS of choice preferably
+                  using the framework Vue. Using a CMS like Contentful combined
+                  with Vue or any other front end framework, makes it quicker
+                  for us to develop, and also makes it easy for you to update
+                  the website however you need.
                 </p>
               </section>
               <section className="content-mult-items">
                 <img src={rocket} alt="launch and training phase" />
                 <h2>Launch and Training</h2>
                 <p>
-                  Once the website is built, we’ll jump on a video call and walk you through the new website.
-                  Once you’ve signed off on it, we’ll push it live and archive the old website in case you need anything from it.
-                  Finally, we’ll do a basic training session with your marketing team so they understand how to edit the website when they need.
+                  Once the website is built, we’ll jump on a video call and walk
+                  you through the new website. Once you’ve signed off on it,
+                  we’ll push it live and archive the old website in case you
+                  need anything from it. Finally, we’ll do a basic training
+                  session with your marketing team so they understand how to
+                  edit the website when they need.
                 </p>
               </section>
             </section>
             <Link to="/contact-us" className="contact-us-btn">
-               Contact Us For More Information
+              Contact Us For More Information
             </Link>
           </section>
         </section>

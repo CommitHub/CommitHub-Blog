@@ -38,7 +38,9 @@ exports.contactUsEmail = functions.https.onRequest((req, res) => {
 
 exports.getProducts = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
-    return admin.firestore().collection('products')
+    return admin
+      .firestore()
+      .collection('products')
       .get()
       .then(snapshot => {
         if (snapshot.empty) {
@@ -50,8 +52,8 @@ exports.getProducts = functions.https.onRequest((req, res) => {
         snapshot.forEach(doc => {
           const fullDoc = { id: doc.id }
           Object.assign(fullDoc, doc.data())
-          docs.push(fullDoc);
-        });
+          docs.push(fullDoc)
+        })
 
         return res.status(200).send(docs)
       })

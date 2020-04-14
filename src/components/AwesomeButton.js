@@ -35,7 +35,7 @@ class AwesomeButton extends Component {
         faEnvelope,
         faGithub,
         faLaptopCode,
-        faFacebook
+        faFacebook,
       ],
     }
   }

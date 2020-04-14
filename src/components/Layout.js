@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
           ]}
           link={[{ rel: 'shortcut icon', type: 'image/png', href: `${icon}` }]}
         >
-          <html lang="en;" />
+          <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>{children}</div>
