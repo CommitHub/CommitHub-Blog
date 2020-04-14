@@ -1,70 +1,45 @@
 @import '../../styles/variables.scss';
 
 #about-container {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  .our-story-container {
+    padding: 5rem;
+    margin-bottom: 2rem;
+    background-image: url('../../images/backgrounds/motherboard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-	.content-container {
-		width: 75%;
-		margin: 50px 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+  .our-team-container {
+    width: 80%;
+    margin: 0 auto;
 
-		.content-mult-items {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			width: 32.50%;
+    .content-container {
+      width: 75%;
+      margin: 50px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
-			img {
-				width: 30%;
+      .content-item-profile {
+        width: 35%;
 
-				@media (max-width: $tablet-sm) {
-					width: 50%;
-				}
-			}
+        img {
+          height: 300px;
+          border-radius: 10%;
+        }
 
-			@media (max-width: $tablet-sm) {
-				width: 40%;
-			}
-		}
+        @media (max-width: $tablet-sm) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
 
-		.content-item-profile {
-			width: 35%;
-
-			img {
-				height: 300px;
-				border-radius: 10%;
-			}
-
-			@media (max-width: $tablet-sm) {
-				width: 100%;
-				display: flex;
-				justify-content: center;
-			}
-		}
-
-		.content-item-text {
-			width: 60%;
-			align-self: center;
-
-			@media (max-width: $tablet-sm) {
-				width: 100%;
-			}
-		}
-
-		@media (max-width: $tablet-sm) {
-			width: 95%;
-			flex-direction: column;
-		}
-	}
-
-	.content-container-two-row-stack-responsive {
-		@media (max-width: $tablet-sm) {
-			flex-direction: row;
-		}
-	}
+      @media (max-width: $tablet-sm) {
+        width: 95%;
+        flex-direction: column;
+      }
+    }
+  }
 }

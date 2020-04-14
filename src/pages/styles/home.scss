@@ -5,6 +5,20 @@
     padding: 3rem 0;
   }
 
+  .home-btn {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: $main-color;
+    border: 3px solid $main-color-lighter;
+
+    &:focus, &:hover {
+      background-color: $main-color-darker;
+    }
+  }
+
   .jumbotron-container {
     max-width: 100%;
     height: 100vh;
@@ -47,6 +61,17 @@
 
       section {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .home-btn {
+          margin: 2rem 0;
+          width: 80%;
+
+          @media (max-width: $tablet-sm) {
+            margin: auto;
+          }
+        }
 
         @media (max-width: $tablet-sm) {
           width: 80%;
@@ -133,19 +158,6 @@
     flex-direction: column;
     align-items: center;
     margin: 3rem 0;
-
-    .contact-us-btn {
-      padding: 1rem;
-      border-radius: 0.5rem;
-      color: white;
-      text-decoration: none;
-      background-color: $main-color;
-      border: 3px solid $main-color-lighter;
-
-      &:focus, &:hover {
-        background-color: $main-color-darker;
-      }
-    }
   }
 
   .content-container {
