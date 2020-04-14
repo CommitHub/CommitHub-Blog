@@ -25,7 +25,6 @@ const About = () => (
         <section className="content-container">
           <section className="content-item-profile">
             <img
-              className="profile"
               src="https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2Fauthor%2Fluis.jpg?alt=media&token=56f5f968-08c9-40a6-9583-4cc361ec550f"
               alt="Luis Alvarez"
             />
