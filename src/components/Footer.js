@@ -36,9 +36,6 @@ const Footer = () => (
       <Link to="/products" className="menu-item">
         Products
       </Link>
-      <Link to="/projects" className="menu-item">
-        Projects
-      </Link>
     </section>
     <p>{`${String.fromCharCode(169)} Commithub ${moment().year()}`}</p>
   </footer>
