@@ -11,7 +11,7 @@
 ---
 
 Pi-hole is an open source application that serves as a DNS sinkhole that blocks advertisements through the network.
-It uses publicly available list to block queries from common ad domains making them unavailable on the website that you are looking at.
+It uses publicly available lists to block queries from common ad domains making them unavailable on the website that you are looking at.
 Because it's blocking queries to those servers the performance of the network increases due to not waiting to fetch a resource.
 Another added bonus is that you can block sites that you don't want accessed in your network that can have malware.
 The installation is very simple and quick but we got to follow a few steps to make sure it's secure from the outside.
