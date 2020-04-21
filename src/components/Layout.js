@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
             {
               name: 'description',
               content:
-                'The portfolio and blog site of the coffee addicted coder called Luis Alvarez',
+                'CommitHub main site',
             },
             {
               name: 'keywords',
@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
           ]}
           link={[{ rel: 'shortcut icon', type: 'image/png', href: `${icon}` }]}
         >
-          <html lang="en;" />
+          <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>{children}</div>

@@ -11,14 +11,10 @@ const Header = ({ siteTitle }) => (
     <Link to="/">
       <img src={logo} alt="logo" />
     </Link>
-
-    <Link to="/about-me">About Me</Link>
-
+    <Link to="/about-us">About Us</Link>
     <Link to="/blog">Blog</Link>
-
     <Link to="/contact-us">Contact Us</Link>
-
-    <Link to="/projects">Projects</Link>
+    <Link to="/products">Products</Link>
   </Menu>
 )
 

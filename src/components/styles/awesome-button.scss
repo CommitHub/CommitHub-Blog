@@ -10,6 +10,10 @@
   @include social-button($linkedIn-btn-color);
 }
 
+.facebook-btn {
+  @include social-button($facebook-btn-color);
+}
+
 .github-btn, .laptop-code-btn {
   @include social-button(black);
 }

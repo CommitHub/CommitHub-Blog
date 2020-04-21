@@ -42,13 +42,5 @@ module.exports = {
         plugins: [`gatsby-remark-emoji`],
       },
     },
-    {
-      resolve: `gatsby-source-mongodb`,
-      options: {
-        connectionString: `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PW}@commithub-hqtll.mongodb.net/test?retryWrites=true&w=majority`,
-        dbName: `CommitHub`,
-        collection: [`Projects`],
-      },
-    },
   ],
 }
