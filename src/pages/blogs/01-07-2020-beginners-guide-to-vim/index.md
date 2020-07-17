@@ -1,7 +1,7 @@
 ---
     path: '/beginners-guide-to-vim'
     title: Beginners guide to Vim
-    author: Luis Alvarez
+    author: Ori Alvarez
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/luis.jpg'
     date: '2020-01-07'
     description: An introduction to one of the most powerful text editors available in your terminal

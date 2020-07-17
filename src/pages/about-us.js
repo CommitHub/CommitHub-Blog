@@ -26,9 +26,9 @@ const About = () => (
           <section className="content-item-profile">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2Fauthor%2Fluis.jpg?alt=media&token=56f5f968-08c9-40a6-9583-4cc361ec550f"
-              alt="Luis Alvarez"
+              alt="Ori Alvarez"
             />
-            <h3>Luis Alvarez</h3>
+            <h3>Ori Alvarez</h3>
             <h4>Founder and Full Stack Developer</h4>
           </section>
         </section>
