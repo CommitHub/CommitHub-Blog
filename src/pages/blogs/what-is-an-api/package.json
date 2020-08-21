@@ -1,0 +1,22 @@
+{
+  "name": "what-is-an-api",
+  "version": "1.0.0",
+  "description": "Example code of understanding what is an API by building a REST API",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CommitHub/what-is-an-api-example.git"
+  },
+  "author": "Ori Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CommitHub/what-is-an-api-example/issues"
+  },
+  "homepage": "https://github.com/CommitHub/what-is-an-api-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
