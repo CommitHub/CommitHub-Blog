@@ -196,15 +196,14 @@ Happy Hacking! 🚀
 
 ## Additional Resources
 
-* <a href="What is an API" rel="noopener" target="_blank">https://www.youtube.com/watch?v=s7wmiS2mSXY</a>
-* <a href="Wikipedia API" rel="noopener" target="_blank">https://en.wikipedia.org/wiki/API</a>
-* <a href="What is an API in English please" rel="noopener" target="_blank">https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/</a>
-* <a href="What is an API? How to Geek" rel="noopener" target="_blank">https://www.howtogeek.com/343877/what-is-an-api/</a>
-* <a href="Different Types of API's" rel="noopener" target="_blank">https://apifriends.com/api-creation/different-types-apis/</a>
-* <a href="API Types" rel="noopener" target="_blank">https://apifriends.com/api-creation/different-types-apis/</a>
-* <a href="What is REST?" rel="noopener" target="_blank">https://restfulapi.net</a>
-* <a href="What is SOAP?" rel="noopener" target="_blank">https://www.tutorialspoint.com/soap/what_is_soap.htm</a>
-* <a href="Know API Protocols" rel="noopener" target="_blank">https://www.mertech.com/blog/know-your-api-protocols</a>
-* <a href="Node.js" rel="noopener" target="_blank">https://nodejs.org/en/</a>
-* <a href="Express" rel="noopener" target="_blank">https://expressjs.com/</a>
+* <a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" rel="noopener" target="_blank">What is an API?</a>
+* <a href="https://en.wikipedia.org/wiki/API" rel="noopener" target="_blank">Wikipedia API</a>
+* <a href="https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/" rel="noopener" target="_blank">What is an API in English Please</a>
+* <a href="https://www.howtogeek.com/343877/what-is-an-api/" rel="noopener" target="_blank">What is an API? How to Geek</a>
+* <a href="https://apifriends.com/api-creation/different-types-apis/" rel="noopener" target="_blank">Different Types of API's</a>
+* <a href="https://restfulapi.net" rel="noopener" target="_blank">What is REST?</a>
+* <a href="https://www.tutorialspoint.com/soap/what_is_soap.htm" rel="noopener" target="_blank">What is SOAP?</a>
+* <a href="https://www.mertech.com/blog/know-your-api-protocols" rel="noopener" target="_blank">Know API Protocols</a>
+* <a href="https://nodejs.org/en/" rel="noopener" target="_blank">Node.js</a>
+* <a href="https://expressjs.com/" rel="noopener" target="_blank">Express</a>
 
