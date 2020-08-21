@@ -123,6 +123,70 @@ There are a few we didn't cover like JSON-RPC, gRPC and Thrift.
 
 ## Let's get practical
 
+We are going to build a basic Node REST API using Express.
+For this practical exercise you will need to [install Node.js](https://nodejs.org/en/download/).
+After you got Node installed let's get the project started.
+This will initialize the application with a package.json that will be responsible of handling dependencies.
+
+```
+npm init
+```
+
+After that we need Express.js to be able to build our queries easily. This is a very famous web framework.
+
+```
+npm install express --save
+```
+
+Create a file called `index.js` and open it up on your code editor of choice.
+We are going to write our server initialization process
+
+```
+const express = require("express");
+
+const app = express();
+
+app.listen(3000, () => {
+  console.log("Server running on port 3000 🚀");
+});
+
+```
+
+This requires express into our application, initializes the server then it listens on port 3000 for requests.
+Pretty simple setup.
+Now open up your terminal on the directory that the app is on and write this command
+
+```
+node index.js
+```
+
+You should see on the command line `Server running on port 3000 🚀`.
+What you can do now is open up the package.json and on the scripts key add a new line like this:
+
+```
+"scripts": {
+  "server": "node index.js"
+}
+```
+
+Now everytime you need to run the server you just type `npm run server`.
+You can type `CTRL + C` to shut down the server.
+Our server is not doing anything at the moment.
+Let's send a response everytime someone hits this port.
+On `index.js` add the following at the end of the file.
+
+```
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
+```
+
+Everytime someone hits the base route this will send hello world back.
+Type `npm run server` and then go to your browser and type `localhost:3000`.
+Since we are serving the server through our device using localhost allows us to access servers we are running locally.
+You should see in your screen `hello world`.
+You can take a look at the [source code here](https://github.com/CommitHub/what-is-an-api-example).
+
 ## Conclusion
 
 Knowing what is API's will get you very far since this is a concept that can be difficult to grasp at first.
@@ -141,4 +205,6 @@ Happy Hacking! 🚀
 * <a href="What is REST?" rel="noopener" target="_blank">https://restfulapi.net</a>
 * <a href="What is SOAP?" rel="noopener" target="_blank">https://www.tutorialspoint.com/soap/what_is_soap.htm</a>
 * <a href="Know API Protocols" rel="noopener" target="_blank">https://www.mertech.com/blog/know-your-api-protocols</a>
+* <a href="Node.js" rel="noopener" target="_blank">https://nodejs.org/en/</a>
+* <a href="Express" rel="noopener" target="_blank">https://expressjs.com/</a>
 
