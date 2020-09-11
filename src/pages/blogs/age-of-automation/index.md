@@ -26,6 +26,14 @@ That increased use of robots in the workplace also lowered wages by roughly 0.4 
 
 We must then ask the question how does automation benefit and harm society.
 By knowing that we can move forward making sure our future is not as grim as movies like Terminator or Wall-E.
+We are going to cover the following things:
+
+1. What is Automation
+2. Automation History with examples
+3. Automation in it's current state
+4. The possible future of automation
+5. Pros and cons of automation
+6. Tutorials on how to automate the installation process for Linux and Windows
 
 ## What is Automation
 
