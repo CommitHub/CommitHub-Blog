@@ -37,9 +37,41 @@ We are going to cover the following things:
 
 ## What is Automation
 
+Automation is a technique that employs technology to streamline and centralize routine tasks that require minimal or no human intervention.
+They replace human labor by doing routine tasks that would be very time consumming if a human did it.
+It can be a simple tasks like adjusting the thermostat depending on the temperature outside to steering a airplane that has way more complex variables to deal with.
+There are different types of automation:
+
+* Basic Automation: Takes simple tasks and automatically performs them e.g.clocks, coffee machines, wash machines, etc.
+* Process Automation: Manages business processes commonly done using software e.g. Invoice processing, worflow automation (Trello, Jira, etc).
+* Integration Automation: After a human specifies some rules it mimics human behavior and repeat those actions. e.g. Jenkins, Docker, etc.
+* Artificial Intelligence (AI) Automation: A complex level of automation that learns making decisions on past situations it has encountered e.g. Smart thermostat, roombas, etc.
+* Many more...
+
+In essence anything you can think of that a machine does something for you automatically would be considered automation.
+As you can see this is an everyday thing and it's embedded into modern society but let's take a step back and see some history of automation.
+
 ## Automation History
 
 ### The History of Industrial Automation
+
+The first commercial steam engine was introduced in the 1712 by Thomas Newcomen and it was able to transmit continuous power to a machine.
+By the 19th century steam engines were utilized to power factories of the industrial revolution.
+Steam engines were able to replace sails on a ship and give us steam powered locomotives.
+
+In 1913, the Ford motor company introduced the assembly line to the car production making the profits and production rates increase.
+This assembly line was the first of it's kind reducing the car assembly from 12 hours per car to about one and a half hour per car.
+
+Relay logic (The method of utilizing combinational logic in circuits by utilizing electricical controlled relays wired in a particular combination) was introduced to factories with electrification.
+It went on a rapid adoption from 1900 through the 1920s increasing productivity on the factories.
+The first and second world war produced major advancements in the fields of mass communication and signal processing.
+
+### The Information Age
+
+With the development of the transistor it made it easier to develop tools that automate processes in society.
+The computer increased productivity in the workplace by automating a lot of the processes that business do.
+It did reduce the workforce in manufacturing.
+In research from Smith, (Fran. 5 Oct 2010. "Job Losses and Productivity Gains." Competitive Enterprise Institute.) `"In the United States, for example, from January 1972 to August 2010, the number of people employed in manufacturing jobs fell from 17,500,000 to 11,500,000 while manufacturing value rose 270%."`
 
 ## Automation in the 21st Century
 
@@ -47,7 +79,22 @@ We are going to cover the following things:
 
 ## Pros of Automation
 
+* Increase in productivy and output of good
+* Improvement of quality on the goods produced
+* Increased consistency on the goods produced
+* Reduces cost of human labor
+* Reduce cycle time in the installation of operations
+* Replace a human operator on a task that involves hard or monotonous labor.
+* Reduce injuries that human laborers can incur on the job.
+* Replace humans on dangerous environments
+* Perform tasks that are beyond human capabilities of speed, strenght, endurance, intelligence, etc.
+* Reduce the time of production of a good
+* Frees workers to work on more important roles
+
 ## Cons of Automation
+
+* Replaces workers by replacing them
+* A high initial cost
 
 ## Tutorial: How to automate your installation process for Linux using Bash
 
@@ -55,6 +102,10 @@ We are going to cover the following things:
 
 ## References
 
-* <a href="https://www.sciencedaily.com/releases/2020/05/200504150220.htm" target="_blank" rel="noopener">Science Daily: How many jobs do robots really replace?</a>
-
-
+* Fabrice Boisset, GM, Europe, Middle East, Africa Region. (2018, May 9). The History of Industrial Automation in Manufacturing. KINGSTAR. https://kingstar.com/the-history-of-industrial-automation-in-manufacturing/
+* IBM. (n.d.). What is automation? Retrieved September 18, 2020, from https://www.ibm.com/topics/automation
+* Science Daily. (2020, May 4). How many jobs do robots really replace? https://www.sciencedaily.com/releases/2020/05/200504150220.htm
+* Wikipedia contributors. (2020a, May 16). Relay logic. Wikipedia. https://en.m.wikipedia.org/wiki/Relay_logic
+* Wikipedia contributors. (2020a, August 25). Automation. Wikipedia. https://en.m.wikipedia.org/wiki/Automation
+* Wikipedia contributors. (2020, September 14). Steam engine. Wikipedia. https://en.m.wikipedia.org/wiki/Steam_engine
+* Wikipedia contributors. (2020d, September 17). Information Age. Wikipedia. https://en.m.wikipedia.org/wiki/Information_Age
