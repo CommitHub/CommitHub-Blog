@@ -3,7 +3,7 @@
     title: The Age of Automation
     author: Ori Alvarez
     authorImage: 'https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2Fauthor%2Fluis.jpg?alt=media&token=56f5f968-08c9-40a6-9583-4cc361ec550f'
-    date: '2020-09-11'
+    date: '2020-09-29'
     description: Machines have risen to make our jobs easier but we have to think thoroughly what does that mean.
     categories: [Technology Explained, Bash, Linux]
     backgroundImg: 'https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2Fwhat-is-automation%2Fwhat-is-automation.png?alt=media&token=37aa71ce-664d-454d-a69c-9ff3c60413b7'
