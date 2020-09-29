@@ -68,16 +68,19 @@ The first and second world wars produced major advancements in the fields of mas
 
 ### The Information Age
 
+Innovation in the past lead to increase productivity and better jobs.
+This in turn improved the quality of job and happiness in society.
 With the development of the transistor, it made it easier to develop tools that automate processes in society.
 The computer increased productivity in the workplace by automating a lot of the processes that businesses do.
 It did reduce the workforce in manufacturing.
 In research from Smith, (Fran. 5 Oct 2010. "Job Losses and Productivity Gains." Competitive Enterprise Institute.) `"In the United States, for example, from January 1972 to August 2010, the number of people employed in manufacturing jobs fell from 17,500,000 to 11,500,000 while manufacturing value rose 270%."`.
+What this research tells us is that humans are being replaced in the workforce faster than jobs were becoming available that they were in the past.
 
-With the start of the information age the workforce was compelled to compete in a global market.
-This change were workers were replaced by machines and having a global scope pushed workers to find jobs where they can't easily be replaced.
-Those workers who lose those jobs might be pressed to move into jobs that require the use of the mind instead of their muscles e.g. engineers, doctors, lawyers, teachers, professors, scientist, executives, journalist, consultants, etc.
-These type of jobs allow them to compete in this new world market with higher wages.
-MIT economist Daron Acemoglu, in his study “Unpacking Skill Bias: Automation and New Tasks” he suggests that by the year 1987 was the moment when lost jobs with automation stopped being replaced by an equal number of similar workplace opportunities.
+With the start of the information age, the workforce was compelled to compete in a global market.
+This change where workers were replaced by machines and having a global scope pushed workers to find jobs where they can't easily be replaced.
+Those workers who lose those jobs might be pressed to move into jobs that require the use of the mind instead of their muscles e.g. engineers, doctors, lawyers, teachers, professors, scientists, executives, journalists, consultants, etc.
+These types of jobs allow them to compete in this new world market with higher wages.
+MIT economist Daron Acemoglu, in his study “Unpacking Skill Bias: Automation and New Tasks” suggests that by the year 1987 was the moment when lost jobs with automation stopped being replaced by an equal number of similar workplace opportunities.
 
 ## Automation in the 21st Century
 
@@ -89,8 +92,8 @@ Let's take a look at some current examples of automation:
 
 1. Employee Analytics
 
-Using tools like Excel allow us to go through deep pools of data with minimal effort.
-HR go through this year round data trying to improve workers happiness in the company.
+Using tools like Excel allows us to go through deep pools of data with minimal effort.
+HR goes through this year-round data trying to improve worker's happiness in the company.
 
 2. Hiring Process
 
@@ -101,17 +104,17 @@ They look for specific keywords in resumes and sometimes miss excellent candidat
 3. Employee help desk support
 
 Chatbots are becoming mainstream allowing people to find help easily without the intervention of a human.
-Even if someone needs help from someone there is a huge number of tools that help report problems and help as easily as it is possible.]
+Even if someone needs help from someone there is a huge number of tools that help report problems and help as easily as it is possible.
 
 4. Space
 
 Space is a very dangerous place for humans to be in.
-We send robots to do the dangerous job for us to allow humans to learn more about space without risking lives.
+We send robots to do a dangerous job for us to allow humans to learn more about space without risking lives.
 A great example is the Mars rover.
 
 5. Autocorrect
 
-This simple tool help us in our daily lives fixing our grammatical mistakes.
+This simple tool helps us in our daily lives fixing our grammatical mistakes.
 The more we use it the more it knows what we mean helping us in the long run.
 It's not perfect. No tool is but it's an amazing aid.
 
@@ -119,58 +122,62 @@ It's not perfect. No tool is but it's an amazing aid.
 
 I remember as a child the candy machines that you put a quarter in and it dispenses an amount of candy.
 This is a form of automation that replaces the human in the equation.
-On the 21st century we got Roombas that clean the house for us and many applicances making our daily lives easier.
+In the 21st century, we got Roombas that clean the house for us and many appliances making our daily lives easier.
 
 7. Scripts
 
-Very useful when managing multiple systems since they can automate your workflow like automatically removing unnecesary files, managing packages, sending information, etc.
+Very useful when managing multiple systems since they can automate your workflow like automatically removing unnecessary files, managing packages, sending information, etc.
 
-8. Many more...
+8. Machine Learning
 
-Take a look at our sources for more examples of automation.
+Machines for the longest time had a hard time doing complex tasks.
+If you break down a complex task most of the time it is a bunch of simple tasks together.
+With the creation of machine learning, we can feed data to a computer and it will analyze that data creating patterns.
+The more data the better it gets.
 
 ## Possible Futures of Automation
 
 Researchers have pondered upon the question for a long time and it expands multiple fields of study.
 According to the study "The Future of Employment: How susceptible are jobs to computarization?" by Carl Benedikt Frey†and Michael A. Osborne they estimate, about 47 percent of total US employment is at risk
 This is pretty alarming.
-
-`ADD MORE INFO HERE`
+Some companies do not train their employees to transition to a role that way they don't lose their jobs.
+Even if they do a lot of the jobs generated with innovation in the 21st century require fewer humans to do the job.
+The jobs created do not keep up with the population growth further increasing poverty.
 
 Science fiction has always been a medium to explore ideas.
-We can ask ourselves how will our future will look like when automation keeps growing.
-In his paper "Speculations on Future Relations Between Humans and Automation" Thomas B. Sheridan argues that we can follow 1 of 2 paths depending on what humanity emphazises when developing automating technology.
+We can ask ourselves how will our future look like when automation keeps growing.
+In his paper "Speculations on Future Relations Between Humans and Automation" Thomas B. Sheridan argues that we can follow 1 of 2 paths depending on what humanity emphasizes when developing automating technology.
 
-On the first future we design automation to maximize efficiency.
-In other words machines are made to make life easier by limiting the expendeture of energy.
+In the first future, we design automation to maximize efficiency.
+In other words, machines are made to make life easier by limiting the expenditure of energy.
 
-On the second future we design automation to selectively augment and extend our own capabilities.
-Instead of making problems easier we replace our daily grind with higher order problems that enhance our experience.
+In the second future, we design automation to selectively augment and extend our capabilities.
+Instead of making problems easier, we replace our daily grind with higher-order problems that enhance our experience.
 We take time to explore space or focus on art.
-Let's explore 2 films/shows that allows us to explore this 2 very different futures in details. Wall-E and Star Trek.
+Let's explore 2 films/shows that allow us to explore these 2 very different futures in detail. Wall-E and Star Trek.
 
-### First Future - Wall-E: We destroy earth
+### First Future - Wall-E: We destroy the earth
 
-In this future we see that humans automate their entire lives under consummerism and cannot think for themselves.
+In this future, we see that humans automate their entire lives under consumerism and cannot think for themselves.
 They become soft, fat, and stupid since all their lives are surrounded by a machine that does everything for them.
 Even the captain of the axiom doesn't know how to manage his ship.
 Auto, the robot that manages the ship does it for him.
-He is just there for appearences.
-This future maximizes everybodies happiness by making it as stress free as possible by taking the whole human out of the equation.
-They replace us at very important roles like the teacher relationship and it's not clear but possibly the parent child relationship.
-This future is made worse because our rampent consummerism takes a hold of us and companies destroy the planet of all its resources.
+He is there for appearances.
+This future maximizes everybody's happiness by making it as stress-free as possible by taking the whole human out of the equation.
+They replace us at very important roles like the teacher relationship and it's not clear but possibly the parent-child relationship.
+This future is made worse because our rampant consumerism takes a hold of us and companies to destroy the planet of all its resources.
 
-### Second Future - Star Trek: We solve all of earths problem and explore the universe
+### Second Future - Star Trek: We solve all the earth problems and explore the universe
 
-A future I really want it to happen.
-Poverty was solved with automation and that lead to a lot of issues being solved.
-Economies are non existent and humans are tasked with exploring the universe.
+A future I want it to happen.
+Poverty was solved with automation and that leads to a lot of issues being solved.
+Economies are non-existent and humans are tasked with exploring the universe.
 This is due to the existence of the replicator that can give us access to goods without paying for them making our consumerism be taken care of.
 We can observe in Star Trek The Next Generation that humans are in charge of out of the box reasoning even when having a computer with a vast amount of data.
-As a species we come together to help other species out of the goodness of our hearts since we don't have to worry about working for money to eat.
+As a species, we come together to help other species out of the goodness of our hearts since we don't have to worry about working for money to eat.
 Even Data who is an android does not work against us with its superior intelligence to overthrow us.
 They are just part of the crew and strives to be more human.
-In summary this future is where automation helps us do more of what we love instead of the stuff we hate.
+In summary, this future is where automation helps us do more of what we love instead of the stuff we hate.
 
 ## Pros of Automation
 
@@ -188,16 +195,57 @@ In summary this future is where automation helps us do more of what we love inst
 
 ## Cons of Automation
 
-* Replaces workers by replacing them
+* Replaces workers with machines
 * A high initial cost
 * Disconnection of reality
 * Humans becoming complacent with their lives.
-* Without policies it can be abused in very harmful ways
+* Without policies, it can be abused in very harmful ways
 * Destruction of earth
+* Our current economic system is not prepared if automation gets out of control
 
 ## Tutorial: How to automate your installation process for Linux using Bash
 
+In Linux, you can automate the installation process of packages using a Bash script.
+This is easier than it sounds because all you need to do is copy-paste the command to install packages for example:
+
+Fedora:
+
+`sudo dnf install nodejs -y`
+
+Where it can get a bit complicated is when you are installing packages for Vim and creating the config.
+With a quick google search, you can figure it out.
+At the end of the day just think of how you installed your packages and set them on a file with an extension of `.sh`.
+Then to run the script all you need to do is `sudo bash script-name-here.sh`.
+You can get an idea at my script for setting my developer environment on fedora [here](https://github.com/TheGameFreak720/linux-scripts/blob/master/set-dev-env-fedora.sh).
+
 ## Tutorial: How to automate your installation process for Windows using Chocolatey
+
+Windows do not have a package manager and unless you save on a drive all your installers it will be a pain to go through each website, download the installer then be able to use the program.
+Some people dear to my heart got pissed off at this and created a package manager for Windows called Chocolatey.
+It has been around for years giving the technology time to mature.
+To get it installed open Powershell with administrator privileges and run this command:
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+[Docs](https://chocolatey.org/install)
+
+This command will install chocolatey.
+If no errors pop up go close the terminal and open it back again the same way.
+You can find a list of packages [here](https://chocolatey.org/packages).
+Find a package and try installing it for example:
+
+`choco install gimp`
+
+Now, this is where it gets fun.
+You can run scripts in Powershell as long as you have administrator privileges to install packages.
+Same as you did before by pasting those commands in the terminal you can paste them in a script with an extension of `.bat`.
+Take a look at my script for my windows environment [here](https://github.com/TheGameFreak720/windows-scripts/blob/master/set-dev-env.bat).
+
+## Conclusion
+
+Automation is scary but I firmly believe if humans come together and take measures to guarantee our wellbeing as a whole we will be fine.
+Easier said than done but we have come so far as a species to be destroyed by obsolescence.
+We will see as time passes.
 
 ## References
 
@@ -205,6 +253,7 @@ In summary this future is where automation helps us do more of what we love inst
 * Fabrice Boisset, GM, Europe, Middle East, Africa Region. (2018, May 9). The History of Industrial Automation in Manufacturing. KINGSTAR. https://kingstar.com/the-history-of-industrial-automation-in-manufacturing/
 * Frey, C. B., & Osborne, M. A. (2017). The future of employment: How susceptible are jobs to computerisation? Technological Forecasting and Social Change, 114, 254–280. https://doi.org/10.1016/j.techfore.2016.08.019
 * IBM. (n.d.). What is automation? Retrieved September 18, 2020, from https://www.ibm.com/topics/automation
+* Kurzgesagt – In a Nutshell. (2017, June 8). The Rise of the Machines – Why Automation is Different this Time. YouTube. https://www.youtube.com/watch?v=WSKi8HfcxEk&list=WL&index=1&t=37s
 * Ryan, B. (2020, April 16). 9 real-world examples of automation in the workplace. AtSpoke. https://www.atspoke.com/blog/support/examples-automation-workplace/
 * Science Daily. (2020, May 4). How many jobs do robots really replace? https://www.sciencedaily.com/releases/2020/05/200504150220.htm
 * Spacey, J. (2017, February 14). 17 Examples of Automation. Simplicable. https://simplicable.com/new/automation-examples
