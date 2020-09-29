@@ -138,7 +138,7 @@ The more data the better it gets.
 ## Possible Futures of Automation
 
 Researchers have pondered upon the question for a long time and it expands multiple fields of study.
-According to the study "The Future of Employment: How susceptible are jobs to computarization?" by Carl Benedikt Frey†and Michael A. Osborne they estimate, about 47 percent of total US employment is at risk
+According to the study "The Future of Employment: How susceptible are jobs to computarezation?" by Carl Benedikt Frey†and Michael A. Osborne they estimate, about 47 percent of total US employment is at risk.
 This is pretty alarming.
 Some companies do not train their employees to transition to a role that way they don't lose their jobs.
 Even if they do a lot of the jobs generated with innovation in the 21st century require fewer humans to do the job.
