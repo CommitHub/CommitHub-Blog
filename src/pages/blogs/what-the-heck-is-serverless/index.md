@@ -3,7 +3,7 @@
     title: Sudo 03 - What the heck is serverless
     author: Ori Alvarez & Nick Ronnei
     authorImage: 'https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2Fauthor%2F%24%20sudo.png?alt=media&token=e4fb04d6-2397-4414-80c4-31b97ec38810'
-    date: '2020-10-26'
+    date: '2020-10-22'
     description: The script used for the Sudo podcast episode what the heck is serverless
     categories: [Sudo]
     backgroundImg: 'https://firebasestorage.googleapis.com/v0/b/commithub-39e14.appspot.com/o/blogs%2FSudo%2Fwhat-the-heck-is-serverless%2F03%20What%20the%20heck%20is%20serverless%20!.png?alt=media&token=98b10baf-f5eb-4d65-803a-a3a7e3fcfaf9'
