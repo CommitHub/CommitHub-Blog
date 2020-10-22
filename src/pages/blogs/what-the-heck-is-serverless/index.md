@@ -10,6 +10,8 @@
     published: true
 ---
 
+You can listen to the episode [here](https://rss.com/podcasts/sudo/86689/)
+
 ## Introduction
 
 * **Ori**
