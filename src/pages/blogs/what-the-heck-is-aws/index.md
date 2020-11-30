@@ -12,6 +12,8 @@
 
 ## Introduction
 
+You can listen to the episode [here](https://rss.com/podcasts/sudo/99236/)
+
 * **Ori**
 
   Hello everyone, welcome to another episode of the Sudo podcast! I’m Ori.
