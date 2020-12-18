@@ -3,7 +3,7 @@
     title: Big O Explained
     author: Ori Alvarez
     authorImage: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/author/ori.jpg'
-    date: '2020-12-17'
+    date: '2020-12-18'
     description: In depth explanation of Big O covering what is an algorithm, what is big O, formal definition, techniques to identify the time complexity with examples
     categories: [Computer Science]
     backgroundImg: 'https://commithub.s3.us-east-2.amazonaws.com/blog-posts/big-o-explained/Big+O.png'
@@ -411,4 +411,3 @@ Happy Hacking! 🚀
 * Wikipedia contributors. (2020b, December 2). Travelling salesman problem. Wikipedia. https://en.wikipedia.org/wiki/Travelling_salesman_problem
 * Wikipedia contributors. (2020c, December 3). Algorithm. Wikipedia. https://en.wikipedia.org/wiki/Algorithm
 * Wikipedia contributors. (2020d, December 7). Big O notation. Wikipedia. https://en.wikipedia.org/wiki/Big_O_notation
-
