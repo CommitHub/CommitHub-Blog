@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Big O is one of those subjects that is very hard to master as a junior developer. At least for me. Taking the time to understand it will help when writing code in the real world. Generally you want to avoid code that has a high complexity if possible.  Let’s jump right in with looking at what is an algorithm.
+Big O is one of those subjects that was very hard to master as a junior developer for me. If you are struggling like me taking the time to understand it will help when writing code in the real world. Generally you want to avoid code that has a high complexity if possible.  Let’s jump right in with looking at what is an algorithm.
 
 ### Table of Contents
 
@@ -121,6 +121,7 @@ Let’s dissect this definition because at the moment is very hard to read.
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/big-o-explained/O(n)+vs+O(1).png" alt="O(n) vs O(1) graph" />
 <br>
 <center>O(n) vs O(1) Illustration from <a href="https://towardsdatascience.com/the-big-o-notation-d35d52f38134" target="_blank" rel="noopener">The Big O Notation</a></center>
+<br>
 
 ## Techniques to identify the time complexity
 
@@ -153,6 +154,7 @@ This example was used previously but to summarize that previous explanation. The
 <img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/big-o-explained/O(1).png" alt="O(1) graph" />
 <br>
 <center>O(1) Illustration from <a href="https://towardsdatascience.com/the-big-o-notation-d35d52f38134" target="_blank" rel="noopener">The Big O Notation</a></center>
+<br>
 
 ### O(log n)
 
@@ -320,3 +322,93 @@ On the following general graph we can see how a O(n * log n) compares to a O(n^2
 <br>
 
 ### O(n^2)
+
+```
+function selectionSort(inputArr) {
+    let n = inputArr.length;
+
+    for(let i = 0; i < n; i++) {
+        // Finding the smallest number in the subarray
+        let min = i;
+        for(let j = i+1; j < n; j++){
+            if(inputArr[j] < inputArr[min]) {
+                min=j;
+            }
+         }
+         if (min != i) {
+             // Swapping the elements
+             let tmp = inputArr[i];
+             inputArr[i] = inputArr[min];
+             inputArr[min] = tmp;
+        }
+    }
+    return inputArr;
+}
+```
+
+This kind of algorithm is the one we are trying to avoid as much as possible since it can scale really badly. The performance is determined by the square size of each element. Usually how this algorithm is achieved is when you got to loop over a list twice to perform a computation. On the algorithm above we use selection sort to go over the list finding the smallest number of the unsorted subarray. If the smallest number isn't the first one in the unsorted subarray (isn't already in its place), we swap it with the first element of the unsorted subarray. Sounds like quick sort but with a lot of unnecessary swaps.
+
+On the graph below we can see the growth rate and it’s not great:
+
+#### Plot
+
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/big-o-explained/o(n%5E2).png" alt="O(n^2) graph" />
+<br>
+<center>O(n^2) Illustration from <a href="https://towardsdatascience.com/the-big-o-notation-d35d52f38134" target="_blank" rel="noopener">The Big O Notation</a></center>
+<br>
+
+### Many more...
+
+For the next algorithm we are going to mention them since you most likely understand how to classify algorithms of varying complexities. They are a bit rare to find in codebases as well.
+
+#### O(2^n)
+
+This one means that it will take twice as long to perform for every element added. Most of the time they are recursive algorithms that have an array of arrays and need to solve a computation on the sub arrays for each element on the main array. Scales very badly. A great example of this is the <a href="https://www.codeproject.com/articles/679651/tower-of-hanoi-in-javascript" target="_blank" rel="noopener">Towers of Hanoi Algorithm</a>
+
+#### O(n!)
+
+This type of algorithm runs proportional to the factorial of the input size. It’s one of the biggest problems in computer science to solve and if we got some O(n!) algorithms even a bit less complex it will be a major breakthrough. A good example of this type of algorithm is the travelling salesman algorithm. This problem states “Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?”. It sounds easy at first but to find the best possible route you will have to map it out multiple times to know what would be the best route.  This kind of algorithm is more common for ML algorithms since they have to go over the data and then compare it to find the most optimal solution. Even if it takes a lot of time.
+
+### Multiple Operations in Big O
+
+We tend to concentrate on the dominant term of the function while trying to find out what the complexity of an algorithm is. This dominant term is the fastest-growing one. n^2 grows faster than n, for instance, so if we have anything like g(n) = n^2 + 5n + 6, it will be big O(n^2).
+
+### All of them together
+
+On the following graph we can see the complexity of all the algorithms we have talked about.  By understanding the difference between each one you can start writing efficient algorithms that take advantage of designs already established.
+
+<img class="section-jumbo" src="https://commithub.s3.us-east-2.amazonaws.com/blog-posts/big-o-explained/big-o-complexity.png" alt="Big o complexity graph" />
+<br>
+<center>Complexity Growth Illustration from <a href="http://bigocheatsheet.com/" target="_blank" rel="noopener">Big O Cheatsheet</a></center>
+<br>
+
+## Conclusion
+
+Big O might be a solution for you to measure the speed of your algorithms easily just by viewing the number of operations and which algorithms to emphasize on.  By focusing on the worst scenario you can strive to not only develop code that works but code that is fast. It can also help you nail those pesky job interviews.
+
+Happy Hacking! 🚀
+
+## References
+
+* Abrah, J. (n.d.-a). Big-O notation explained by a self-taught programmer. Justin.Abrah. Retrieved October 30, 2020, from https://justin.abrah.ms/computer-science/big-o-notation-explained.html
+* Abrah, J. (n.d.-b). Understanding the formal definition of Big-O. Justin.Abrah. Retrieved November 6, 2020, from https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html
+* Big O Notation | Brilliant Math & Science Wiki. (n.d.). Brilliant. Retrieved November 7, 2020, from https://brilliant.org/wiki/big-o-notation/
+* Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell. (n.d.). Big O Cheatsheet. Retrieved November 6, 2020, from https://www.bigocheatsheet.com/
+* big-o growth. (n.d.). Desmos. Retrieved November 23, 2020, from https://www.desmos.com/calculator/kgwiv5zizm
+* Big-O is easy to calculate, if you know how. (n.d.). Justin.Abrah. Retrieved November 6, 2020, from https://justin.abrah.ms/computer-science/how-to-calculate-big-o.html
+* Darwish, N. (2016, January 6). Tower of Hanoi in JavaScript. CodeProject. https://www.codeproject.com/articles/679651/tower-of-hanoi-in-javascript
+* Example of Big O of 2^n. (2016, January 21). Stack Overflow. https://stackoverflow.com/questions/34915869/example-of-big-o-of-2n#34916117
+* Filho, F. W., & Pictet, R. (2017). Computer Science Distilled: Learn the Art of Solving Computational Problems. Code Energy LLC.
+* freeCodeCamp.org. (2020, June 1). Big O Notation Explained with Examples. https://www.freecodecamp.org/news/big-o-notation-explained-with-examples/
+* GeeksforGeeks. (2020, February 3). Binary Search. https://www.geeksforgeeks.org/binary-search/
+* HackerRank. (2016a, September 27). Algorithms: Binary Search. YouTube. https://www.youtube.com/watch?v=P3YID7liBug
+* HackerRank. (2016b, September 27). Algorithms: Quicksort. YouTube. https://www.youtube.com/watch?v=SLauY6PpjW4
+* Huang, S. (2020, June 10). What is Big O Notation Explained: Space and Time Complexity. FreeCodeCamp.Org. https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/
+* Koen, S. (2020, June 19). The Big O Notation - Towards Data Science. Medium. https://towardsdatascience.com/the-big-o-notation-d35d52f38134
+* Lukic, M. (n.d.). Selection Sort in JavaScript. Stack Abuse. Retrieved December 9, 2020, from https://stackabuse.com/selection-sort-in-javascript/
+* Rungta, K. (2020, December 5). QuickSort Algorithm in JavaScript. Guru99. https://www.guru99.com/quicksort-in-javascript.html
+* Wikipedia contributors. (2020a, December 1). Time complexity. Wikipedia. https://en.wikipedia.org/wiki/Time_complexity
+* Wikipedia contributors. (2020b, December 2). Travelling salesman problem. Wikipedia. https://en.wikipedia.org/wiki/Travelling_salesman_problem
+* Wikipedia contributors. (2020c, December 3). Algorithm. Wikipedia. https://en.wikipedia.org/wiki/Algorithm
+* Wikipedia contributors. (2020d, December 7). Big O notation. Wikipedia. https://en.wikipedia.org/wiki/Big_O_notation
+
