@@ -16,12 +16,12 @@ Containers have revolutionized the way we handle our infrastructure. From hard t
 
 ### Table of Contents
 
-* What are Containers?
-* A brief history of containers
-* What is Docker?
-* How to create a container using Docker
+* [What are Containers?](#what-are-containers)
+* [A brief history of containers](#history-of-containers)
+* [What is Docker?](#what-is-docker)
+* [How to create a container using Docker](#how-to-create-a-container-docker)
 
-## What are Containers?
+## <span id="what-are-containers">What are Containers?</span>
 
 Containers are a standard package or unit of software that bundles all the code for your application and its dependencies allowing you to run the application reliably from one computer environment to another.  Containers take advantage of a form of the host’s OS virtualization in which features of the OS like the Linux kernel namespaces and cgroup primitives are used to control and isolate the amount of CPU, memory, and disk that those processes have access to. Normally Container technologies are used in Linux environments and  [A brief history of containers section](#history-of-containers) has more info in why this is the case.
 
@@ -71,7 +71,7 @@ In 2006 Google launched Process Containers. It was designed for limiting, accoun
 
 In 2013 Docker released, and it exploded in popularity due to having the ability to package applications, services and their dependencies for execution in a containerized environment. They were first released on Linux since it supplied the backend necessary to be able to run these containers. They became easy to deploy on all kinds of environments like on premise, the cloud or your own computer. On the next section we are going to look a bit deeper into what is Docker.
 
-## What is Docker?
+## <span id="what-is-docker">What is Docker?</span>
 
 Docker is a platform that utilizes the [Docker Engine](#docker-engine) to package your application code and its dependencies in a [docker container image](#docker-container-image) to give you the ability to build, test, and deploy applications quickly and reliably. When a [docker container image](#docker-container-image) is run on the [Docker Engine](#docker-engine) they become full-fledged containers.  LXC (for LinuX Containers)  exclusively leveraged the first iterations of Docker, but Docker quickly developed its own custom containerization technology allowing Docker to be available not only on Linux but on Windows and Mac.
 
@@ -114,7 +114,7 @@ Docker container images include all the tools, libraries, and dependencies neede
 
 Docker containers are the result of running Docker container images because they are live running instances. You can serve your container in a server where users can come and use your application.
 
-## How to create a container using Docker
+## <span id="how-to-create-a-container-docker">How to create a container using Docker</span>
 
 ### Getting Started
 
