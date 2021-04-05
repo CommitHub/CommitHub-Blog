@@ -15,6 +15,8 @@
 We finally did it! We transcribed our podcast to be as accurate as possible using Amazon Transcribe. The words weren't fully accurate, but we edited the text to be as close as possible.
 Hope you enjoy.
 
+You can [listen to the episode here](https://rss.com/podcasts/sudo/)
+
 ### Table of Contents
 
 * [Script](#containers-script)
@@ -32,7 +34,7 @@ And I'm Nick.
 Thanks for listening.
 
 [Ori]
-So today we will be talking about one of the most popular technologies out there, called containers, that can make your work flow faster and easier. The topics we're gonna talk about are: what is virtual ization and what will I care? That's very important. Because if you don't care, then I mean that's a wrap, folks.
+So today we will be talking about one of the most popular technologies out there, called containers, that can make your work flow faster and easier. The topics we're gonna talk about are: what is virtualization and what will I care? That's very important. Because if you don't care, then I mean that's a wrap, folks.
 
 [Nick]
 _laughing_ Yeah, why listen?
@@ -41,12 +43,12 @@ _laughing_ Yeah, why listen?
 I'll brief history of containers, virtualization tools, and container technologies.
 
 [Nick]
-Right on! Getting into the meat and potatoes. What is virtual ization and why should I care?
+Right on! Getting into the meat and potatoes. What is virtualization and why should I care?
 
 Breaking it down Simple, "What's virtualization?" is a great question. The "explain like I'm five" version is that we run smaller, pretend computers on a larger actual computer. You might think about it like the difference between a house and and apartment building. Both are buildings for people to live in, but apartment buildings have numerous smaller quote unquote "buildings" for people who live in all under the same roof.
 
 [Ori]
-And that's a great analogy. So in apartment buildings people technically live together, but they can lead completely independent lives because they're separated by walls and doors and stuff. So additionally, apartments can be more efficient than houses because they can share core resources like electricity, water and trash services. An individual apartment may pay more or less for each depending on how much they use. But the building manager actually sources low utilities and manages them. Tndividual houses have their source and manage each of those things on their own. And a great example is like my apartment building. We don't pay for water, that is sourced by the apartment. And then we talked to electrical company and we get our bills sent to us. So depending on the place, things are different, but they're still managed by that primary person.
+And that's a great analogy. So in apartment buildings people technically live together, but they can lead completely independent lives because they're separated by walls and doors and stuff. So additionally, apartments can be more efficient than houses because they can share core resources like electricity, water and trash services. An individual apartment may pay more or less for each depending on how much they use, but the building manager actually sources low utilities and manages them. The individual houses have their source and manage each of those things on their own and a great example is like my apartment building. We don't pay for water, that is sourced by the apartment. And then we talked to electrical company and we get our bills sent to us. So depending on the place, things are different, but they're still managed by that primary person.
 
 [Nick]
 So, yeah, I know what you're thinking. Uh, cool story, Nick and or Ori. Can I have five minutes of my life back? No, no, you can't. Those minutes belonged to us.
@@ -86,7 +88,7 @@ Yeah, and something to note with specific Linux: pretty much the file system, in
 
 But I digress. Let's continue with the with the story.
 
-So in the early 2000s, Free BSD 4.0 released a vastly expanded concept called FreeBSD Jails that simulated a miniature system off its own. This allowed users to create several independent systems with their own IP addresses, CPU file systems, memory and etcetera. So it created a whole little system with everything that it needed. And then every Jail will have root user. But the only one with unrestricted access will be the root user from the root jail, effectively solving a problem with chroot jails, since different chroot users in different jails cannot speak to each other.
+So in the early 2000s, Free BSD 4.0 released a vastly expanded concept called FreeBSD Jails that simulated a miniature system off its own. This allowed users to create several independent systems with their own IP addresses, CPU file systems, memory and etcetera. So it created a whole little system with everything that it needed andnd then every Jail will have root user, but the only one with unrestricted access will be the root user from the root jail, effectively solving a problem with chroot jails, since different chroot users in different jails cannot speak to each other.
 
 Incremental innovations were done between 2000 and 2006, like Linux V-servers, Solaris Containers and Open VC. So in this case, though, the attacker will be part of a subsystem, but wouldn't part be part of the main system. So even if they had root access, they won't be able to change those files that we talked before and couldn't do damage to your system.
 
@@ -187,7 +189,7 @@ Both the container and the host OS must have the same type of OS at the very lea
 Yep. Just to summarize all this, let's use another analogy. You're probably tired of all our analogies, but it will make sense and will make it things easier—just trust the process.
 
 [Nick]
-* Laughs *
+*Laughs*
 
 [Ori]
 Imagine a car factory with two separate, self-contained production lines. Think of the factory building itself as the host machine. It's got all the infrastructure. So all the underlying hardware we need to build stuff—so electricity, water, and more.
