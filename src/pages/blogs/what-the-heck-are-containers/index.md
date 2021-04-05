@@ -15,7 +15,7 @@
 We finally did it! We transcribed our podcast to be as accurate as possible using Amazon Transcribe. The words weren't fully accurate, but we edited the text to be as close as possible.
 Hope you enjoy.
 
-You can [listen to the episode here](https://rss.com/podcasts/sudo/)
+You can [listen to the episode here](https://rss.com/podcasts/sudo/170700/)
 
 ### Table of Contents
 
