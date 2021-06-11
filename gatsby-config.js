@@ -3,7 +3,7 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: 'CommitHub',
-    author: 'Luis Alvarez',
+    author: 'Ori Alvarez',
     siteUrl: 'https://commithub.com',
   },
   plugins: [
