@@ -60,7 +60,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-* **Luis Alvarez** - *Initial work* - [TheGameFreak720](https://github.com/TheGameFreak720)
+* **Ori Alvarez** - *Initial work* - [TheGameFreak720](https://github.com/TheGameFreak720)
 
 See also the list of [contributors](https://github.com/TheGameFreak720/Oceanus/graphs/contributors) who participated in this project.
 
